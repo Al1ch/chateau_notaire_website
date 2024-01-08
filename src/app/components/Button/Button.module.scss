@@ -1,0 +1,58 @@
+@import "styles/text.module.scss";
+@import "styles/color.module.scss";
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font: $text;
+    &.sm{
+        padding: 0;
+        min-width: 20px;
+        background-color: transparent;
+
+    }
+    &.md{
+        padding: 12px;
+
+    }
+    &.lg{
+        min-width: 175px;
+        padding: 12px;
+    }
+    &.blue{
+        background-color: #1e90ff;
+        &:hover{
+            background-color: hsl(210, 100%, 50%);
+        }
+    }
+    &.transparent{
+        background-color: transparent;
+        border: 1px solid $primary;
+        &:hover{
+            background-color: $primary;
+            
+        }
+        color: black;
+    }²
+    &.disabled{
+        pointer-events: none;
+    }
+
+
+}
+
+.container:disabled{
+    background-color: #d6d6d6;
+    cursor: not-allowed;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
