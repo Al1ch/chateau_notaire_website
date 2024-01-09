@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    border: none;
+    border: 1px solid $primary;
     cursor: pointer;
     color: white;
     font: $text;
@@ -24,15 +24,14 @@
         min-width: 175px;
         padding: 12px;
     }
-    &.blue{
-        background-color: #1e90ff;
+    &.primary{
+        background-color: $primary;
         &:hover{
-            background-color: hsl(210, 100%, 50%);
+            background-color: transparent;
         }
     }
-    &.transparent{
+    &.secondary{
         background-color: transparent;
-        border: 1px solid $primary;
         &:hover{
             background-color: $primary;
             

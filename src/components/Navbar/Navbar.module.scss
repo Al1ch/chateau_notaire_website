@@ -1,0 +1,26 @@
+.container{
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+        gap: 16px;
+}
+
+.listNav{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.link{
+    text-decoration: none;
+    font: $header;
+    color: $text-color;
+}
+
+.buttonContainer{
+    display: flex;
+    gap: 16px;
+}
+
+
