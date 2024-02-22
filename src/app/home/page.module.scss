@@ -1,0 +1,11 @@
+@import 'styles/color.module.scss';
+@import 'styles/text.module.scss';
+@import 'styles/_breakpoints.scss';
+
+.main{
+    width: 100%;
+    background-color: $background-color ;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
