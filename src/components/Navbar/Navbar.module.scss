@@ -1,21 +1,42 @@
+@import 'styles/text.module.scss';
+@import 'styles/color.module.scss';
+
 .container{
+    position: fixed;
+    top: 0;
     width: 100%;
     min-height: 100px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-        gap: 16px;
+    gap: 16px;
+    padding: 0 16px;
+    z-index: 100;
+}
+
+.leftContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+
 }
 
 .listNav{
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 24px;
 }
 
 .link{
     text-decoration: none;
     font: $header;
     color: $text-color;
+    transition: transform 0.2s ease-in-out;
+
+    &:hover{
+        color: $secondary-hover;
+    }
 }
 
 .buttonContainer{
