@@ -9,11 +9,10 @@
     border: 1px solid $primary;
     cursor: pointer;
     color: white;
-    font: $text;
+    font: $button-text;
     &.sm{
         padding: 0;
         min-width: 20px;
-        background-color: transparent;
 
     }
     &.md{
@@ -21,8 +20,8 @@
 
     }
     &.lg{
-        min-width: 175px;
         padding: 12px;
+        width: 175px;
     }
     &.primary{
         background-color: $primary;
@@ -31,15 +30,29 @@
         }
     }
     &.secondary{
-        background-color: transparent;
+        background-color: $secondary;
         &:hover{
-            background-color: $primary;
+            background-color: transparent;
+            border: 1.5px solid $secondary;
+            color: white;
             
         }
         color: black;
-    }²
+    }
+    &.transparent{
+        background-color: transparent;
+        border: 1px solid $secondary;
+        color: $secondary;
+        &:hover{
+            background-color: $secondary;
+            color: $primary;
+        }
+    }
     &.disabled{
         pointer-events: none;
+    }
+    &.rounded{
+        border-radius: 100px;
     }
 
 
