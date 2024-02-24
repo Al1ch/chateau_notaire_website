@@ -16,11 +16,13 @@
     align-items: center;
     gap: 32px;
     min-height: 600px;
-    max-width: 1300px;
     justify-content: space-between;
     @include desktop{
         max-width: 1300px;
+        padding: 0 72px;
     }
+    max-width: 1300px;
+
 }
 
 .leftHeroSection{
@@ -33,7 +35,6 @@
 
 .leftHeroContainer{
     display: flex;
-    width: 50%;
     flex-direction: column;
     gap: 24px;
 }
