@@ -8,6 +8,7 @@
     border-radius: 8px;
     border: 1px solid $primary;
     cursor: pointer;
+    max-height: 50px;
     color: white;
     font: $button-text;
     &.sm{
