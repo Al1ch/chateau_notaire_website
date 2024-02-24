@@ -1,0 +1,52 @@
+@import 'styles/color.module.scss';
+@import 'styles/text.module.scss';
+@import 'styles/_breakpoints.scss';
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    align-items: center;
+    background-color: $gray;
+    border-radius: 8px;
+    justify-content: space-between;
+    min-height: 400px;
+    padding: 24px;
+    // box-shadow: 0 0 8px 12px rgba(151, 156, 158, 0.08);
+
+}
+
+.infoCard{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 16px;
+    padding: 32px;
+    border-bottom: 1px solid black;
+}
+
+
+.title{
+    font: $title-card;
+    color: $text-color;
+}
+
+.icon{
+    width: 72px;
+    height: 72px;
+}
+
+.description{
+    font: $text;
+    color: $text-color;
+}
+
+.bottomContainer{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
