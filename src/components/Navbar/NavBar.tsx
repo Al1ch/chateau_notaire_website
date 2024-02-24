@@ -13,7 +13,7 @@ const NavBar = () => {
         <div className={styles.leftContainer}>
           <Logo className={styles.logo} />
           <div className={styles.listNav}>
-            <Link href={"/Accueil"} className={styles.link}>
+            <Link href={"/home"} className={styles.link}>
               Accueil
             </Link>
             <Link href={"/services"} className={styles.link}>
