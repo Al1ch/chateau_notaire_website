@@ -8,16 +8,56 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    @include desktop{
-        max-width: 1300px;
-        padding: 0 72px;
+}
 
+.wrapper{
+    @include desktop{
+        max-width: 1400px;
+        padding: 32px 72px;
     }
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.section{
+    width: 100%;
+    background-color: $background-color-secondary;
 }
 
 .titleSection{
+    padding-top: 64px;
     width: 100%;
     display: flex; 
     justify-content: space-between;
+    gap: 8px;
+}
 
+.title{
+    font: $title-section;
+    color: $text-color;
+}
+
+.description{
+    font: $text;
+    color: $white;
+    letter-spacing: 1px;
+    max-width: 600px;
+    word-spacing: 2px;
+    line-height: 1.5;
+
+}
+
+.servicesList{
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
 }
