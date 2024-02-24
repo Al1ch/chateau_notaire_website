@@ -4,13 +4,13 @@ import Image from "next/image";
 import Link from "next/link";
 import Button from "@/components/Button/Button";
 import sgLogo from "@/assets/images/sgLogo.png";
-// import logo from "@/assets/vectors/logo.svg";
+import Logo from "@/assets/vectors/logo.svg";
 
 const NavBar = () => {
   return (
     <nav className={styles.container}>
       <div className={styles.leftContainer}>
-        <Image src={sgLogo} alt="logo" width={100} height={100} />
+        <Logo className={styles.logo} />
         <div className={styles.listNav}>
           <Link href={"/Accueil"} className={styles.link}>
             Accueil

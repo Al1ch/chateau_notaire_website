@@ -2,28 +2,11 @@
 @import 'styles/text.module.scss';
 @import 'styles/_breakpoints.scss';
 
-.main{
+.container{
+    display: flex;
     width: 100%;
-    background-color: $background-color ;
-    display: flex;
-    flex-direction: column;
-    padding-top: 100px;
-}
-
-.heroMain{
-    display: flex;
-    width: 50%;
-    flex-direction: column;
-    gap: 24px;
-}
-
-.leftHeroSection{
-    display: flex;
-    gap: 24px;
-    flex-direction: column;
-    justify-content: center;
-    width: 60%;
     align-items: center;
+    justify-content: center;
 }
 
 .heroSection{
@@ -32,8 +15,30 @@
     height: 100%;
     align-items: center;
     gap: 32px;
-    max-height: 750px;
+    min-height: 600px;
+    max-width: 1300px;
+    justify-content: space-between;
+    @include desktop{
+        max-width: 1300px;
+    }
 }
+
+.leftHeroSection{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftHeroContainer{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
 
 .heroInfo{
     padding-top: 100px;

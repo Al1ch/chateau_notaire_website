@@ -3,13 +3,15 @@ import Image from "next/image";
 import styles from "./HeroSection.module.scss";
 import Button from "@/components/Button/Button";
 import paulPic from "@/assets/images/paulPIC.png";
+import ScintillantLogo from "@/assets/vectors/scintillant.svg";
 
 const HeroSection = () => {
   return (
     <div className={styles.heroSection}>
       <div className={styles.leftHeroSection}>
-        <div className={styles.heroMain}>
+        <div className={styles.leftHeroContainer}>
           <div className={styles.heroInfo}>
+            <ScintillantLogo className={styles.logo} />
             <h1 className={styles.title}>
               Avocats <br></br> et Partenaires
             </h1>
