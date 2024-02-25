@@ -3,12 +3,14 @@ import HeroSection from "@/components/HeroSection/HeroSection";
 import ServicesSection from "@/components/ServicesSection/ServicesSection";
 import ValueSection from "@/components/ValueSection/ValueSection";
 import Footer from "@/components/Footer/Footer";
+import StepSection from "@/components/StepSection/StepSection";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <HeroSection />
       <ServicesSection />
+      <StepSection />
       <ValueSection />
       <Footer />
     </main>

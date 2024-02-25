@@ -1,0 +1,26 @@
+@import 'styles/color.module.scss';
+@import 'styles/text.module.scss';
+@import 'styles/_breakpoints.scss';
+
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap:72px;
+    @include desktop{
+        max-width: 1400px;
+        padding: 48px 72px;
+    }
+}
+
+.stepsContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.title{
+    font: $title-section;
+    color: $text-color;
+}
