@@ -4,6 +4,7 @@ import ScintillantLogo from "@/assets/vectors/scintillant.svg";
 import Image from "next/image";
 import womenImage from "@/assets/images/balanceFemme.jpg";
 import ValueCard from "@/components/ValueCard/ValueCard";
+import JugeSvg from "@/assets/vectors/juge.svg";
 
 const ValueSection = () => {
   return (
@@ -19,6 +20,7 @@ const ValueSection = () => {
           className={styles.description}
         >{`Un litige peut être chargé d'émotions et d'incertitudes. Nos avocats s'engagent à vous apporter le soutien, l'attention et la considération que vous méritez.`}</p>
         <div className={styles.sectionContent}>
+          {/* <JugeSvg className={styles.juge} /> */}
           <Image
             src={womenImage}
             alt="Femme en équilibre"

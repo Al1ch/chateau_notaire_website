@@ -11,13 +11,14 @@
         max-width: 1400px;
         padding: 48px 72px;
     }
+    padding: 0 48px;
 }
 
 .stepsContainer{
     width: 100%;
     display: flex;
-    justify-content: center;
-    gap: 64px;
+    justify-content: space-between;
+    margin-left: 48px;
 }
 
 .title{

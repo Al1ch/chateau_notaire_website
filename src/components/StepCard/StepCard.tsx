@@ -14,6 +14,14 @@ const StepCard = ({ numberStep, title, description }: Props) => {
       <div className={styles.cardContent}>
         <h3 className={styles.title}>{title}</h3>
         <p className={styles.description}>{description}</p>
+        {/* <div className={styles.step}>
+          <div className={styles.stepContent}>
+            <p className={styles.stepText}>→ Avis préliminaire su le dossier</p>
+          </div>
+          <div className={styles.stepContent}>
+            <p className={styles.stepText}>→ Avis préliminaire su le dossier</p>
+          </div>
+        </div> */}
       </div>
     </div>
   );

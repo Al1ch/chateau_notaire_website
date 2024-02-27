@@ -43,3 +43,20 @@
     font: $card-description;
     color: $text-color;
 }
+
+.step{
+    display: flex;
+    flex-direction: column;
+}
+
+.stepContent{
+    display: flex;
+    align-items: center;
+    border-top: 2px solid rgba(128, 128, 128, 0.562);
+    padding: 16px 0;
+}
+
+.stepText{
+    font: $card-description;
+    color: $text-color;
+}

@@ -10,12 +10,15 @@
     background-color: $gray;
     padding: 16px;
     border-radius: 8px;
+    min-height: 175px;
 }
 
 .headerCard{
     display: flex;
     gap: 16px;
     align-items: center;
+    flex-shrink: 1;
+
 }
 
 .title{
