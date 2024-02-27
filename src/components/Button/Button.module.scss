@@ -22,7 +22,7 @@
     }
     &.lg{
         padding: 12px;
-        width: 175px;
+        min-width: 175px;
     }
     &.primary{
         background-color: $primary;
