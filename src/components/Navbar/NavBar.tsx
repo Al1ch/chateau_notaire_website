@@ -24,7 +24,7 @@ const NavBar = () => {
             <Link href={"/tarifs"} className={styles.link}>
               Tarifs
             </Link>
-            <Link href={"/Qui sommes nous ?"} className={styles.link}>
+            <Link href={"/about"} className={styles.link}>
               Qui somme nous ?
             </Link>
           </div>
