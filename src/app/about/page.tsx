@@ -4,6 +4,7 @@ import AboutHeroSection from "@/components/AboutHeroSection/AboutHeroSection";
 import OurStorySection from "@/components/OurStorySection/OurStorySection";
 import Footer from "@/components/Footer/Footer";
 import AboutValueSection from "@/components/AboutValuesSection/AboutValueSection";
+import FindUs from "@/components/FindUs/FindUs";
 
 export default function About() {
   return (
@@ -11,6 +12,7 @@ export default function About() {
       <AboutHeroSection />
       <OurStorySection />
       <AboutValueSection />
+      <FindUs />
     </main>
   );
 }
