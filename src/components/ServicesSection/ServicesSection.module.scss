@@ -2,24 +2,36 @@
 @import 'styles/text.module.scss';
 @import 'styles/_breakpoints.scss';
 
+
+
+.section{
+    width: 100%;
+    background-color: $background-color-secondary;
+}
+
 .container{
     display: flex;
     width: 100%;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    padding: 48px 72px;
+
+
+
 }
 
 .wrapper{
+
     @include desktop{
         max-width: 1400px;
-        padding: 48px 72px;
+        padding: 0 48px;
+
     }
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 32px;
-    padding: 0 48px;
 }
 
 .titleContainer{
@@ -28,17 +40,16 @@
     gap: 8px;
 }
 
-.section{
-    width: 100%;
-    background-color: $background-color-secondary;
-}
-
 .titleSection{
     padding-top: 64px;
     width: 100%;
     display: flex; 
-    justify-content: space-between;
+    flex-direction: column;
     gap: 8px;
+    @include desktop{
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 .title{
@@ -58,8 +69,13 @@
 
 .servicesList{
     display: flex;
+    flex-direction: column;
     gap: 16px;
-    flex-direction: row;
     width: 100%;
     align-items: center;
+    
+    @include desktop{
+        flex-direction: row;
+
+    }
 }
