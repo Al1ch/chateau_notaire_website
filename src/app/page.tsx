@@ -12,7 +12,6 @@ export default function Home() {
       <ServicesSection />
       <StepSection />
       <ValueSection />
-      <Footer />
     </main>
   );
 }
