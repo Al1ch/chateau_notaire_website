@@ -15,9 +15,11 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    padding: 48px 72px;
+    padding: 48px 16px;
+    @include desktop{
+        padding: 48px 72px;
 
-
+    }
 
 }
 
