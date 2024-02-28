@@ -15,11 +15,11 @@
     height: 100%;
     align-items: center;
     gap: 32px;
-    min-height: 600px;
+    min-height: 500px;
     justify-content: space-between;
     @include desktop{
         max-width: 1400px;
-        padding: 0 72px;
+        padding: 0 72px 24px 72px;
     }
     max-width: 1300px;
 

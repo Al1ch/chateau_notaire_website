@@ -10,7 +10,7 @@
     flex-direction: column;
     @include desktop{
         max-width: 1400px;
-        padding: 0 72px;
+        padding: 24px 72px;
     }
     gap: 48px;
 }

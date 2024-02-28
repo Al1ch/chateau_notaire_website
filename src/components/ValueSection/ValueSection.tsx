@@ -8,44 +8,46 @@ import JugeSvg from "@/assets/vectors/juge.svg";
 
 const ValueSection = () => {
   return (
-    <div className={styles.container}>
-      <div className={styles.leftSide}>
-        <div className={styles.titleSection}>
-          <div className={styles.titleContainer}>
-            <h1 className={styles.title}>Les Valeurs Qui Nous anime</h1>
-            <ScintillantLogo className={styles.logo} />
+    <div className={styles.wrapper}>
+      <div className={styles.container}>
+        <div className={styles.leftSide}>
+          <div className={styles.titleSection}>
+            <div className={styles.titleContainer}>
+              <h1 className={styles.title}>Les Valeurs Qui Nous anime</h1>
+              <ScintillantLogo className={styles.logo} />
+            </div>
+          </div>
+          <p
+            className={styles.description}
+          >{`Un litige peut être chargé d'émotions et d'incertitudes. Nos avocats s'engagent à vous apporter le soutien, l'attention et la considération que vous méritez.`}</p>
+          <div className={styles.sectionContent}>
+            {/* <JugeSvg className={styles.juge} /> */}
+            <Image
+              src={womenImage}
+              alt="Femme en équilibre"
+              width={400}
+              height={500}
+              className={styles.image}
+            />
           </div>
         </div>
-        <p
-          className={styles.description}
-        >{`Un litige peut être chargé d'émotions et d'incertitudes. Nos avocats s'engagent à vous apporter le soutien, l'attention et la considération que vous méritez.`}</p>
-        <div className={styles.sectionContent}>
-          {/* <JugeSvg className={styles.juge} /> */}
-          <Image
-            src={womenImage}
-            alt="Femme en équilibre"
-            width={400}
-            height={500}
-            className={styles.image}
+        <div className={styles.valueList}>
+          <ValueCard
+            title="Respect"
+            description="Our Banking and Finance team has very broad experience structuring and negotiating complex"
           />
-        </div>
-      </div>
-      <div className={styles.valueList}>
-        <ValueCard
-          title="Respect"
-          description="Our Banking and Finance team has very broad experience structuring and negotiating complex"
-        />
-        <ValueCard
-          title="Protecting Your Business
+          <ValueCard
+            title="Protecting Your Business
 "
-          description="We are on the panel of many international and local banks, and also represent borrowers which include"
-        />
-        <ValueCard
-          title="Relationship Based On Trust
+            description="We are on the panel of many international and local banks, and also represent borrowers which include"
+          />
+          <ValueCard
+            title="Relationship Based On Trust
 
 "
-          description="We punch far above our weight when it comes to Singapore’s "
-        />
+            description="We punch far above our weight when it comes to Singapore’s "
+          />
+        </div>
       </div>
     </div>
   );
