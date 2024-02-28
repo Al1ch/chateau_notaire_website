@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@100..900&display=swap');
 
 
-$hero-title :   500  4.375rem 'Cormorant Garamond', monospace;
-$title-section : 700 3rem 'Cormorant Garamond', monospace;
+$hero-title :   500  calc(36px + (64 - 36) * (100vw - 414px) / (1920 - 414))'Cormorant Garamond', monospace;
+$title-section : 700  calc(32px + (52 - 32) * (100vw - 414px) / (1920 - 414)) 'Cormorant Garamond', monospace;
 $text : 400 1.25rem 'Outfit', sans-serif;
 $header : 400 1.2rem 'Cormorant Garamond', sans-serif;
-$title-card-services : 700 2.25rem 'Cormorant Garamond', monospace;
-$title-card : 700 1.75rem 'Cormorant Garamond', monospace;
+$title-card-services : 700 calc(22px + (36 - 22 ) * (100vw - 414px) / (1920 - 414)) 'Cormorant Garamond', monospace;
+$title-card : 700 calc(22px + (28 - 22 ) * (100vw - 414px) / (1920 - 414)) 'Cormorant Garamond', monospace;
 $card-description: 400 1.25rem 'Outfit', sans-serif;
 $footer-text : 400 1rem 'Outfit', sans-serif;
 $footer-title : 700 1.5rem 'Outfit', sans-serif;
