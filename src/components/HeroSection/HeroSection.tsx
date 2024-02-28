@@ -8,25 +8,21 @@ import ScintillantLogo from "@/assets/vectors/scintillant.svg";
 const HeroSection = () => {
   return (
     <div className={styles.heroSection}>
-      <div className={styles.leftHeroSection}>
-        <div className={styles.leftHeroContainer}>
-          <div className={styles.heroInfo}>
-            <ScintillantLogo className={styles.logo} />
-            <h1 className={styles.title}>
-              Avocats <br></br> et Partenaires
-            </h1>
-            <p className={styles.description}>
-              Comprendre vos objectifs, votre métier,
-              <br /> pour fournir une défense et un conseil juridique adaptés,
-              clairs et humains
-            </p>
-          </div>
-          <span className={styles.buttonTest}>
-            <Button backgroundColor="transparent" size="lg" radius="rounded">
-              Prendez rendez-vous
-            </Button>
-          </span>
+      <div className={styles.leftHeroContainer}>
+        <div className={styles.heroInfo}>
+          <h1 className={styles.title}>Avocats et Partenaires</h1>
+          <ScintillantLogo className={styles.logo} />
+
+          <p className={styles.description}>
+            Comprendre vos objectifs, votre métier, pour fournir une défense et
+            un conseil juridique adaptés, clairs et humains
+          </p>
         </div>
+        <span className={styles.buttonTest}>
+          <Button backgroundColor="transparent" size="lg" radius="rounded">
+            Prendez rendez-vous
+          </Button>
+        </span>
       </div>
       <div className={styles.heroImageContainer}>
         <Image
