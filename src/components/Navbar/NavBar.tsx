@@ -5,13 +5,14 @@ import Link from "next/link";
 import Button from "@/components/Button/Button";
 import sgLogo from "@/assets/images/sgLogo.png";
 import Logo from "@/assets/vectors/logo.svg";
+import BurgerSvg from "@/assets/vectors/burger.svg";
 
 const NavBar = () => {
   return (
     <nav className={styles.container}>
       <div className={styles.wrapper}>
         <div className={styles.leftContainer}>
-          <Link className={styles.listNav} href={"/"}>
+          <Link className={styles.link} href={"/"}>
             <Logo className={styles.logo} />
           </Link>
           <div className={styles.listNav}>
@@ -37,6 +38,7 @@ const NavBar = () => {
             Nous Contacter
           </Button>
         </div>
+        <BurgerSvg className={styles.burger} />
       </div>
     </nav>
   );
