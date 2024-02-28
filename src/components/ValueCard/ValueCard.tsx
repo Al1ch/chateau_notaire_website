@@ -13,7 +13,7 @@ const ValueCard = ({ title, description }: Props) => {
   return (
     <div className={styles.container}>
       <div className={styles.headerCard}>
-        <CoeurLogo />
+        <CoeurLogo className={styles.logo} />
         <h3 className={styles.title}>{title}</h3>
       </div>
       <p className={styles.description}>{description}</p>
