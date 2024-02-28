@@ -4,6 +4,7 @@ import styles from "./HeroSection.module.scss";
 import Button from "@/components/Button/Button";
 import paulPic from "@/assets/images/personna.jpg";
 import ScintillantLogo from "@/assets/vectors/scintillant.svg";
+import WomenSvg from "@/assets/vectors/women.svg";
 
 const HeroSection = () => {
   return (
@@ -23,6 +24,7 @@ const HeroSection = () => {
             Prendez rendez-vous
           </Button>
         </span>
+        <WomenSvg className={styles.balance} />
       </div>
       <div className={styles.heroImageContainer}>
         <Image
