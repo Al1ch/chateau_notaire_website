@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import styles from "./HeroSection.module.scss";
 import Button from "@/components/Button/Button";
-import paulPic from "@/assets/images/paulPIC.png";
+import paulPic from "@/assets/images/personna.jpg";
 import ScintillantLogo from "@/assets/vectors/scintillant.svg";
 
 const HeroSection = () => {
