@@ -24,6 +24,20 @@
     display: flex;
     gap: 48px;
     width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.infoContent{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.adressContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .titleInfo{
@@ -34,4 +48,41 @@
 .descriptionInfo{
     font: $card-description;
     color: $text-color;
+}
+
+.infoWrapper{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.info{
+    font: $text-rafine;
+    color: $text-color;
+}
+
+.listContact{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.contactEmail{
+    font: $text-rafine;
+    color: $text-color;
+}
+
+.contactName{
+    color:$secondary;
+}
+
+.contactPhone{
+    font: $text-rafine;
+    color: $text-color;
+}
+
+.horairesContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
