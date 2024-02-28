@@ -6,18 +6,26 @@
     display: flex;
     width: 100%;
     flex-direction: column;
-    gap:72px;
+    gap:94px;
+    padding: 72px 48px;
     @include desktop{
         max-width: 1400px;
-        padding: 48px 72px;
+        padding:  72px; 
     }
-    padding: 0 48px;
 }
 
 .stepsContainer{
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    padding-left: 48px;
+    align-items: center;
+    gap: 126px;
+    @include desktop{
+        flex-direction: row;
+        gap: 48px;
+    }
     margin-left: 48px;
 }
 

@@ -9,17 +9,18 @@
     flex-direction: column;
     background-color: $background-color-secondary;
     align-items: center;
-
-
 }
 
 .container{
     display: flex;
     width: 100%;
-    flex-direction: row;
+    padding: 72px 48px;
+    flex-direction: column;
     @include desktop{
+        flex-direction: row;
+
         max-width: 1400px;
-        padding: 48px 72px;
+        padding:  72px;
 
     }
     gap: 32px;

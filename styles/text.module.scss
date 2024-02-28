@@ -2,10 +2,10 @@
 
 
 $hero-title :   500  calc(36px + (64 - 36) * (100vw - 414px) / (1920 - 414))'Cormorant Garamond', monospace;
-$title-section : 700  calc(32px + (52 - 32) * (100vw - 414px) / (1920 - 414)) 'Cormorant Garamond', monospace;
-$text : 400 1.25rem 'Outfit', sans-serif;
+$title-section : 700  calc(32px + (45 - 32) * (100vw - 414px) / (1920 - 414)) 'Cormorant Garamond', monospace;
+$text : 400 calc(18px + (20 - 18) * (100vw - 414px) / (1920 - 414)) 'Outfit', sans-serif;
 $header : 400 1.2rem 'Cormorant Garamond', sans-serif;
-$title-card-services : 700 calc(22px + (36 - 22 ) * (100vw - 414px) / (1920 - 414)) 'Cormorant Garamond', monospace;
+$title-card-services : 700 calc(26px + (36 - 26 ) * (100vw - 414px) / (1920 - 414)) 'Cormorant Garamond', monospace;
 $title-card : 700 calc(22px + (28 - 22 ) * (100vw - 414px) / (1920 - 414)) 'Cormorant Garamond', monospace;
 $card-description: 400 1.25rem 'Outfit', sans-serif;
 $footer-text : 400 1rem 'Outfit', sans-serif;
