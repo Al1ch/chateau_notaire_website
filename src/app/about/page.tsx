@@ -11,7 +11,6 @@ export default function About() {
     <main className={styles.main}>
       <AboutHeroSection />
       <OurStorySection />
-      <AboutValueSection />
       <FindUs />
     </main>
   );

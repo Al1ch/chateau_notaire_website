@@ -10,6 +10,17 @@
     gap: 32px;
 }
 
+.wrapper{
+    display: flex;
+    padding: 64px 72px;
+    width: 100%;
+    background-color: $background-color-secondary;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    
+}
+
 .titleContainer{
     display: flex;
     gap: 16px;
@@ -18,12 +29,12 @@
 }
 
 .title{
-    font : $title-card-services;
+    font : $title-section;
     color: $text-color;
 }
 
 .description{
-    font: $text-rafine;
+    font: $text;
     color: $text-color;
     text-align: center;
     max-width: 600px;
