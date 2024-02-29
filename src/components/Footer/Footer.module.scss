@@ -4,14 +4,17 @@
 
 .footerContent{
     display: flex;
+    flex-direction: column;
     width: 100%;
-    flex-direction: row;
     border-top: 1px  solid gray;
     border-bottom: 1px  solid gray;
-    padding: 24px 72px;
     justify-content: space-between; 
     max-width: 1400px;
-    @include desktop{
+    @include tablet{
+        padding: 24px 72px;
+
+        flex-direction: row;
+
         max-width: 1400px;
     }
 }
@@ -49,7 +52,11 @@
 }
 .footerColumnList{
     display: flex;
+    flex-direction: column;
     gap: 32px;
+    @include tablet{
+        flex-direction: row;
+    }
 
 }
 
@@ -81,8 +88,13 @@
 
 .lawContainer{
     display: flex;
+    flex-direction: column;
     width: 100%;
     justify-content: space-between;
+    gap: 16px;
+    @include tablet{
+        flex-direction: row;
+    }
     padding:  0 72px;
 }
 
