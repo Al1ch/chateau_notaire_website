@@ -16,7 +16,7 @@
     width: 100%;
     padding: 72px 32px;
     flex-direction: column;
-    @include desktop{
+    @include tablet{
         flex-direction: row;
 
         max-width: 1400px;
@@ -63,13 +63,18 @@
 .sectionContent{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
+
+    @include tablet{
+        justify-content: space-between;
+    }
 }
 .valueList{
     display: flex;
     flex-direction: column;
     gap: 24px;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .juge{

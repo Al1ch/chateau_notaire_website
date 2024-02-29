@@ -1,5 +1,5 @@
 @mixin smallTablet {
-	@media screen and (min-width: 575px) {
+	@media screen and (min-width: 450px) {
 		@content;
 	}
 }
@@ -17,7 +17,13 @@
 }
 
 @mixin desktop {
-	@media screen and (min-width: 1075px) {
+	@media screen and (min-width: 1200px) {
+		@content;
+	}
+}
+
+@mixin largeDesktop {
+	@media screen and (min-width: 1500px) {
 		@content;
 	}
 }

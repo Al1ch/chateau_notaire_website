@@ -8,7 +8,7 @@
     flex-direction: column;
     gap:94px;
     padding: 72px 32px;
-    @include desktop{
+    @include tablet{
         max-width: 1400px;
         padding:  72px; 
     }
@@ -22,7 +22,7 @@
     padding-left: 48px;
     align-items: center;
     gap: 126px;
-    @include desktop{
+    @include tablet{
         flex-direction: row;
         gap: 48px;
     }
