@@ -28,7 +28,7 @@
 
 .leftContainer{
     display: none;
-    @include desktop{
+    @include smallTablet{
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -39,7 +39,7 @@
 }
 
 .listNav{
-    @include desktop{
+    @include smallTablet{
         display: flex;
         gap: 24px;
         align-items: center;
@@ -59,7 +59,7 @@
 
 .buttonContainer{
     display: none;
-    @include desktop{
+    @include tablet{
         display: flex;
         gap: 24px;
     }
@@ -75,7 +75,7 @@
     display: block;
     width: 24px;
     height: 24px;
-    @include desktop{
+    @include smallTablet{
         width: 50px;
         height: 50px;
         display: none;

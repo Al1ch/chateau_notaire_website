@@ -8,7 +8,9 @@
     align-items: center;
     justify-content: center;
     gap: 64px;
+    flex-direction: column;
     @include desktop{
+        flex-direction: row;
         max-width: 1400px;
         padding: 0 72px;
     }

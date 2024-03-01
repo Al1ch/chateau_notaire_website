@@ -20,7 +20,7 @@ const HeroSection = () => {
           </p>
         </div>
         <span className={styles.buttonTest}>
-          <Button backgroundColor="transparent" size="lg" radius="rounded">
+          <Button backgroundColor="secondary" size="lg" radius="rounded">
             Prendez rendez-vous
           </Button>
         </span>

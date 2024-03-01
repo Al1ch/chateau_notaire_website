@@ -12,12 +12,16 @@
 
 .wrapper{
     display: flex;
-    padding: 64px 72px;
+    padding: 64px 24px;
     width: 100%;
     background-color: $background-color-secondary;
     align-items: center;
     flex-direction: column;
     gap: 32px;
+    @include desktop{
+        padding: 64px 72px;
+
+    }
     
 }
 
@@ -34,14 +38,28 @@
 }
 
 .description{
+    margin-bottom: 24px;
     font: $text;
     color: $text-color;
     text-align: center;
     max-width: 600px;
     line-height: 1.3;
+    @include desktop{
+        margin-top: 0;
+    }
 }
 
 .listImages{
     display: flex;
+    flex-direction: column;
+    gap: 64px;
+    @include desktop{
+        flex-direction: row;
+    }
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
     gap: 16px;
 }

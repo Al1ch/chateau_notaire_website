@@ -6,6 +6,7 @@ import marteauImage from "@/assets/images/marteau.jpg";
 import balanceImage from "@/assets/images/balanceWomen.jpg";
 import libraryImage from "@/assets/images/library.jpg";
 import AboutValueSection from "../AboutValuesSection/AboutValueSection";
+import AboutValues from "../AboutValues/AboutValues";
 
 const OurStorySection = () => {
   return (
@@ -22,27 +23,45 @@ const OurStorySection = () => {
         different track.`}
         </p>
         <div className={styles.listImages}>
-          <Image
-            src={marteauImage}
-            alt="our story 1"
-            width={350}
-            height={250}
-          />
-          <Image
-            src={balanceImage}
-            alt="our story 2"
-            width={350}
-            height={250}
-          />
-          <Image
-            src={libraryImage}
-            alt="our story 3"
-            width={350}
-            height={250}
-          />
+          <div className={styles.card}>
+            <Image
+              src={marteauImage}
+              alt="our story 1"
+              width={350}
+              height={250}
+            />
+            <AboutValues
+              title="Notre Vision"
+              description="Notre vision est de rendre le monde meilleur en offrant des solutions innovantes et durables pour les entreprises et les particuliers."
+            />
+          </div>
+          <div className={styles.card}>
+            <Image
+              src={balanceImage}
+              alt="our story 2"
+              width={350}
+              height={250}
+            />
+            <AboutValues
+              title="Notre Vision"
+              description="Notre vision est de rendre le monde meilleur en offrant des solutions innovantes et durables pour les entreprises et les particuliers."
+            />
+          </div>
+          <div className={styles.card}>
+            <Image
+              src={libraryImage}
+              alt="our story 3"
+              width={350}
+              height={250}
+            />
+            <AboutValues
+              title="Notre Vision"
+              description="Notre vision est de rendre le monde meilleur en offrant des solutions innovantes et durables pour les entreprises et les particuliers."
+            />
+          </div>
         </div>
       </div>
-      <AboutValueSection />
+      {/* <AboutValueSection /> */}
     </div>
   );
 };
