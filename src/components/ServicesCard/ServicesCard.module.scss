@@ -11,7 +11,7 @@
     align-items: center;
     background-color: $card-background-secondary;
     border-radius: 8px;
-    min-height: 325px;
+    min-height: 350px;
     gap: 24px;
     padding: 12px;
     @include desktop{
@@ -40,6 +40,8 @@
 .icon{
     width: 48px;
     height: 48px;
+    min-width: 64px;
+    min-height: 64px;
     @include desktop{
         width: 64px;
         height: 64px;

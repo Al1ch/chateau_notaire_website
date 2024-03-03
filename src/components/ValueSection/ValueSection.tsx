@@ -5,6 +5,9 @@ import Image from "next/image";
 import womenImage from "@/assets/images/balanceFemme.jpg";
 import ValueCard from "@/components/ValueCard/ValueCard";
 import JugeSvg from "@/assets/vectors/juge.svg";
+import EpeeSvg from "@/assets/vectors/epee.svg";
+import CoeurSvg from "@/assets/vectors/coeur.svg";
+import CadenaSvg from "@/assets/vectors/cadenas.svg";
 
 const ValueSection = () => {
   return (
@@ -34,18 +37,18 @@ const ValueSection = () => {
         <div className={styles.valueList}>
           <ValueCard
             title="Respect"
-            description="Our Banking and Finance team has very broad experience structuring and negotiating complex"
+            description="Au cœur de notre pratique notariale, nous honorons chaque individu avec considération et équité"
+            logo={CoeurSvg}
           />
           <ValueCard
-            title="Protecting Your Business
-"
-            description="We are on the panel of many international and local banks, and also represent borrowers which include"
+            title="Protéger votre entreprise"
+            description="Sécurisez votre activité avec nos solutions juridiques fiables pour prospérer dans un environnement commercial dynamique"
+            logo={EpeeSvg}
           />
           <ValueCard
-            title="Relationship Based On Trust
-
-"
-            description="We punch far above our weight when it comes to Singapore’s "
+            title="Confidentialité"
+            description="Nous garantissons la confidentialité absolue de vos informations, assurant ainsi la sécurité et la confiance dans nos services notariaux "
+            logo={CadenaSvg}
           />
         </div>
       </div>

@@ -24,13 +24,14 @@ const AboutHeroSection = () => {
 
       <div className={styles.profileDescription}>
         <h2 className={styles.title}>
-          I’m Peter Parker, <br />
+          Paul Chateau, <br />
           Expert Legal Advicer
         </h2>
         <ScintillantLogo />
         <p className={styles.description}>
-          Our lawyers are regularly invited to speak at seminars and educate
-          other attorneys and industry representatives about important and
+          Je vous accompagne à chaque étape de votre vie et de vos transactions,
+          assurant la sécurité et la légalité dans vos affaires familiales et
+          commerciales
         </p>
         <div className={styles.logoList}>
           <InstagramLogo />

@@ -10,18 +10,15 @@ type Props = {
   icon: SvgComponent;
 };
 
-const ServicesCard = () => {
+const ServicesCard = ({ title, description, icon: Icon }: Props) => {
   return (
     <div className={styles.container}>
       <div className={styles.infoCard}>
-        <h3 className={styles.title}>Immobilier</h3>
-        <p className={styles.description}>
-          Be aware of new developments, as laws and rules often change based on
-          the situation.
-        </p>
+        <h3 className={styles.title}>{title} </h3>
+        <p className={styles.description}>{description}</p>
       </div>
       <div className={styles.bottomContainer}>
-        <PeopleSvg className={styles.icon} />
+        <Icon className={styles.icon} />
         <Button size="lg" backgroundColor="secondary" radius="rounded">
           En savoir plus
         </Button>

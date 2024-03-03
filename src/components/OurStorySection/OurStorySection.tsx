@@ -17,10 +17,7 @@ const OurStorySection = () => {
           <ScintillantLogo />
         </div>
         <p className={styles.description}>
-          {`        The law evolves, as do client's expectations of the firm they choose to
-        represent them. Recognizing the often held perception of legal services
-        being expensive and exclusive, Law rules continues to tread a very
-        different track.`}
+          {`    Le droit évolue, tout comme les attentes des clients à l'égard du cabinet qu'ils choisissent pour les représenter. Conscient de la perception souvent répandue selon laquelle les services juridiques sont coûteux et exclusifs, Law rules continue de suivre une voie très différente.`}
         </p>
         <div className={styles.listImages}>
           <div className={styles.card}>
@@ -43,8 +40,8 @@ const OurStorySection = () => {
               height={250}
             />
             <AboutValues
-              title="Notre Vision"
-              description="Notre vision est de rendre le monde meilleur en offrant des solutions innovantes et durables pour les entreprises et les particuliers."
+              title="Notre Mission"
+              description="Intégrité, professionnalisme et dévouement guident notre engagement à fournir des services juridiques de qualité, protégeant les intérêts de nos clients"
             />
           </div>
           <div className={styles.card}>
@@ -55,8 +52,8 @@ const OurStorySection = () => {
               height={250}
             />
             <AboutValues
-              title="Notre Vision"
-              description="Notre vision est de rendre le monde meilleur en offrant des solutions innovantes et durables pour les entreprises et les particuliers."
+              title="Notre Engagement"
+              description="Immuabilité, Confiance, Intégrité et Confidentialité, définissent notre engagement envers nos clients et notre responsabilité en tant que notaires"
             />
           </div>
         </div>

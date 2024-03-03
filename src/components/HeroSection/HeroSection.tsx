@@ -11,7 +11,7 @@ const HeroSection = () => {
     <div className={styles.heroSection}>
       <div className={styles.leftHeroContainer}>
         <div className={styles.heroInfo}>
-          <h1 className={styles.title}>Avocats et Partenaires</h1>
+          <h1 className={styles.title}>Notaire et Partenaires</h1>
           <ScintillantLogo className={styles.logo} />
 
           <p className={styles.description}>
