@@ -104,7 +104,7 @@
     border-radius: 50px 0 0 0;
     transform: translate(-25px, 25px);
     @include desktop{
-        transform: translate(-50px, 50px);
+        transform: translate(-45px, 40px);
     }
     z-index: 1;
 
@@ -128,9 +128,9 @@
     width: 300px;
     height: 400px;
     @include desktop{
-        width: 100%;
-        min-width: 300px;
-        min-height: 350px;
+        width: 375px;
+        height: 450px;
+        min-height: 375px;
         max-height: 500px;
         max-width: 500px;
     }

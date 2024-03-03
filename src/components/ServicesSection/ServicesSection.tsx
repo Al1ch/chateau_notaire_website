@@ -19,7 +19,7 @@ const ServicesSection = () => {
               <ScintillantLogo className={styles.logo} />
             </div>
             <p className={styles.description}>
-              {`            Nous sommes vos notaires dévoués
+              {`Nous sommes vos notaires dévoués
 avec une expertise notariale spécialisée, nous vous accompagnons à chaque étape de votre vie et de vos transactions, assurant la sécurité et la légalité dans vos affaires familiales et commerciales.`}
             </p>
           </div>
@@ -27,7 +27,7 @@ avec une expertise notariale spécialisée, nous vous accompagnons à chaque ét
             <ServicesCard
               title="Immobilier"
               icon={ImmobillierLogo}
-              description="Notre équipe saura vous accompagner pour vos projets d’acquisition et de vente immobilière, du conseil à la signature de l’acte définitif en intégrant les enjeux fiscaux. "
+              description="Notre équipe saura vous accompagner pour vos projets d’acquisition et de vente immobilière, du conseil à la signature en intégrant enjeux fiscaux. "
             />
             <ServicesCard
               title={"Famille"}
