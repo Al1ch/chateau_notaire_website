@@ -2,6 +2,9 @@
 @import 'styles/text.module.scss';
 @import 'styles/_breakpoints.scss';
 
+.test{
+    height: 100%;
+}
 
 .container{
     display: flex;
@@ -100,15 +103,15 @@
 
 .mobileMenu{
     top: 0;
-    overflow-y: hidden;
     z-index: 100;
     left: 100%;
      display: none;
      background-color: $background-color;
+
     &.clicked{
         display: flex;
         flex-direction: column;
-        height: 100vh;
+        height: 100%;
         width: 100%;
         position: absolute;
         transform: translateX(-100%);
@@ -123,6 +126,9 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    padding: 0 16px;
 }
 
 .list{
@@ -138,6 +144,12 @@
     width: 100%;
     gap: 16px;
     align-items: center;
+}
+
+.buttonLink{
+    text-decoration: none;
+    font: $button-text;
+    color: $text-color;
 }
 
 .close{

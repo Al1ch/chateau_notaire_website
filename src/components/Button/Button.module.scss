@@ -27,8 +27,10 @@
     }
     &.primary{
         background-color: $primary;
+        border: none ;
         &:hover{
             background-color: transparent;
+            border: $secondary 1.5px solid;
         }
     }
     &.secondary{

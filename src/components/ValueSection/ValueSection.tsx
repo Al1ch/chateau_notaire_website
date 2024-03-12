@@ -29,7 +29,7 @@ const ValueSection = () => {
               src={womenImage}
               alt="Femme en équilibre"
               width={400}
-              height={500}
+              height={600}
               className={styles.image}
             />
           </div>

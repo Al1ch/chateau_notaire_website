@@ -11,11 +11,15 @@ import CloseIcon from "@/assets/vectors/close.svg";
 import cn from "classnames";
 
 const NavBar = () => {
-  const [isMenuClicked, setIsMenuClicked] = useState(true);
+  const [isMenuClicked, setIsMenuClicked] = useState(false);
 
   return (
-    <>
-      <nav className={styles.container}>
+    <div className={styles.test}>
+      <nav
+        className={cn(styles.container, {
+          [styles.buttonClicked]: isMenuClicked,
+        })}
+      >
         <div className={styles.wrapper}>
           <div className={styles.leftContainer}>
             <Link className={styles.link} href={"/"}>
@@ -28,7 +32,7 @@ const NavBar = () => {
               <Link href={"/services"} className={styles.link}>
                 Nos Services
               </Link>
-              <Link href={"/tarifs"} className={styles.link}>
+              <Link href={"/pricing"} className={styles.link}>
                 Tarifs
               </Link>
               <Link href={"/about"} className={styles.link}>
@@ -37,12 +41,23 @@ const NavBar = () => {
             </div>
           </div>
           <div className={styles.buttonContainer}>
-            <Button size="lg" backgroundColor="primary" radius="rounded">
-              Estimer votre coût
-            </Button>
-            <Button size="lg" radius="rounded" backgroundColor="secondary">
-              Nous Contacter
-            </Button>
+            <Link
+              href={"https://www.immobilier.notaires.fr/fr/frais-de-notaire"}
+              className={styles.buttonLink}
+            >
+              <Button size="lg" backgroundColor="primary" radius="rounded">
+                Simulateur de Frais
+              </Button>
+            </Link>
+
+            <Link
+              href={"mailto:alain.chea@efrei.net"}
+              className={styles.buttonLink}
+            >
+              <Button size="lg" radius="rounded" backgroundColor="secondary">
+                Nous Contacter
+              </Button>
+            </Link>
           </div>
           <button
             className={styles.button}
@@ -74,7 +89,7 @@ const NavBar = () => {
               <Link href={"/services"} className={styles.link}>
                 Nos Services
               </Link>
-              <Link href={"/tarifs"} className={styles.link}>
+              <Link href={"/pricing"} className={styles.link}>
                 Tarifs
               </Link>
               <Link href={"/about"} className={styles.link}>
@@ -83,7 +98,7 @@ const NavBar = () => {
             </div>
             <div className={styles.buttonList}>
               <Button size="lg" radius="rounded" backgroundColor="transparent">
-                Estimer votre coût
+                Simulateur de Frais
               </Button>
               <Button size="lg" radius="rounded" backgroundColor="secondary">
                 Nous Contacter
@@ -92,7 +107,7 @@ const NavBar = () => {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 };
 
