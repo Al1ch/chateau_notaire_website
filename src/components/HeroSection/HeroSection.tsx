@@ -15,8 +15,9 @@ const HeroSection = () => {
           <ScintillantLogo className={styles.logo} />
 
           <p className={styles.description}>
-            Comprendre vos objectifs, votre métier, pour fournir une défense et
-            un conseil juridique adaptés, clairs et humains
+            {/* Comprendre vos objectifs, votre métier, pour fournir une défense et
+            un conseil juridique adaptés, clairs et humains */}
+            Nous vous accompagnons dans tous les moments de votre vie.
           </p>
         </div>
         <span className={styles.buttonTest}>
