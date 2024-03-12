@@ -35,7 +35,6 @@
         gap: 24px;
     }
 
-
 }
 
 .listNav{
@@ -82,3 +81,66 @@
     }
 }
 
+
+.button{
+    background-color: transparent;
+    border: none;
+    @include smallTablet{
+        display: none;
+    }
+}
+
+.contentMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 48px;
+    margin-top: 100px;
+}
+
+.mobileMenu{
+    top: 0;
+    overflow-y: hidden;
+    z-index: 100;
+    left: 100%;
+     display: none;
+     background-color: $background-color;
+    &.clicked{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease-in-out;
+    }
+    @include smallTablet{
+        display: none;
+    }
+}
+
+.headerMobileMenu{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.buttonList{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+    align-items: center;
+}
+
+.close{
+    width: 42px;
+    height: 42px;
+}

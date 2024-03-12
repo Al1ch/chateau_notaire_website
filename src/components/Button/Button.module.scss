@@ -6,11 +6,12 @@
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    border: 1px solid $primary;
     cursor: pointer;
     max-height: 40px;
     color: white;
     font: $button-text;
+    border: 1px solid $secondary;
+
     &.sm{
         padding: 0;
         min-width: 20px;
@@ -42,7 +43,6 @@
     }
     &.transparent{
         background-color: transparent;
-        border: 1px solid $secondary;
         color: $secondary;
         &:hover{
             background-color: $secondary;
