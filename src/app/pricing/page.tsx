@@ -1,6 +1,7 @@
 import styles from "./page.module.scss";
 import PricingCard from "@/components/PricingCard/PricingCard";
 import FrequentQuestion from "@/components/FrequentQuestion/FrequentQuestion";
+import ContactUs from "@/components/ContactUs/ContactUs";
 
 export default function Pricing() {
   return (
@@ -16,6 +17,7 @@ export default function Pricing() {
         <PricingCard />
       </div> */}
       <FrequentQuestion />
+      <ContactUs />
     </div>
   );
 }
