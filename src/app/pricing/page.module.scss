@@ -10,14 +10,6 @@
     flex-direction: column;
     gap: 24px;
     background-color: $background-color;
-    @include tablet{
-        flex-direction: row;
-        justify-content: center;
-        gap: 128px;
-        max-width: 1400px;
-        padding: 0 92px;
-    }
-    max-width: 1300px;
 }
 
 
@@ -32,6 +24,7 @@
 .title{
     font : $hero-title;
     color: $text-color;
+    text-align: center;
 }
 
 .description{
@@ -44,5 +37,6 @@
 
 .cardList{
     display: flex;
+    width: 100%;
     flex-direction: column;
 }

@@ -1,5 +1,6 @@
 import styles from "./page.module.scss";
 import PricingCard from "@/components/PricingCard/PricingCard";
+import FrequentQuestion from "@/components/FrequentQuestion/FrequentQuestion";
 
 export default function Pricing() {
   return (
@@ -11,9 +12,10 @@ export default function Pricing() {
           your financial constraints
         </p>
       </div>
-      <div className={styles.cardList}>
+      {/* <div className={styles.cardList}>
         <PricingCard />
-      </div>
+      </div> */}
+      <FrequentQuestion />
     </div>
   );
 }
