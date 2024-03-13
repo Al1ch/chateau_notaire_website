@@ -68,45 +68,47 @@ const NavBar = () => {
         </div>
       </nav>
 
-      {isMenuClicked && (
-        <div
-          className={cn(styles.mobileMenu, { [styles.clicked]: isMenuClicked })}
-        >
-          <div className={styles.headerMobileMenu}>
-            <Logo className={styles.logo} />
-            <button className={styles.button}>
-              <CloseIcon
-                className={styles.close}
-                onClick={() => setIsMenuClicked(!isMenuClicked)}
-              />
-            </button>
+      <div
+        className={cn(
+          styles.mobileMenu,
+          { [styles.clicked]: isMenuClicked },
+          "navIsOpen"
+        )}
+      >
+        <div className={styles.headerMobileMenu}>
+          <Logo className={styles.logo} />
+          <button className={styles.button}>
+            <CloseIcon
+              className={styles.close}
+              onClick={() => setIsMenuClicked(!isMenuClicked)}
+            />
+          </button>
+        </div>
+        <div className={styles.contentMenu}>
+          <div className={styles.list}>
+            <Link href={"/home"} className={styles.link}>
+              Accueil
+            </Link>
+            <Link href={"/services"} className={styles.link}>
+              Nos Services
+            </Link>
+            <Link href={"/pricing"} className={styles.link}>
+              Tarifs
+            </Link>
+            <Link href={"/about"} className={styles.link}>
+              Qui somme nous ?
+            </Link>
           </div>
-          <div className={styles.contentMenu}>
-            <div className={styles.list}>
-              <Link href={"/home"} className={styles.link}>
-                Accueil
-              </Link>
-              <Link href={"/services"} className={styles.link}>
-                Nos Services
-              </Link>
-              <Link href={"/pricing"} className={styles.link}>
-                Tarifs
-              </Link>
-              <Link href={"/about"} className={styles.link}>
-                Qui somme nous ?
-              </Link>
-            </div>
-            <div className={styles.buttonList}>
-              <Button size="lg" radius="rounded" backgroundColor="transparent">
-                Simulateur de Frais
-              </Button>
-              <Button size="lg" radius="rounded" backgroundColor="secondary">
-                Nous Contacter
-              </Button>
-            </div>
+          <div className={styles.buttonList}>
+            <Button size="lg" radius="rounded" backgroundColor="transparent">
+              Simulateur de Frais
+            </Button>
+            <Button size="lg" radius="rounded" backgroundColor="secondary">
+              Nous Contacter
+            </Button>
           </div>
         </div>
-      )}
+      </div>
     </div>
   );
 };

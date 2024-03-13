@@ -102,20 +102,18 @@
 }
 
 .mobileMenu{
-    top: 0;
     z-index: 100;
-    left: 100%;
-     display: none;
-     background-color: $background-color;
+    inset: 0;
 
+     background-color: $background-color;
+     transform: translateX(100%);
+     display: flex;
+     transition: transform 0.3s ease-in-out;
+    position: fixed;
+    flex-direction: column;
     &.clicked{
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        transform: translateX(-100%);
-        transition: transform 0.3s ease-in-out;
+        transform: translateX(0);
+
     }
     @include smallTablet{
         display: none;
