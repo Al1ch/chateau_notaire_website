@@ -72,7 +72,7 @@ const NavBar = () => {
         className={cn(
           styles.mobileMenu,
           { [styles.clicked]: isMenuClicked },
-          "navIsOpen"
+          isMenuClicked && "navIsOpen"
         )}
       >
         <div className={styles.headerMobileMenu}>
