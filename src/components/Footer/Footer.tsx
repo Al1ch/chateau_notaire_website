@@ -40,16 +40,23 @@ const Footer = () => {
             <div className={styles.contactInfo}>
               <h2 className={styles.title}>Contact</h2>
               <div className={styles.listItem}>
-                <span className={styles.text}>paul.chateau@gmail.com</span>
+                <span className={styles.text}>
+                  paulemmanuel.chateau@notaires.fr
+                </span>
                 <span className={styles.text}>+33 6 95 91 99 30</span>
                 <span className={styles.text}>
                   188 bis boulevard Pereire <br /> 75017 Paris{" "}
                 </span>
               </div>
             </div>
-            <Button backgroundColor="transparent" size="lg" radius="rounded">
-              Nous Contacter
-            </Button>
+            <Link
+              href={"mailto:paulemmanuel.chateau@notaires.fr"}
+              className={styles.link}
+            >
+              <Button backgroundColor="transparent" size="lg" radius="rounded">
+                Nous Contacter
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

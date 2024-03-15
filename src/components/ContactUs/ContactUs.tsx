@@ -3,6 +3,7 @@ import styles from "./ContactUs.module.scss";
 import Scintillant from "@/assets/vectors/scintillant.svg";
 import Button from "../Button/Button";
 import Phone from "@/assets/vectors/phone.svg";
+import Link from "next/link";
 
 const ContactUs = () => {
   return (
@@ -19,9 +20,14 @@ const ContactUs = () => {
           and we’ll get in touch shortly, or phone between 8:00 am and 7:00 pm
           Monday to Saturday.
         </p>
-        <Button size="lg" radius="rounded" backgroundColor="secondary">
-          Contactez Nous
-        </Button>
+        <Link
+          href="mailto:paulemmanuel.chateau@notaires.fr"
+          className={styles.link}
+        >
+          <Button size="lg" radius="rounded" backgroundColor="secondary">
+            Contactez Nous
+          </Button>
+        </Link>
       </div>
       <div className={styles.rightContainer}>
         <div className={styles.squareBorder}>

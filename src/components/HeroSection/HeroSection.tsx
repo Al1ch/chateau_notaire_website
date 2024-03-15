@@ -5,6 +5,7 @@ import Button from "@/components/Button/Button";
 import paulPic from "@/assets/images/personna.jpg";
 import ScintillantLogo from "@/assets/vectors/scintillant.svg";
 import MarianneLogo from "@/assets/vectors/marianne.svg";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -24,9 +25,14 @@ const HeroSection = () => {
           </p>
         </div>
         <span className={styles.buttonTest}>
-          <Button backgroundColor="secondary" size="lg" radius="rounded">
-            Prendez rendez-vous
-          </Button>
+          <Link
+            href="mailto:paulemmanuel.chateau@notaires.fr"
+            className={styles.link}
+          >
+            <Button backgroundColor="secondary" size="lg" radius="rounded">
+              Prendez rendez-vous
+            </Button>
+          </Link>
         </span>
         <MarianneLogo className={styles.balance} />
       </div>

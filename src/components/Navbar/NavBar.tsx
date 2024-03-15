@@ -51,7 +51,7 @@ const NavBar = () => {
             </Link>
 
             <Link
-              href={"mailto:alain.chea@efrei.net"}
+              href={"mailto:paulemmanuel.chateau@notaires.fr"}
               className={styles.buttonLink}
             >
               <Button size="lg" radius="rounded" backgroundColor="secondary">

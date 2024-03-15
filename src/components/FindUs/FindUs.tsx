@@ -29,7 +29,7 @@ const FindUs = () => {
               <p className={styles.contactEmail}>
                 {" "}
                 <span className={styles.contactName}>Mr CHATEAU : </span>{" "}
-                paul.chateau@hotmail.com
+                paulemmanuel.chateau@notaires.fr
               </p>
               <p className={styles.info}>Tél : 05 61 83 23 87</p>
             </div>
