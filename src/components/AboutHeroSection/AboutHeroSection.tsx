@@ -7,6 +7,8 @@ import InstagramLogo from "@/assets/vectors/instagram.svg";
 import FacebookLogo from "@/assets/vectors/facebook.svg";
 import Button from "@/components/Button/Button";
 import TwiterLogo from "@/assets/vectors/twitter.svg";
+import Link from "next/link";
+import LinkedInLogo from "@/assets/vectors/linkedin.svg";
 
 const AboutHeroSection = () => {
   return (
@@ -34,9 +36,19 @@ const AboutHeroSection = () => {
           commerciales
         </p>
         <div className={styles.logoList}>
-          <InstagramLogo />
-          <FacebookLogo />
-          <TwiterLogo />
+          <Link
+            href={
+              "https://www.instagram.com/chateau_notaires?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            }
+            className={styles.socialLogo}
+          >
+            <InstagramLogo />
+          </Link>
+
+          {/* <FacebookLogo /> */}
+          <Link href={"https://www.linkedin.com/in/paul-emmanuel-chateau/"}>
+            <LinkedInLogo className={styles.socialLogo} />
+          </Link>
         </div>
         <Button backgroundColor="secondary" size="lg" radius="rounded">
           Prendez rendez-vous

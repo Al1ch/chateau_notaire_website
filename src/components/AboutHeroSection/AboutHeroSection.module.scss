@@ -25,6 +25,12 @@
     z-index: 1;
 }
 
+.socialLogo{
+    width: 24px;
+    height: 24px;
+
+}
+
 .profileImage{
     border-radius: 8px;
     width: 100%;
@@ -76,6 +82,6 @@
 
 .logoList{
     display: flex;
-    gap:16px;
+    gap:12px;
     align-items: center;
 }
