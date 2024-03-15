@@ -1,0 +1,59 @@
+
+@import 'styles/color.module.scss';
+@import 'styles/text.module.scss';
+@import 'styles/_breakpoints.scss';
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    align-items: center;
+    background-color: $background-color-secondary;
+    border-radius: 8px;
+    min-height: 350px;
+    @include desktop{
+        padding: 24px;
+    }
+
+}
+
+.infoCard{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 16px;
+    padding: 32px;
+}
+
+.description{
+    font: $text;
+    color: $text-color;
+}
+
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title{
+    font: $title-card-services;
+    color: $secondary;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style-type: none;
+    font: $text;
+    color: $text-color;
+    padding-left: 0;
+}
+
+.logo{
+    width: 16px;
+    height: 16px;
+}

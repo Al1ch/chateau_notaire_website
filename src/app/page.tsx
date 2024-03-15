@@ -4,13 +4,15 @@ import ServicesSection from "@/components/ServicesSection/ServicesSection";
 import ValueSection from "@/components/ValueSection/ValueSection";
 import StepSection from "@/components/StepSection/StepSection";
 import FindUs from "@/components/FindUs/FindUs";
+import NotaireRoleSection from "@/components/NotaireRoleSection/NotaireRoleSection";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <HeroSection />
       <ServicesSection />
-      <StepSection />
+      <NotaireRoleSection />
+      {/* <StepSection /> */}
       <ValueSection />
       <FindUs />
     </main>

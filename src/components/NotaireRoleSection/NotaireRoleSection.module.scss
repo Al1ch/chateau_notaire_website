@@ -1,0 +1,53 @@
+
+@import 'styles/color.module.scss';
+@import 'styles/text.module.scss';
+@import 'styles/_breakpoints.scss';
+
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap:94px;
+    padding: 72px 32px;
+    @include tablet{
+        max-width: 1400px;
+        padding:  72px; 
+    }
+}
+
+.servicesList{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    align-items: center;
+    
+    @include tablet{
+        flex-direction: row;
+
+    }
+}
+
+.descriptionTitle{
+    font: $text;
+    color: $text-color;
+    letter-spacing: 1px;
+    max-width: 600px;
+    word-spacing: 2px;
+    line-height: 1.5;
+
+}
+
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title{
+    font: $title-section;
+    color: $text-color;
+    @include tablet{
+        min-width: 400px
+    }
+}
