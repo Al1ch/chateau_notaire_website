@@ -72,8 +72,8 @@
     @include largeDesktop{
         width: 600px;
         height: 550px;
-        top: 8%;
-        left: 35%;
+        left: 40%;
+       
     }
 
 }
@@ -114,6 +114,10 @@
     font: $hero-title;
     line-height: 1;
     color: $text-color;
+    @media screen and (min-width: 850px) {
+        min-width: 500px;
+    } 
+
 }
 
 .description{

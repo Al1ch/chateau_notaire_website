@@ -24,8 +24,8 @@ const AboutHeroSection = () => {
 
       <div className={styles.profileDescription}>
         <h2 className={styles.title}>
-          Paul Chateau, <br />
-          Expert Legal Advicer
+          Paul-Emmanuel Chateau, <br />
+          Notaire
         </h2>
         <ScintillantLogo />
         <p className={styles.description}>
