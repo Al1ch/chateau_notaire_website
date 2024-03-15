@@ -2,8 +2,8 @@ import React from "react";
 import styles from "./OurStorySection.module.scss";
 import ScintillantLogo from "@/assets/vectors/scintillantCenter.svg";
 import Image from "next/image";
-import marteauImage from "@/assets/images/marteau.jpg";
-import balanceImage from "@/assets/images/balanceWomen.jpg";
+import tamponImage from "@/assets/images/tampon.webp";
+import balanceImage from "@/assets/images/plume.png";
 import libraryImage from "@/assets/images/library.jpg";
 import AboutValueSection from "../AboutValuesSection/AboutValueSection";
 import AboutValues from "../AboutValues/AboutValues";
@@ -22,7 +22,7 @@ const OurStorySection = () => {
         <div className={styles.listImages}>
           <div className={styles.card}>
             <Image
-              src={marteauImage}
+              src={libraryImage}
               alt="our story 1"
               width={350}
               height={250}
@@ -34,7 +34,7 @@ const OurStorySection = () => {
           </div>
           <div className={styles.card}>
             <Image
-              src={balanceImage}
+              src={tamponImage}
               alt="our story 2"
               width={350}
               height={250}
@@ -46,7 +46,7 @@ const OurStorySection = () => {
           </div>
           <div className={styles.card}>
             <Image
-              src={libraryImage}
+              src={balanceImage}
               alt="our story 3"
               width={350}
               height={250}
