@@ -42,7 +42,7 @@ const ContactUs = () => {
             </div>
             <div className={styles.contactInfo}>
               <p className={styles.contactUs}>Contact Us On :</p>
-              <p className={styles.contactNumber}>07 83 38 95 95</p>
+              <p className={styles.contactNumber}>05 61 83 23 87</p>
             </div>
           </div>
         </div>
