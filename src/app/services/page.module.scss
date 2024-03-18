@@ -1,0 +1,46 @@
+@import 'styles/color.module.scss';
+@import 'styles/text.module.scss';
+@import 'styles/_breakpoints.scss';
+
+.container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    background-color: $background-color;
+    padding: 32px 72px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+    max-width: 1400px;
+}
+
+.titleSection{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.title{
+    font: $title-card-services;
+    color: $text-color;
+}
+
+.description{
+    font: $text;
+    color: $text-color;
+}
+
+.serviceList{
+    display: flex;
+    gap: 32px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
