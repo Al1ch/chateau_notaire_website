@@ -1,0 +1,34 @@
+
+@import 'styles/color.module.scss';
+@import 'styles/text.module.scss';
+@import 'styles/_breakpoints.scss';
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: $text-color;
+    max-width: 500px;
+
+}
+
+.title{
+    font: $title-card;
+    position: relative;
+    &::after{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        content: "";
+        width: 25px;
+        height: 3px;
+        background-color: $secondary;
+        transform: translateY(5px)
+    }
+}
+
+
+.description{
+    font: $text;
+    color: $text-color;
+}
