@@ -37,7 +37,7 @@ avec une expertise notariale spécialisée, nous vous accompagnons à chaque ét
             <ServicesCard
               title="Entreprise"
               icon={EntrepriseSvg}
-              description="Nous vous accompagnons à chaque étape de votre parcours entrepreneurial, garantissant la croissance et la protection durables de votre entreprise"
+              description="Nous vous accompagnons à chaque étape de votre parcours entrepreneurial, garantissant la croissance et la protection durables de votre entreprise avec prévoyance"
             />
           </div>
         </div>

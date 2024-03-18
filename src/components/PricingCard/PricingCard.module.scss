@@ -39,7 +39,12 @@
     border-top: 2px  solid $gray;
     border-bottom: 2px solid $gray;
     padding: 16px 0 ;
-    min-height: 500px;
+    @include tablet{
+        min-height: 550px;
+    }
+    @include desktop{
+        min-height: 700px;
+    }
     color: $text-color;
 }
 
