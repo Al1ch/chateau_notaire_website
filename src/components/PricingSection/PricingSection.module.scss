@@ -1,0 +1,52 @@
+@import 'styles/color.module.scss';
+@import 'styles/text.module.scss';
+@import 'styles/_breakpoints.scss';
+
+.container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    background-color: $background-color;
+    padding: 72px 24px;
+    @include tablet{
+        padding: 72px ;
+    }
+
+}
+
+.titleSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding-top: 32px;
+}
+
+.title{
+    font : $hero-title;
+    color: $text-color;
+    text-align: center;
+}
+
+.description{
+    font: $text;
+    color: $secondary;
+    max-width: 600px;
+    text-align: center;
+}
+
+
+.cardList{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center; 
+    @include tablet{
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    gap: 16px;
+}
