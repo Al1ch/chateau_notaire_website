@@ -11,7 +11,8 @@
     background-color: $background-color;
     padding: 72px 24px;
     @include tablet{
-        padding: 72px ;
+        padding: 72px;
+        max-width: 1400px;
     }
 
 }

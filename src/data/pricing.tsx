@@ -36,7 +36,7 @@ export const domains = [
         id: 6,
       },
       {
-        title: "Mandat de protection future (à parfaire ou diminuer)",
+        title: "Mandat de protection future",
         price: "300,00 T.T.C",
         id: 7,
       },

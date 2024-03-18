@@ -24,7 +24,7 @@
 
 .title{
     font: $title-card;
-    color: $secondary;
+    color: $text-color;
 }
 
 .description{
@@ -44,7 +44,7 @@
 }
 
 .serviceTitle{
-    font-size: $pricing-card-text;
+    font: $pricing-card-text;
     color: $text-color;
 }
 

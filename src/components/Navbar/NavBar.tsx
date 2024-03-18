@@ -4,10 +4,10 @@ import styles from "./NavBar.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 import Button from "@/components/Button/Button";
-import sgLogo from "@/assets/images/sgLogo.png";
 import Logo from "@/assets/vectors/logo.svg";
 import BurgerSvg from "@/assets/vectors/burger.svg";
 import CloseIcon from "@/assets/vectors/close.svg";
+import logoTest from "@/assets/images/logoTest.png";
 import cn from "classnames";
 
 const NavBar = () => {
@@ -45,7 +45,7 @@ const NavBar = () => {
               href={"https://www.immobilier.notaires.fr/fr/frais-de-notaire"}
               className={styles.buttonLink}
             >
-              <Button size="lg" backgroundColor="primary" radius="rounded">
+              <Button size="lg" backgroundColor="transparent" radius="rounded">
                 Simulateur de Frais
               </Button>
             </Link>
@@ -76,6 +76,7 @@ const NavBar = () => {
         )}
       >
         <div className={styles.headerMobileMenu}>
+          <Image src={logoTest} alt="logo" width={100} height={100} />
           <Logo className={styles.logo} />
           <button className={styles.button}>
             <CloseIcon
