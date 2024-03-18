@@ -29,7 +29,7 @@ const PricingCard = ({ title, description, services }: Props) => {
         ))}
       </div>
       <Button size="lg" backgroundColor="transparent">
-        Get Started
+        En Savoir Plus
       </Button>
     </div>
   );
