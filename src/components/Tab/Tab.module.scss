@@ -1,0 +1,28 @@
+@import 'styles/color.module.scss';
+@import 'styles/text.module.scss';
+@import 'styles/_breakpoints.scss';
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+
+}
+
+.tabList{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.tab{
+    cursor: pointer;
+    font: $pricing-card-text;
+    color: $light-gray;
+    border-bottom: 2px solid $gray;
+    &.active{
+        color: $secondary;
+        border-bottom: 2px solid $secondary;
+    }
+
+}
