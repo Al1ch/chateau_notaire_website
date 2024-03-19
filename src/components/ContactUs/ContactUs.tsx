@@ -32,7 +32,7 @@ const ContactUs = () => {
       <div className={styles.rightContainer}>
         <div className={styles.squareBorder}>
           <h4 className={styles.titleContact}>Get A free Consultation</h4>
-          <p className={styles.description}>
+          <p className={styles.squareDescription}>
             you can get a free consultation and case evaluation from us via the
             following contact number{" "}
           </p>

@@ -59,6 +59,13 @@
     border: 14px solid #d7d7d7;
 }
 
+.squareDescription{
+    font: $text;
+    color: $secondary-hover;
+    max-width: 450px;
+}
+
+
 .titleContact{
     font: $title-card-services;
 }
@@ -80,7 +87,6 @@
     gap: 32px;
 
 }
-
 
 .contactInfo{
     display: flex;
