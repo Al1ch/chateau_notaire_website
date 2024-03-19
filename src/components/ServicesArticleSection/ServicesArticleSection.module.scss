@@ -1,0 +1,36 @@
+@import 'styles/color.module.scss';
+@import 'styles/text.module.scss';
+@import 'styles/_breakpoints.scss';
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap : 32px;
+}
+.titleSection{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.description{
+    font: $text;
+    color: $text-color;
+}
+
+
+
+.title{
+    font: $title-card-services;
+    color: $text-color;
+}
+
+
+.serviceList{
+    display: flex;
+    gap: 32px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+

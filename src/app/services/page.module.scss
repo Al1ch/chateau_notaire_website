@@ -21,15 +21,11 @@
     max-width: 1400px;
 }
 
-.titleSection{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
 .title{
-    font: $title-card-services;
+    font: $title-section;
     color: $text-color;
+    text-align: center;
+
 }
 
 .description{
@@ -37,10 +33,4 @@
     color: $text-color;
 }
 
-.serviceList{
-    display: flex;
-    gap: 32px;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-}
 

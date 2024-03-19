@@ -2,17 +2,25 @@
 import React, { useState } from "react";
 import styles from "./Tab.module.scss";
 import cn from "classnames";
+import { useRouter } from "next/navigation";
 
 type Tab = "Immobilier" | "Famille" | "Entreprise";
 
 const Tab = () => {
+  const router = useRouter();
+
   const [activeTab, setActiveTab] = useState<Tab>("Immobilier");
+
+  const handleClick = (currentTab: string) => {
+    router.replace(`?tab=${currentTab}`);
+    setActiveTab(currentTab as Tab);
+  };
 
   return (
     <div className={styles.container}>
       <div className={styles.tabList}>
         <div
-          onClick={() => setActiveTab("Immobilier")}
+          onClick={() => handleClick("Immobilier")}
           className={cn(styles.tab, {
             [styles.active]: activeTab === "Immobilier",
           })}
@@ -20,7 +28,7 @@ const Tab = () => {
           Immobilier
         </div>
         <div
-          onClick={() => setActiveTab("Famille")}
+          onClick={() => handleClick("Famille")}
           className={cn(styles.tab, {
             [styles.active]: activeTab === "Famille",
           })}
@@ -29,7 +37,7 @@ const Tab = () => {
           Famille
         </div>
         <div
-          onClick={() => setActiveTab("Entreprise")}
+          onClick={() => handleClick("Entreprise")}
           className={cn(styles.tab, {
             [styles.active]: activeTab === "Entreprise",
           })}
