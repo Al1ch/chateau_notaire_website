@@ -30,7 +30,7 @@ const HeroSection = () => {
             className={styles.link}
           >
             <Button backgroundColor="secondary" size="lg" radius="rounded">
-              Prendez rendez-vous
+              Prendre rendez-vous
             </Button>
           </Link>
         </span>

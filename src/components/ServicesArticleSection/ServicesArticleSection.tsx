@@ -1,10 +1,12 @@
 import React from "react";
 import styles from "./ServicesArticleSection.module.scss";
 import ServiceArticle from "@/components/ServiceArticle/ServiceArticle";
+import DropDownService from "../DropDownService/DropDownService";
 
 type ServiceArticle = {
   title: string;
   description: string;
+  id: number;
 };
 
 type Props = {
@@ -22,7 +24,7 @@ const ServicesArticleSection = ({ title, description, services }: Props) => {
       </div>
       <div className={styles.serviceList}>
         {services.map((service, index) => (
-          <ServiceArticle key={index} {...service} />
+          <DropDownService {...service} key={service.id} />
         ))}
       </div>
     </div>

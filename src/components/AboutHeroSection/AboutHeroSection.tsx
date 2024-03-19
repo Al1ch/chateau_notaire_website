@@ -51,7 +51,7 @@ const AboutHeroSection = () => {
           </Link>
         </div>
         <Button backgroundColor="secondary" size="lg" radius="rounded">
-          Prendez rendez-vous
+          Prendre rendez-vous
         </Button>
       </div>
     </div>
