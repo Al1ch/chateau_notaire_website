@@ -1,0 +1,61 @@
+@import 'styles/color.module.scss';
+@import 'styles/text.module.scss';
+@import 'styles/_breakpoints.scss';
+
+
+.container{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    background-color: $background-color-secondary;
+    border: none;
+    gap: 16px;
+    max-width: 600px;
+    border-radius: 8px;
+    padding: 24px 24px 0 24px;
+}
+
+.svg{
+    width: 24px;
+    height: 24px;
+
+    &.active{
+        transform: rotate(180deg);
+        transition: transform 0.5s ease;
+    }
+
+}
+
+.titleContainer{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+
+.title{
+    color: $text-color;
+    font: $title-card-services;
+    position: relative;
+    &::after{
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: "";
+        width: 25px;
+        height: 3px;
+        background-color: $secondary;
+        transform: translateY(50px)
+    }
+
+}
+
+.description{
+    transition: height ease 0.5s;
+    font: $text;
+    color: $text-color;
+    text-align: left;
+}
