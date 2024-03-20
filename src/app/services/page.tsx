@@ -5,6 +5,7 @@ import ContactUs from "@/components/ContactUs/ContactUs";
 import ServiceArticle from "@/components/ServiceArticle/ServiceArticle";
 import ServicesArticleSection from "@/components/ServicesArticleSection/ServicesArticleSection";
 import { services } from "@/data/services";
+import FrequentQuestion from "@/components/FrequentQuestion/FrequentQuestion";
 
 export default function Services({
   searchParams,
@@ -25,6 +26,7 @@ export default function Services({
           ? serviceContent[searchParams.tab as keyof typeof serviceContent]
           : serviceContent.Immobilier}
       </div>
+      <FrequentQuestion />
     </div>
   );
 }

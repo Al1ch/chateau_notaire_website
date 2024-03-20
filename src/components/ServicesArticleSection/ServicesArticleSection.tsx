@@ -23,7 +23,7 @@ const ServicesArticleSection = ({ title, description, services }: Props) => {
         <p className={styles.description}>{description}</p>
       </div>
       <div className={styles.serviceList}>
-        {services.map((service, index) => (
+        {services.map((service) => (
           <DropDownService {...service} key={service.id} />
         ))}
       </div>
