@@ -57,6 +57,9 @@
     &:hover{
         color: $secondary-hover;
     }
+    &.active{
+        color: $secondary;
+    }
 }
 
 .buttonContainer{

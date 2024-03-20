@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { use, useState } from "react";
 import styles from "./NavBar.module.scss";
 import Image from "next/image";
 import Link from "next/link";
@@ -9,9 +9,11 @@ import BurgerSvg from "@/assets/vectors/burger.svg";
 import CloseIcon from "@/assets/vectors/close.svg";
 import logoTest from "@/assets/images/logoTest.png";
 import cn from "classnames";
+import { usePathname } from "next/navigation";
 
 const NavBar = () => {
   const [isMenuClicked, setIsMenuClicked] = useState(false);
+  const pathName = usePathname();
 
   return (
     <div className={styles.test}>
@@ -26,16 +28,36 @@ const NavBar = () => {
               <Logo className={styles.logo} />
             </Link>
             <div className={styles.listNav}>
-              <Link href={"/home"} className={styles.link}>
+              <Link
+                href={"/home"}
+                className={cn(styles.link, {
+                  [styles.active]: pathName === "/",
+                })}
+              >
                 Accueil
               </Link>
-              <Link href={"/services"} className={styles.link}>
+              <Link
+                href={"/services"}
+                className={cn(styles.link, {
+                  [styles.active]: pathName === "/services",
+                })}
+              >
                 Nos Services
               </Link>
-              <Link href={"/pricing"} className={styles.link}>
+              <Link
+                href={"/pricing"}
+                className={cn(styles.link, {
+                  [styles.active]: pathName === "/pricing",
+                })}
+              >
                 Tarifs
               </Link>
-              <Link href={"/about"} className={styles.link}>
+              <Link
+                href={"/about"}
+                className={cn(styles.link, {
+                  [styles.active]: pathName === "/about",
+                })}
+              >
                 Qui somme nous ?
               </Link>
             </div>
@@ -87,16 +109,36 @@ const NavBar = () => {
         </div>
         <div className={styles.contentMenu}>
           <div className={styles.list}>
-            <Link href={"/home"} className={styles.link}>
+            <Link
+              href={"/home"}
+              className={cn(styles.link, {
+                [styles.active]: pathName === "/",
+              })}
+            >
               Accueil
             </Link>
-            <Link href={"/services"} className={styles.link}>
+            <Link
+              href={"/services"}
+              className={cn(styles.link, {
+                [styles.active]: pathName === "/services",
+              })}
+            >
               Nos Services
             </Link>
-            <Link href={"/pricing"} className={styles.link}>
+            <Link
+              href={"/pricing"}
+              className={cn(styles.link, {
+                [styles.active]: pathName === "/pricing",
+              })}
+            >
               Tarifs
             </Link>
-            <Link href={"/about"} className={styles.link}>
+            <Link
+              href={"/about"}
+              className={cn(styles.link, {
+                [styles.active]: pathName === "/about",
+              })}
+            >
               Qui somme nous ?
             </Link>
           </div>
