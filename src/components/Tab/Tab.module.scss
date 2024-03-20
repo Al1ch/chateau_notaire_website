@@ -20,6 +20,9 @@
     cursor: pointer;
     font: $title-card;
     color: $light-gray;
+    border: none;
+    outline: none;
+    background-color: transparent;
     border-bottom: 2px solid $gray;
     &.active{
         color: $secondary;

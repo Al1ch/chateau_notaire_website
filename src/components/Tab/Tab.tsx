@@ -2,14 +2,17 @@
 import React, { useState } from "react";
 import styles from "./Tab.module.scss";
 import cn from "classnames";
-import { useRouter } from "next/navigation";
+import { useRouter, useParams, useSearchParams } from "next/navigation";
 
 type Tab = "Immobilier" | "Famille" | "Entreprise";
 
 const Tab = () => {
   const router = useRouter();
+  const params = useSearchParams();
 
-  const [activeTab, setActiveTab] = useState<Tab>("Immobilier");
+  const [activeTab, setActiveTab] = useState<Tab>(
+    (params.get("tab") as Tab) || "Immobilier"
+  );
 
   const handleClick = (currentTab: string) => {
     router.replace(`?tab=${currentTab}`);
@@ -19,15 +22,15 @@ const Tab = () => {
   return (
     <div className={styles.container}>
       <div className={styles.tabList}>
-        <div
+        <button
           onClick={() => handleClick("Immobilier")}
           className={cn(styles.tab, {
             [styles.active]: activeTab === "Immobilier",
           })}
         >
           Immobilier
-        </div>
-        <div
+        </button>
+        <button
           onClick={() => handleClick("Famille")}
           className={cn(styles.tab, {
             [styles.active]: activeTab === "Famille",
@@ -35,8 +38,8 @@ const Tab = () => {
         >
           {" "}
           Famille
-        </div>
-        <div
+        </button>
+        <button
           onClick={() => handleClick("Entreprise")}
           className={cn(styles.tab, {
             [styles.active]: activeTab === "Entreprise",
@@ -44,7 +47,7 @@ const Tab = () => {
         >
           {" "}
           Entreprise
-        </div>
+        </button>
       </div>
     </div>
   );

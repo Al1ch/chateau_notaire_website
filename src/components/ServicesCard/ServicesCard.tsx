@@ -3,6 +3,7 @@ import styles from "./ServicesCard.module.scss";
 import { SvgComponent } from "../../../types/model";
 import Button from "@/components/Button/Button";
 import PeopleSvg from "@/assets/vectors/people.svg";
+import Link from "next/link";
 
 type Props = {
   title: string;
@@ -19,9 +20,11 @@ const ServicesCard = ({ title, description, icon: Icon }: Props) => {
       </div>
       <div className={styles.bottomContainer}>
         <Icon className={styles.icon} />
-        <Button size="lg" backgroundColor="secondary" radius="rounded">
-          En savoir plus
-        </Button>
+        <Link href={`/services?tab=${title}`} className={styles.link}>
+          <Button size="lg" backgroundColor="secondary" radius="rounded">
+            En savoir plus
+          </Button>
+        </Link>
       </div>
     </div>
   );
