@@ -28,7 +28,10 @@ const DropDownService = ({ title, description }: Props) => {
         className={styles.description}
         style={
           isClicked
-            ? { height: dropDownRef.current?.scrollHeight + "px" }
+            ? {
+                height: dropDownRef.current?.scrollHeight + "px",
+                marginBottom: "24px",
+              }
             : { height: "0px" }
         }
         ref={dropDownRef}

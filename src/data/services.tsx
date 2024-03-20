@@ -38,25 +38,25 @@ export const services = {
       "Le notaire accompagne aussi bien les dirigeants de société et les entrepreneurs, que les particuliers dans leurs relations avec le droit commercial : son expertise en droit des affaires leur permet de mieux appréhender les incidences professionnelles ou personnelles de leurs choix et de leurs responsabilités..",
     services: [
       {
-        id: 1,
+        id: 5,
         title: "Bail commercial",
         description:
           "Le bail commercial est un contrat par lequel le propriétaire (le bailleur) va louer à une personne (le preneur) ses locaux afin que ce dernier exploite un fonds de commerce, artisanal ou industriel. La rédaction par acte notarié est particulièrement recommandée.  Le notaire, avec ses conseils et son expertise, va assurer une sécurité juridique.",
       },
       {
-        id: 2,
+        id: 6,
         title: "Cession de bail",
         description:
           "Dans le cadre d’un bail commercial, le preneur (le cédant) peut céder son droit au bail à une personne (le cessionnaire). Très souvent, cette cession est encadrée dans le bail lui-même avec l’exigence de l’accord du bailleur, ou encore la mise en place d’une solidarité entre le cédant et le cessionnaire. Notre office est à même de vous apporter les conseils et la rédaction adaptés à votre projet de cession.",
       },
       {
-        id: 3,
+        id: 7,
         title: "Location gérance",
         description:
           "La location-gérance est la convention par laquelle le propriétaire cède partiellement ou totalement la location à une personne, appelée le locataire-gérant, qui va l’exploiter à ses risques et périls moyennant le paiement d’une redevance. Choisir une location-gérance comme mode d’exploitation comporte des risques. Notre office est là pour assurer une bonne rédaction de ce contrat.",
       },
       {
-        id: 4,
+        id: 8,
         title: "Fonds de commerce",
         description:
           "Le fonds de commerce est une notion juridique composée d’éléments corporels (matériels, marchandises, …) et incorporels (clientèle, nom commercial, droit au bail, …). L’acquisition ou la vente d’un tel bien est une opération complexe qui nécessite l’intervention d’un professionnel qualifié. Notre office notarial se tient à votre dipsosition pour analyser votre situation, vous apporter les conseils ajustés, et rédiger avec soins le contrat de cession. L’ensemble des formalités (notamment auprès du Greffe) est également effectué par nos services. Nous vous assuraons ainsi un service de qualité et sécurisé pour l’ensemble de l’opération.",
@@ -70,55 +70,55 @@ export const services = {
       "Le notaire est le professionnel du droit de la famille. Il est compétent pour conseiller, rédiger et authentifier les actes de la vie familiale. Il est le conseil privilégié des familles pour les accompagner dans les moments importants de leur vie : mariage, PACS, donation, succession, adoption, divorce, …",
     services: [
       {
-        id: 1,
+        id: 9,
         title: "Contrat de mariage",
         description:
           "Le contrat de mariage va être la convention par laquelle les futurs époux vont déterminer le régime matrimonial en usant de la liberté que leur offre le code civil. Le notaire va jouer un rôle de conseil essentiel pour choisir le régime le plus adapté à la situation des époux.",
       },
       {
-        id: 2,
+        id: 10,
         title: "Pacs",
         description:
           "Afin de conclure un PACS, il est préférable d’aller voir son notaire, pour qu’il vous renseigne sur les droits et obligations des futurs partenaires, vous conseille en fonction de votre situation personnelle, rédige et conserve votre contrat de PACS.",
       },
       {
-        id: 3,
+        id: 11,
         title: "Donation",
         description:
           "Toute personne peut donner de son vivant à une tierce personne une partie de son patrimoine. Très souvent, les donations sont utilisées pour anticiper sa succession, éviter les éventuels conflits et optimiser fiscalement la transmission. La majeure partie des donations nécessite la rédaction d’un acte notarié. Notre office se tient à votre disposition pour vous écouter et vous conseiller sur vos projets de donation.",
       },
       {
-        id: 4,
+        id: 12,
         title: "Succession",
         description:
           "A la survenance du décès d’un proche, notre office sera présent pour vous aider et vous expliquer les différentes étapes : réaliser un inventaire de la succession, rechercher les héritiers, partager la succession et établir les actes (déclaration de succession, acte de notoriété, attestation immobilière, …).",
       },
       {
-        id: 5,
+        id: 13,
         title: "Partage",
         description:
           "Le partage est l’acte qui met fin à l’indivision. Il peut être réalisé de manière amiable ou judiciaire. Dans l’un ou l’autre des cas, le recours à un notaire est obligatoire en présence d’un bien immobilier. Notre office se tient à votre disposition pour vous accompagner dans votre projet.",
       },
       {
-        id: 6,
+        id: 14,
         title: "Divorce",
         description:
           "Le divorce met fin au régime matrimonial choisi par les époux. Il convient de procéder à la liquidation de ce régime ainsi qu’au partage des biens. L’intervention d’un notaire est recommandée voir obligatoire lorsque les époux possèdent des biens soumis à publicité foncière. Notre office se tient à votre disposition pour vous apporter des explications claires sur les conséquences du divorce, et rédiger avec soin la liquidation de votre régime matrimonial.",
       },
       {
-        id: 7,
+        id: 15,
         title: "Donation entre époux",
         description:
           "Les époux peuvent se consentir pendant le mariage, ce que l'on appelle des 'donations au dernier vivant'. Ces donations ne peuvent porter que sur des biens existants au décès et ne prennent effet qu'à la dissolution du régime matrimonial.",
       },
       {
-        id: 8,
+        id: 16,
         title: "Adoption",
         description:
           "L’adoption permet de créer un lien de parenté entre deux personnes ayant des liens affectifs mais dont le droit ne reconnait aucun lien. Cela se retrouve souvent dans le cas des familles recomposées. Le notaire va recueillir le consentement des personnes concernées ainsi que de vérifier que les conditions sont respectées. Vous pouvez contacter notre office pour obtenir un rendez-vous de renseignements",
       },
       {
-        id: 9,
+        id: 17,
         title: "Changement matrimonial",
         description:
           "Dans l'intérêt de la famille et après deux ans de mariage, les époux peuvent changer partiellement ou complètement de régime matrimonial. La modification du régime matrimonial est obligatoirement établie par acte notarié.",

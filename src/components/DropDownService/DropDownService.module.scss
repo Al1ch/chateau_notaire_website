@@ -11,7 +11,10 @@
     background-color: $background-color-secondary;
     border: none;
     gap: 16px;
-    max-width: 600px;
+    max-width: 500px;
+    @include desktop{
+        max-width: 600px;
+    }
     border-radius: 8px;
     padding: 24px 24px 0 24px;
 }
@@ -38,7 +41,7 @@
 
 .title{
     color: $text-color;
-    font: $title-card-services;
+    font: $collapse-service-title;
     position: relative;
     &::after{
         position: absolute;
@@ -48,7 +51,7 @@
         width: 25px;
         height: 3px;
         background-color: $secondary;
-        transform: translateY(50px)
+        transform: translateY(40px)
     }
 
 }
