@@ -20,6 +20,7 @@ const AboutHeroSection = () => {
           alt="hero image"
           width={400}
           height={500}
+          priority
         />
         <div className={styles.shadowContainer}></div>
       </div>

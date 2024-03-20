@@ -36,7 +36,7 @@ const FindUs = () => {
 
             <div className={styles.horaireContainer}>
               <h4 className={styles.descriptionInfo}>
-                Horaires d'ouverture :{" "}
+                {`  Horaires d'ouverture :`}
               </h4>
               <p className={styles.info}>
                 Lundi - Vendredi : 9h - 12h / 14h - 18h
