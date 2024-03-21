@@ -1,4 +1,4 @@
-@import 'styles/color.module.scss';
+ @import 'styles/color.module.scss';
 @import 'styles/text.module.scss';
 @import 'styles/_breakpoints.scss';
 
@@ -17,7 +17,6 @@
     @include desktop{
         padding: 24px;
     }
-    // box-shadow: 0 0 8px 12px rgba(151, 156, 158, 0.08);
 
 }
 

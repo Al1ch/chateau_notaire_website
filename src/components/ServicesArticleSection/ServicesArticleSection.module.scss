@@ -7,6 +7,9 @@
     display: flex;
     flex-direction: column;
     gap : 32px;
+    @include laptop{
+        min-height: 550px;
+    }
 }
 .titleSection{
     display: flex;
@@ -22,7 +25,7 @@
 
 
 .title{
-    font: $title-card-services;
+    font: $hero-title;
     color: $text-color;
 }
 
