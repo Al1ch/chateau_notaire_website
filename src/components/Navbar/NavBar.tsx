@@ -44,14 +44,7 @@ const NavBar = () => {
               >
                 Nos Services
               </Link>
-              <Link
-                href={"/pricing"}
-                className={cn(styles.link, {
-                  [styles.active]: pathName === "/pricing",
-                })}
-              >
-                Tarifs
-              </Link>
+
               <Link
                 href={"/about"}
                 className={cn(styles.link, {
@@ -59,6 +52,14 @@ const NavBar = () => {
                 })}
               >
                 Qui somme nous ?
+              </Link>
+              <Link
+                href={"/pricing"}
+                className={cn(styles.link, {
+                  [styles.active]: pathName === "/pricing",
+                })}
+              >
+                Tarifs
               </Link>
             </div>
           </div>
@@ -125,14 +126,7 @@ const NavBar = () => {
             >
               Nos Services
             </Link>
-            <Link
-              href={"/pricing"}
-              className={cn(styles.link, {
-                [styles.active]: pathName === "/pricing",
-              })}
-            >
-              Tarifs
-            </Link>
+
             <Link
               href={"/about"}
               className={cn(styles.link, {
@@ -140,6 +134,14 @@ const NavBar = () => {
               })}
             >
               Qui somme nous ?
+            </Link>
+            <Link
+              href={"/pricing"}
+              className={cn(styles.link, {
+                [styles.active]: pathName === "/pricing",
+              })}
+            >
+              Tarifs
             </Link>
           </div>
           <div className={styles.buttonList}>

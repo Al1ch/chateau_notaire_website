@@ -7,7 +7,7 @@ const PricingSection = () => {
   return (
     <div className={styles.container}>
       <div className={styles.titleSection}>
-        <h1 className={styles.title}> Nos tarifs </h1>
+        <h1 className={styles.title}> Tarifs </h1>
         <p className={styles.description}>
           {`          Simplifiez vos démarches juridiques avec nos solutions notariales
     abordables. Découvrez nos tarifs transparents`}
