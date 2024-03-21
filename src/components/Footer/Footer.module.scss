@@ -92,15 +92,17 @@
 
 .lawContainer{
     display: flex;
-    flex-direction: column;
     width: 100%;
     justify-content: space-between;
     gap: 16px;
     max-width: 1400px;
     @include tablet{
+        flex-direction: column;
+
         flex-direction: row;
+        padding:  0 72px;
+
     }
-    padding:  0 72px;
 }
 
 .link{

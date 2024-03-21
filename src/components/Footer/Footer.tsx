@@ -25,13 +25,13 @@ const Footer = () => {
           <div className={styles.footerColumn}>
             <h2 className={styles.title}>Nos Services</h2>
             <div className={styles.listItem}>
-              <Link href={"/Services"} className={styles.link}>
+              <Link href={`/services?tab=Immobilier`} className={styles.link}>
                 Immobilier
               </Link>
-              <Link href={"/Services"} className={styles.link}>
+              <Link href={`/services?tab=Famille`} className={styles.link}>
                 Famille
               </Link>
-              <Link href={"/Services"} className={styles.link}>
+              <Link href={`/services?tab=Entreprise`} className={styles.link}>
                 Entreprise
               </Link>
             </div>
