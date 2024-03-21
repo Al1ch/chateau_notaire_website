@@ -45,7 +45,10 @@
 .rightContainer{
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 20px;
+    @include desktop{
+        padding: 38px;
+    }
     background-color: $white;
     justify-content: center;
     align-items: center;

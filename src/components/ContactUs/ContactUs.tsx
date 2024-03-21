@@ -11,14 +11,14 @@ const ContactUs = () => {
       <div className={styles.leftContainer}>
         <div className={styles.titleContainer}>
           <h2 className={styles.title}>
-            Our Professional Expert Law Team Is Always Ready To Serve You
+            {`Notre équipe d'experts juridiques est à votre écoute`}{" "}
           </h2>
           <Scintillant />
         </div>
         <p className={styles.description}>
-          We’re always available for new cases big or small. Send us an email
-          and we’ll get in touch shortly, or phone between 8:00 am and 7:00 pm
-          Monday to Saturday.
+          Nous sommes toujours disponibles pour de nouvelles affaires, petites
+          ou grandes. Envoyez-nous un courriel et nous vous contacterons
+          rapidement, ou téléphonez-nous entre 8h00 et 19h00 du lundi au samedi
         </p>
         <Link
           href="mailto:paulemmanuel.chateau@notaires.fr"
@@ -31,17 +31,17 @@ const ContactUs = () => {
       </div>
       <div className={styles.rightContainer}>
         <div className={styles.squareBorder}>
-          <h4 className={styles.titleContact}>Get A free Consultation</h4>
+          <h4 className={styles.titleContact}>Consultation gratuite</h4>
           <p className={styles.squareDescription}>
-            you can get a free consultation and case evaluation from us via the
-            following contact number{" "}
+            vous pouvez obtenir une consultation gratuite et une évaluation de
+            votre dossier en nous contactant au numéro suivant
           </p>
           <div className={styles.contactSection}>
             <div className={styles.squarePhone}>
               <Phone className={styles.logo} />
             </div>
             <div className={styles.contactInfo}>
-              <p className={styles.contactUs}>Contact Us On :</p>
+              <p className={styles.contactUs}>Contactez-nous au :</p>
               <p className={styles.contactNumber}>05 61 83 23 87</p>
             </div>
           </div>
