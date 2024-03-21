@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./Tab.module.scss";
 import cn from "classnames";
 import { useRouter, useParams, useSearchParams } from "next/navigation";
@@ -13,6 +13,11 @@ const Tab = () => {
   const [activeTab, setActiveTab] = useState<Tab>(
     (params.get("tab") as Tab) || "Immobilier"
   );
+
+  useEffect(() => {
+    const tab = params.get("tab") as Tab;
+    setActiveTab(tab || "Immobilier");
+  }, [params]);
 
   const handleClick = (currentTab: string) => {
     router.replace(`?tab=${currentTab}`);

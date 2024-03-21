@@ -1,10 +1,13 @@
+"use client";
 import React from "react";
 import styles from "./Footer.module.scss";
 import Button from "@/components/Button/Button";
 import Logo from "@/assets/vectors/logo.svg";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 const Footer = () => {
+  const router = useRouter();
   return (
     <footer className={styles.container}>
       <div className={styles.footerContent}>
