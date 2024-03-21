@@ -8,7 +8,10 @@
     flex-direction: column;
     gap : 32px;
     @include laptop{
-        min-height: 550px;
+        min-height: 400px;
+    }
+    @include desktop{
+        min-height: 500px;
     }
 }
 .titleSection{
