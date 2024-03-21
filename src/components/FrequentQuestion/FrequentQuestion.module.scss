@@ -39,15 +39,7 @@
 
 }
 
-.question{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    margin-top: 32px;
-    padding-bottom: 48px;
-    border-bottom: 1.5px solid $secondary;
 
-}
 
 .questionsList{
     display: grid;
@@ -58,11 +50,7 @@
     margin-top: 32px;
 }
 
-.questionTitle{
-    font: $title-card-services;
-    color: black;
-    margin-bottom: 8px;
-}
+
 
 .description{
     font: $footer-text;
