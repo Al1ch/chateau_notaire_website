@@ -14,14 +14,14 @@ const RoleCard = ({ title, listItem, description }: Props) => {
       <div className={styles.infoCard}>
         <h3 className={styles.title}>{title} </h3>
         <p className={styles.description}>{description}</p>
+        <ul className={styles.list}>
+          {listItem.map((item, index) => (
+            <li key={index} className={styles.listItem}>
+              <TickSvg className={styles.logo} /> {item}
+            </li>
+          ))}
+        </ul>
       </div>
-      <ul className={styles.list}>
-        {listItem.map((item, index) => (
-          <li key={index} className={styles.listItem}>
-            <TickSvg className={styles.logo} /> {item}
-          </li>
-        ))}
-      </ul>
     </div>
   );
 };
