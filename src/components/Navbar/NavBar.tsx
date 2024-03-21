@@ -112,6 +112,7 @@ const NavBar = () => {
           <div className={styles.list}>
             <Link
               href={"/home"}
+              onClick={() => setIsMenuClicked(!isMenuClicked)}
               className={cn(styles.link, {
                 [styles.active]: pathName === "/",
               })}
@@ -119,6 +120,7 @@ const NavBar = () => {
               Accueil
             </Link>
             <Link
+              onClick={() => setIsMenuClicked(!isMenuClicked)}
               href={"/services"}
               className={cn(styles.link, {
                 [styles.active]: pathName === "/services",
@@ -128,6 +130,7 @@ const NavBar = () => {
             </Link>
 
             <Link
+              onClick={() => setIsMenuClicked(!isMenuClicked)}
               href={"/about"}
               className={cn(styles.link, {
                 [styles.active]: pathName === "/about",
@@ -136,6 +139,7 @@ const NavBar = () => {
               Qui somme nous ?
             </Link>
             <Link
+              onClick={() => setIsMenuClicked(!isMenuClicked)}
               href={"/pricing"}
               className={cn(styles.link, {
                 [styles.active]: pathName === "/pricing",
