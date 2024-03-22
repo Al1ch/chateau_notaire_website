@@ -17,6 +17,10 @@
     }
     border-radius: 8px;
     padding: 24px 24px 0 24px;
+    max-height: 75px;
+    &.active{
+        max-height: fit-content;
+    }
 }
 
 .svg{
@@ -61,4 +65,5 @@
     font: $text;
     color: $text-color;
     text-align: left;
+
 }

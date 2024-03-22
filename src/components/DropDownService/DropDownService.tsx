@@ -16,7 +16,7 @@ const DropDownService = ({ title, description }: Props) => {
   return (
     <button
       onClick={() => setIsClicked(!isClicked)}
-      className={styles.container}
+      className={cn(styles.container, { [styles.active]: isClicked })}
     >
       <div className={styles.titleContainer}>
         <h1 className={styles.title}>{title}</h1>
