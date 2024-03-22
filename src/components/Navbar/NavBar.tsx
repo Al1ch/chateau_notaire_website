@@ -4,7 +4,7 @@ import styles from "./NavBar.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 import Button from "@/components/Button/Button";
-import Logo from "@/assets/vectors/logo.svg";
+import Logo from "@/assets/vectors/testing.svg";
 import BurgerSvg from "@/assets/vectors/burger.svg";
 import CloseIcon from "@/assets/vectors/close.svg";
 import logoTest from "@/assets/images/logoTest.png";
@@ -24,9 +24,10 @@ const NavBar = () => {
       >
         <div className={styles.wrapper}>
           <div className={styles.leftContainer}>
-            <Link className={styles.link} href={"/"}>
+            {/* <Link className={styles.link} href={"/"}>
               <Logo className={styles.logo} />
-            </Link>
+            </Link> */}
+            <Image src={logoTest} alt="logo" width={200} height={100} />
             <div className={styles.listNav}>
               <Link
                 href={"/home"}
