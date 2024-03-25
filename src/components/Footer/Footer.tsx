@@ -4,10 +4,8 @@ import styles from "./Footer.module.scss";
 import Button from "@/components/Button/Button";
 import Logo from "@/assets/vectors/logo.svg";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 
 const Footer = () => {
-  const router = useRouter();
   return (
     <footer className={styles.container}>
       <div className={styles.footerContent}>
@@ -22,7 +20,7 @@ const Footer = () => {
             <h2 className={styles.title}>Socials</h2>
             <div className={styles.listItem}>
               <span className={styles.text}>Instagram</span>
-              <span className={styles.text}>+33 6 95 91 99 30</span>
+              <span className={styles.text}>05 32 59 79 07</span>
             </div>
           </div>
           <div className={styles.footerColumn}>
@@ -46,9 +44,10 @@ const Footer = () => {
                 <span className={styles.text}>
                   paulemmanuel.chateau@notaires.fr
                 </span>
-                <span className={styles.text}>+33 6 95 91 99 30</span>
+                <span className={styles.text}>05 32 59 79 07</span>
                 <span className={styles.text}>
-                  188 bis boulevard Pereire <br /> 75017 Paris{" "}
+                  5 Rue du Général Jean Compans,
+                  <br /> 31500 Toulouse
                 </span>
               </div>
             </div>
@@ -65,7 +64,7 @@ const Footer = () => {
       </div>
       <div className={styles.lawContainer}>
         <p className={styles.text}>
-          {`© 2024 Paul Chateau. Tous droits réservés.`}
+          {`© 2024 Paul-Emmanuel Chateau. Tous droits réservés.`}
         </p>
         <Link href="/mentions-legales" className={styles.link}>
           Mention Légales

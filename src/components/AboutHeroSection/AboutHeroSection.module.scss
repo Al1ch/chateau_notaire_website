@@ -41,9 +41,6 @@
     }
 }
 
-// .profileImage{
-//     border-radius: 8px;
-// }
 
 
 .shadowContainer{
@@ -73,6 +70,9 @@
 .title{
     font: $title-hero-about;
     color: $text-color;
+    @include laptop{
+        min-width: 500px;
+    }
 }
 
 .description{

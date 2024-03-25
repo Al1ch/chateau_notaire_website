@@ -4,10 +4,10 @@ import styles from "./NavBar.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 import Button from "@/components/Button/Button";
-import Logo from "@/assets/vectors/testing.svg";
+import Logo from "@/assets/vectors/logo.svg";
 import BurgerSvg from "@/assets/vectors/burger.svg";
 import CloseIcon from "@/assets/vectors/close.svg";
-import logoTest from "@/assets/images/logoTest.png";
+import logoTest from "@/assets/assets/logo.svg";
 import cn from "classnames";
 import { usePathname } from "next/navigation";
 
@@ -24,10 +24,9 @@ const NavBar = () => {
       >
         <div className={styles.wrapper}>
           <div className={styles.leftContainer}>
-            {/* <Link className={styles.link} href={"/"}>
+            <Link className={styles.link} href={"/"}>
               <Logo className={styles.logo} />
-            </Link> */}
-            <Image src={logoTest} alt="logo" width={200} height={100} />
+            </Link>
             <div className={styles.listNav}>
               <Link
                 href={"/home"}
@@ -52,7 +51,7 @@ const NavBar = () => {
                   [styles.active]: pathName === "/about",
                 })}
               >
-                Qui somme nous ?
+                Qui sommes nous ?
               </Link>
               <Link
                 href={"/pricing"}
@@ -100,7 +99,6 @@ const NavBar = () => {
         )}
       >
         <div className={styles.headerMobileMenu}>
-          <Image src={logoTest} alt="logo" width={100} height={100} />
           <Logo className={styles.logo} />
           <button className={styles.button}>
             <CloseIcon
@@ -137,7 +135,7 @@ const NavBar = () => {
                 [styles.active]: pathName === "/about",
               })}
             >
-              Qui somme nous ?
+              Qui sommes-nous ?
             </Link>
             <Link
               onClick={() => setIsMenuClicked(!isMenuClicked)}

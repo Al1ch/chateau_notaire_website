@@ -59,7 +59,7 @@ export const services = {
         id: 8,
         title: "Fonds de commerce",
         description:
-          "Le fonds de commerce est une notion juridique composée d’éléments corporels (matériels, marchandises, …) et incorporels (clientèle, nom commercial, droit au bail, …). L’acquisition ou la vente d’un tel bien est une opération complexe qui nécessite l’intervention d’un professionnel qualifié. Notre office notarial se tient à votre dipsosition pour analyser votre situation, vous apporter les conseils ajustés, et rédiger avec soins le contrat de cession. L’ensemble des formalités (notamment auprès du Greffe) est également effectué par nos services. Nous vous assuraons ainsi un service de qualité et sécurisé pour l’ensemble de l’opération.",
+          "Le fonds de commerce est une notion juridique composée d’éléments corporels (matériels, marchandises, …) et incorporels (clientèle, nom commercial, droit au bail, …). L’acquisition ou la vente d’un tel bien est une opération complexe qui nécessite l’intervention d’un professionnel qualifié",
       },
     ],
   },

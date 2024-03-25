@@ -19,7 +19,7 @@ const FindUs = () => {
           <div className={styles.infoWrapper}>
             <div className={styles.adressContainer}>
               <h4 className={styles.descriptionInfo}>
-                Mr Paul-Emmanuel CHATEAU - NOTAIRE
+                Paul-Emmanuel CHATEAU - NOTAIRE
               </h4>
               <p className={styles.info}>
                 5 Rue du Général Jean Compans <br /> 31500 Toulouse
@@ -31,7 +31,7 @@ const FindUs = () => {
                 <span className={styles.contactName}>Mr CHATEAU : </span>{" "}
                 paulemmanuel.chateau@notaires.fr
               </p>
-              <p className={styles.info}>Tél : 05 61 83 23 87</p>
+              <p className={styles.info}>Tél : 05 32 59 79 07</p>
             </div>
 
             <div className={styles.horaireContainer}>
@@ -39,7 +39,7 @@ const FindUs = () => {
                 {`  Horaires d'ouverture :`}
               </h4>
               <p className={styles.info}>
-                Lundi - Vendredi : 9h - 12h / 14h - 18h
+                Lundi - Samedi : 9h - 12h / 14h - 19h
               </p>
             </div>
           </div>

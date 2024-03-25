@@ -9,8 +9,8 @@ const PricingSection = () => {
       <div className={styles.titleSection}>
         <h1 className={styles.title}> Tarifs </h1>
         <p className={styles.description}>
-          {`          Simplifiez vos démarches juridiques avec nos solutions notariales
-    abordables. Découvrez nos tarifs transparents`}
+          {`Simplifiez vos démarches juridiques avec nos solutions notariales
+    abordables. Découvrez nos tarifs transparents `}
         </p>
       </div>
       <div className={styles.cardList}>
