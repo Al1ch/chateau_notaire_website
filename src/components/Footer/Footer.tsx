@@ -17,10 +17,22 @@ const Footer = () => {
         </div>
         <div className={styles.footerColumnList}>
           <div className={styles.footerColumn}>
-            <h2 className={styles.title}>Socials</h2>
+            <h2 className={styles.title}>Réseaux sociaux</h2>
             <div className={styles.listItem}>
-              <span className={styles.text}>Instagram</span>
-              <span className={styles.text}>05 32 59 79 07</span>
+              <Link
+                href={
+                  "https://www.instagram.com/chateau_notaires?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                }
+                className={styles.link}
+              >
+                Instagram
+              </Link>
+              <Link
+                href={"https://www.linkedin.com/in/paul-emmanuel-chateau/"}
+                className={styles.link}
+              >
+                LinkedIn
+              </Link>{" "}
             </div>
           </div>
           <div className={styles.footerColumn}>
