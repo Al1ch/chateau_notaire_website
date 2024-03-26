@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./ServicesCard.module.scss";
 import { SvgComponent } from "../../../types/model";
 import Button from "@/components/Button/Button";
-import PeopleSvg from "@/assets/vectors/people.svg";
 import Link from "next/link";
 
 type Props = {
