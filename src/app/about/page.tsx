@@ -6,9 +6,9 @@ import FindUs from "@/components/FindUs/FindUs";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Qui Sommes-Nous",
+  title: "Qui Sommes-Nous | Paul-Emmanuel Chateau - Notaire",
   description:
-    "Maitrisant l'art de la légalité avec expertise, notre cabinet de notaire offre des services juridiques fiables et personnalisés. Protégez votre patrimoine, gérez vos successions et transactions immobilières en toute confiance avec nos notaires expérimentés. Contactez-nous dès aujourd'hui pour des conseils juridiques solides et des solutions sur mesure",
+    "Paul-Emmanuel Chateau, Je vous accompagne à chaque étape de votre vie et de vos transactions, assurant la sécurité et la légalité dans vos affaires familiales et commerciales",
 };
 
 export default function About() {

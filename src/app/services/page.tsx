@@ -5,6 +5,13 @@ import ServicesArticleSection from "@/components/ServicesArticleSection/Services
 import FindUs from "@/components/FindUs/FindUs";
 import { services } from "@/data/services";
 import FrequentQuestion from "@/components/FrequentQuestion/FrequentQuestion";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Nos Services |Immobilier Famille Entreprise",
+  description:
+    "Découvrez des services de notariat intégraux pour l'immobilier, la famille et l'entreprise, alliant expertise juridique et personnalisation. Protégez vos biens immobiliers, gérez les successions familiales et assurez la conformité juridique de votre entreprise avec notre équipe de notaires expérimentés. ",
+};
 
 export default function Services({
   searchParams,
