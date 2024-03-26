@@ -25,6 +25,11 @@
         padding: 12px;
         min-width: 175px;
     }
+    &.xl{
+        padding: 12px;
+        min-width: 175px;
+        width: 100%;
+    }
     &.primary{
         background-color: $primary;
         border: none ;

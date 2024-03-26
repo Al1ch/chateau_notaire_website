@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./PricingCard.module.scss";
 import Button from "@/components/Button/Button";
+import Link from "next/link";
 type Services = {
   title: string;
   price: string;
@@ -28,9 +29,14 @@ const PricingCard = ({ title, description, services }: Props) => {
           </div>
         ))}
       </div>
-      <Button size="lg" backgroundColor="transparent">
-        En Savoir Plus
-      </Button>
+      <Link
+        href={"mailto:paulemmanuel.chateau@notaires.fr"}
+        className={styles.link}
+      >
+        <Button size="xl" backgroundColor="transparent">
+          En Savoir Plus
+        </Button>
+      </Link>
     </div>
   );
 };
