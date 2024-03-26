@@ -20,7 +20,7 @@ const ServicesCard = ({ title, description, icon: Icon }: Props) => {
       </div>
       <div className={styles.bottomContainer}>
         <Icon className={styles.icon} />
-        <Link href={`/services?tab=${title}`} className={styles.link}>
+        <Link href={`/services?onglet=${title}`} className={styles.link}>
           <Button size="lg" backgroundColor="secondary" radius="rounded">
             En savoir plus
           </Button>

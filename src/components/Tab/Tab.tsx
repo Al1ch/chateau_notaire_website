@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Tab.module.scss";
 import cn from "classnames";
-import { useRouter, useParams, useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 
 type Tab = "Immobilier" | "Famille" | "Entreprise";
 
@@ -11,16 +11,16 @@ const Tab = () => {
   const params = useSearchParams();
 
   const [activeTab, setActiveTab] = useState<Tab>(
-    (params.get("tab") as Tab) || "Immobilier"
+    (params.get("onglet") as Tab) || "Immobilier"
   );
 
   useEffect(() => {
-    const tab = params.get("tab") as Tab;
+    const tab = params.get("onglet") as Tab;
     setActiveTab(tab || "Immobilier");
   }, [params]);
 
   const handleClick = (currentTab: string) => {
-    router.replace(`?tab=${currentTab}`);
+    router.replace(`?onglet=${currentTab}`);
     setActiveTab(currentTab as Tab);
   };
 

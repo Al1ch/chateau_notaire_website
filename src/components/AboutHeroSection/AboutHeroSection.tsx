@@ -4,9 +4,7 @@ import Image from "next/image";
 import paulPic from "@/assets/images/personna.jpg";
 import ScintillantLogo from "@/assets/vectors/scintillant.svg";
 import InstagramLogo from "@/assets/vectors/instagram.svg";
-import FacebookLogo from "@/assets/vectors/facebook.svg";
 import Button from "@/components/Button/Button";
-import TwiterLogo from "@/assets/vectors/twitter.svg";
 import Link from "next/link";
 import LinkedInLogo from "@/assets/vectors/linkedin.svg";
 
