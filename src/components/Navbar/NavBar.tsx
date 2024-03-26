@@ -1,13 +1,11 @@
 "use client";
-import React, { use, useState } from "react";
+import React, { useState } from "react";
 import styles from "./NavBar.module.scss";
-import Image from "next/image";
 import Link from "next/link";
 import Button from "@/components/Button/Button";
 import Logo from "@/assets/vectors/logo.svg";
 import BurgerSvg from "@/assets/vectors/burger.svg";
 import CloseIcon from "@/assets/vectors/close.svg";
-import logoTest from "@/assets/assets/logo.svg";
 import cn from "classnames";
 import { usePathname } from "next/navigation";
 
@@ -29,7 +27,7 @@ const NavBar = () => {
             </Link>
             <div className={styles.listNav}>
               <Link
-                href={"/home"}
+                href={"/"}
                 className={cn(styles.link, {
                   [styles.active]: pathName === "/",
                 })}
@@ -46,17 +44,17 @@ const NavBar = () => {
               </Link>
 
               <Link
-                href={"/about"}
+                href={"/qui-sommes-nous"}
                 className={cn(styles.link, {
-                  [styles.active]: pathName === "/about",
+                  [styles.active]: pathName === "/qui-sommes-nous",
                 })}
               >
                 Qui sommes nous ?
               </Link>
               <Link
-                href={"/pricing"}
+                href={"/tarifs"}
                 className={cn(styles.link, {
-                  [styles.active]: pathName === "/pricing",
+                  [styles.active]: pathName === "/tarifs",
                 })}
               >
                 Tarifs
@@ -110,7 +108,7 @@ const NavBar = () => {
         <div className={styles.contentMenu}>
           <div className={styles.list}>
             <Link
-              href={"/home"}
+              href={"/"}
               onClick={() => setIsMenuClicked(!isMenuClicked)}
               className={cn(styles.link, {
                 [styles.active]: pathName === "/",
@@ -130,18 +128,18 @@ const NavBar = () => {
 
             <Link
               onClick={() => setIsMenuClicked(!isMenuClicked)}
-              href={"/about"}
+              href={"/qui-sommes-nous"}
               className={cn(styles.link, {
-                [styles.active]: pathName === "/about",
+                [styles.active]: pathName === "/qui-sommes-nous",
               })}
             >
               Qui sommes-nous ?
             </Link>
             <Link
               onClick={() => setIsMenuClicked(!isMenuClicked)}
-              href={"/pricing"}
+              href={"/tafis"}
               className={cn(styles.link, {
-                [styles.active]: pathName === "/pricing",
+                [styles.active]: pathName === "/tarifs",
               })}
             >
               Tarifs

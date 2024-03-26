@@ -28,8 +28,8 @@ export default function Services({
       <h1 className={styles.title}> Nos Services</h1>
       <div className={styles.wrapper}>
         <Tab />
-        {searchParams.tab
-          ? serviceContent[searchParams.tab as keyof typeof serviceContent]
+        {searchParams.onglet
+          ? serviceContent[searchParams.onglet as keyof typeof serviceContent]
           : serviceContent.Immobilier}
       </div>
       <FrequentQuestion />

@@ -20,7 +20,7 @@ export default function RootLayout({
   readonly children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />

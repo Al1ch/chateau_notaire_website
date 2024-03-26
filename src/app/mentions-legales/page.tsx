@@ -7,8 +7,7 @@ export default function legalMentions() {
       <div className={styles.section}>
         <h1 className={styles.title}>Mentions légales</h1>
         <p className={styles.description}>
-          ‍ Le site{" "}
-          <span className={styles.underline}>« www.nom-site.fr » </span>
+          Le site<span className={styles.underline}>« www.nom-site.fr »</span>
           (ci-après le « Site ») est édité par Paul-Emmanuel Chateau, SARL au
           capital de 38.000 euros, dont le siège social est situé 5 Rue du
           Général Jean Compans, 31500 Toulouse, immatriculée au Registre du
