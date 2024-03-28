@@ -7,12 +7,13 @@ export default function legalMentions() {
       <div className={styles.section}>
         <h1 className={styles.title}>Mentions légales</h1>
         <p className={styles.description}>
-          Le site <span className={styles.underline}>« www.nom-site.fr »</span>
-          (ci-après le « Site ») est édité par Paul-Emmanuel Chateau, SARL au
-          capital de 38.000 euros, dont le siège social est situé 5 Rue du
+          Le site
+          <span className={styles.underline}>« www.chateau-notaires.fr »</span>
+          (ci-après le « Site ») est édité par Paul-Emmanuel Chateau,
+          Entrepreneur Individuel , dont le siège social est situé 5 Rue du
           Général Jean Compans, 31500 Toulouse, immatriculée au Registre du
           commerce et des sociétés et ayant pour numéro unique d’identification
-          851 391 953 – n°SIRET : 85139195300037. Les Directeurs de la
+          824 096 192 – n°SIRET : 82409619200037 . Les Directeurs de la
           Publication sont Monsieur Gautier de Malafosse et Monsieur Clément
           VEDEL, associés-gérants. Paul-Emmanuel Chateau informe les internautes
           que les informations figurant sur le site ne constituent en rien des
@@ -20,7 +21,6 @@ export default function legalMentions() {
           responsabilité professionnelle du cabinet, il ne s’agit que
           d’informations d’ordre général qui n’ont pas vocation à répondre à des
           questions particulières. ‍ Contact : paulemmanuel.chateau@notaires.fr
-          Chateau.fr
         </p>
       </div>
       <div className={styles.section}>
