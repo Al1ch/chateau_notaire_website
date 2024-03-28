@@ -4,7 +4,7 @@ import styles from "./Tab.module.scss";
 import cn from "classnames";
 import { useRouter, useSearchParams } from "next/navigation";
 
-type Tab = "Immobilier" | "Famille" | "Entreprise";
+type Tab = "Immobilier" | "Famille" | "Entreprise" | "Mediation";
 
 const Tab = () => {
   const router = useRouter();
@@ -52,6 +52,14 @@ const Tab = () => {
         >
           {" "}
           Entreprise
+        </button>
+        <button
+          onClick={() => handleClick("Médiation")}
+          className={cn(styles.tab, {
+            [styles.active]: activeTab === "Médiation",
+          })}
+        >
+          Médiation
         </button>
       </div>
     </div>

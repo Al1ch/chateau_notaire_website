@@ -22,6 +22,7 @@ export default function Services({
     Immobilier: <ServicesArticleSection {...services.Immobilier} />,
     Famille: <ServicesArticleSection {...services.Famille} />,
     Entreprise: <ServicesArticleSection {...services.Commercial} />,
+    Médiation: <ServicesArticleSection {...services.Mediation} />,
   };
   return (
     <div className={styles.container}>

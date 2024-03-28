@@ -53,6 +53,9 @@ const Footer = () => {
               >
                 Entreprise
               </Link>
+              <Link href={`/services?onglet=Médiation`} className={styles.link}>
+                Médiation
+              </Link>
             </div>
           </div>
           <div className={styles.footerColumn}>

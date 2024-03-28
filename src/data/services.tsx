@@ -125,4 +125,25 @@ export const services = {
       },
     ],
   },
+
+  Mediation: {
+    id: "Médiation",
+    title: "Besoin d'un accompagnement pour un acte de Médiation ?",
+    description:
+      "La médiation est un mode alternatif de règlement des conflits qui permet aux parties de trouver une solution amiable à leur différend, avec l’aide d’un tiers neutre et impartial, le médiateur. Le notaire peut intervenir en tant que médiateur familial, médiateur de la consommation ou médiateur de la consommation.",
+    services: [
+      {
+        id: 18,
+        title: "Médiation familiale",
+        description:
+          "La médiation familiale est un processus de résolution des conflits qui permet aux membres d’une famille de trouver des solutions aux problèmes qui les opposent. Le médiateur familial est un professionnel neutre et impartial qui va aider les parties à trouver un accord. Le notaire peut intervenir en tant que médiateur familial.",
+      },
+      {
+        id: 19,
+        title: "Médiation de la consommation",
+        description:
+          "La médiation de la consommation est un mode de résolution des litiges entre un consommateur et un professionnel. Le médiateur de la consommation est un professionnel neutre et impartial qui va aider les parties à trouver un accord. Le notaire peut intervenir en tant que médiateur de la consommation.",
+      },
+    ],
+  },
 };
