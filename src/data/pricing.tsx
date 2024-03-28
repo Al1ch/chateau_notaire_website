@@ -44,6 +44,11 @@ export const domains = [
         price: "0,6% des avoirs (min. 600€ T.T.C)",
         id: 1,
       },
+      {
+        title: "Consentement à adoption",
+        price: "0,6% des avoirs (min. 600€ T.T.C)",
+        id: 9,
+      },
     ],
   },
   {
