@@ -4,7 +4,7 @@ import TickSvg from "@/assets/vectors/tick.svg";
 
 type Props = {
   title: string;
-  listItem: string[];
+  listItem?: string[];
   description: string;
 };
 
@@ -14,13 +14,13 @@ const RoleCard = ({ title, listItem, description }: Props) => {
       <div className={styles.infoCard}>
         <h3 className={styles.title}>{title} </h3>
         <p className={styles.description}>{description}</p>
-        <ul className={styles.list}>
+        {/* <ul className={styles.list}>
           {listItem.map((item, index) => (
             <li key={index} className={styles.listItem}>
               <TickSvg className={styles.logo} /> {item}
             </li>
           ))}
-        </ul>
+        </ul> */}
       </div>
     </div>
   );

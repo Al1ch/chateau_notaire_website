@@ -39,7 +39,9 @@ const FindUs = () => {
                 {`  Horaires d'ouverture :`}
               </h4>
               <p className={styles.info}>
-                Lundi - Samedi : 9h - 12h / 14h - 19h
+                Lundi - Vendredi : 9h - 12h / 14h - 19h
+                <br />
+                Samedi : Sur rendez-vous
               </p>
             </div>
           </div>

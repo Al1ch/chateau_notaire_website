@@ -7,7 +7,7 @@ const NotaireRoleSection = () => {
   return (
     <div className={styles.container}>
       <div className={styles.titleContainer}>
-        <h1 className={styles.title}>Les Rôles du Notaire</h1>
+        <h1 className={styles.title}>Le Rôle Et Les Missions Du Notaire </h1>
         <ScintillantLogo className={styles.logo} />
         <p className={styles.descriptionTitle}>
           Le notaire assure la validité légale des contrats et transactions,
@@ -17,7 +17,8 @@ const NotaireRoleSection = () => {
       <div className={styles.servicesList}>
         <RoleCard
           title="Sécurité juridique"
-          description="Le notaire est en charge de la sécurité juridique des actes qu'il rédige"
+          description="Le notaire est un officier public ministériel nommé par arrêté du Garde des Sceaux.
+          Son rôle et ses missions sont essentielles pour l’exercice de son activité."
           listItem={[
             "Eclairer le consentement",
             " Gérer efficacité des actes",
@@ -26,7 +27,7 @@ const NotaireRoleSection = () => {
         />
         <RoleCard
           title="Devoir de Conseil"
-          description="Le notaire a un devoir de conseil envers ses clients ainsi que de neutralité"
+          description="Le notaire doit éclairer le consentement des personnes et leurs délivrée une information la plus complète et appropriée"
           listItem={[
             "Eclairer le consentement",
             " Gérer efficacité des actes",
@@ -35,7 +36,7 @@ const NotaireRoleSection = () => {
         />
         <RoleCard
           title="Signature Actes"
-          description="Le notaire est le seul habilité à signer les actes authentiques"
+          description="Le notaire est le seul habilité à authentifier les actes Par son sceau, le notaire confère date certaine, force probante et force exécutoire à l’acte"
           listItem={[
             "Eclairer le consentement",
             " Gérer efficacité des actes",

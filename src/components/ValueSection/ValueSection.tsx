@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./ValueSection.module.scss";
 import ScintillantLogo from "@/assets/vectors/scintillant.svg";
 import Image from "next/image";
-import womenImage from "@/assets/images/notaire.webp";
+import office from "@/assets/images/office.jpg";
 import ValueCard from "@/components/ValueCard/ValueCard";
 import JugeSvg from "@/assets/vectors/juge.svg";
 import EpeeSvg from "@/assets/vectors/epee.svg";
@@ -22,10 +22,10 @@ const ValueSection = () => {
           </div>
           <p
             className={styles.description}
-          >{`Un litige peut être chargé d'émotions et d'incertitudes. Nos avocats s'engagent à vous apporter le soutien, l'attention et la considération que vous méritez.`}</p>
+          >{`L’étude est à taille humaine, ce qui nous permet de privilégier la personne et ses attentes`}</p>
           <div className={styles.imageContainer}>
             <Image
-              src={womenImage}
+              src={office}
               alt="Femme en équilibre"
               width={550}
               height={600}
@@ -35,18 +35,19 @@ const ValueSection = () => {
         </div>
         <div className={styles.valueList}>
           <ValueCard
-            title="Respect"
+            title="Réactivité"
             description="Au cœur de notre pratique notariale, nous honorons chaque individu avec considération et équité"
             logo={CoeurSvg}
           />
           <ValueCard
-            title="Protéger votre entreprise"
-            description="Sécurisez votre activité avec nos solutions juridiques fiables pour prospérer dans un environnement commercial dynamique"
+            title="Disponibilité"
+            description="L’office mettra tout en œuvre pour vous accompagner et s’adapter à vos situations professionnelles et personnelles."
             logo={EpeeSvg}
           />
           <ValueCard
-            title="Confidentialité"
-            description="Nous garantissons la confidentialité absolue de vos informations, assurant ainsi la sécurité et la confiance dans nos services notariaux "
+            title="Confidentialité "
+            description="Nous garantissons la confidentialité absolue de vos informations, assurant ainsi la sécurité et la confiance dans nos services notariaux.
+            "
             logo={CadenaSvg}
           />
         </div>

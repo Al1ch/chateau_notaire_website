@@ -11,9 +11,9 @@ const Footer = () => {
       <div className={styles.footerContent}>
         <div className={styles.info}>
           <Logo className={styles.logo} />
-          <p className={styles.text}>
+          {/* <p className={styles.text}>
             {`Notaire, j'apporte conseils, solutions et créativité aux entreprises et indépendants.`}{" "}
-          </p>
+          </p> */}
         </div>
         <div className={styles.footerColumnList}>
           <div className={styles.footerColumn}>
@@ -68,7 +68,8 @@ const Footer = () => {
                 <span className={styles.text}>05 32 59 79 07</span>
                 <span className={styles.text}>
                   5 Rue du Général Jean Compans,
-                  <br /> 31500 Toulouse
+                  <br />
+                  31500 Toulouse
                 </span>
               </div>
             </div>

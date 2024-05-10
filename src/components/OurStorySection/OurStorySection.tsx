@@ -16,9 +16,44 @@ const OurStorySection = () => {
           <h2 className={styles.title}>Notre Histoire</h2>
           <ScintillantLogo />
         </div>
-        <p className={styles.description}>
-          {`    Le droit évolue, tout comme les attentes des clients à l'égard du cabinet qu'ils choisissent pour les représenter. Conscient de la perception souvent répandue selon laquelle les services juridiques sont coûteux et exclusifs, Law rules continue de suivre une voie très différente.`}
-        </p>
+        <div className={styles.description}>
+          <p className={styles.textDetail}>
+            {`   Étude fondée par Maître Paul-Emmanuel CHATEAU suite à son arrêté de nomination par le Garde des Sceaux le 25 avril 2023 publié au Journal Officiel le 4 mai 2023.`}
+          </p>
+          <br />
+
+          <p className={styles.textDetail}>
+            Originaire de Toulouse, il s’est rapidement intéressé au Droit par
+            sa rigueur et par l’influence de sa famille, composée de
+            professionnels du droit.
+          </p>
+          <br />
+
+          <p className={styles.textDetail}>
+            Titulaire du Diplôme de Notaire à la faculté de Droit de Toulouse,
+            il a su développer à travers ses différentes expériences au sein
+            d’études toulousaines une compétence pluridisciplinaire en droit
+            immobilier, droit des entreprises, droit de la Famille et gestion de
+            patrimoine.
+          </p>
+          <br />
+          <p className={styles.textDetail}>
+            L’exercice de son activité l’a amené à se former à la médiation à la
+            Faculté de Droit de Toulouse.
+          </p>
+          <br />
+
+          <p className={styles.textDetail}>
+            Doté d’une bonne capacité d’écoute et d’analyse, il met ses
+            compétences au service de ses clients pour la recherche permanente
+            de solutions optimales.
+          </p>
+          <br />
+          <p className={styles.textDetail}>
+            Il anime des formations auprès de professionnels pour les
+            accompagner et les aider dans leur domaine.
+          </p>
+        </div>
         <div className={styles.listImages}>
           <div className={styles.card}>
             <Image

@@ -32,10 +32,14 @@
 }
 
 .profileImage{
-    border-radius: 8px;
     width: 100%;
-    max-width: 400px;
-    height: auto;
+    max-width: 300px;
+    height: 300px;
+    @include tablet{
+        max-width: 400px;
+        height: 400px;
+    }
+
     @include desktop{
         width: 400px;
     }

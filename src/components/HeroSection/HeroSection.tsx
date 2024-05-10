@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import styles from "./HeroSection.module.scss";
 import Button from "@/components/Button/Button";
-import paulPic from "@/assets/images/personna.jpg";
+import paulPic from "@/assets/images/paulPicture.jpg";
 import ScintillantLogo from "@/assets/vectors/scintillant.svg";
 import MarianneLogo from "@/assets/vectors/marianne.svg";
 import Link from "next/link";
@@ -19,8 +19,9 @@ const HeroSection = () => {
           <ScintillantLogo className={styles.logo} />
 
           <p className={styles.description}>
-            Comprendre vos objectifs, votre métier, pour fournir un conseil
-            juridique adaptés, clairs et humains
+            Je vous accompagne dans toutes les étapes importantes de votre vie,
+            de la naissance de votre projet à sa concrétisation et vous aide à
+            préparer l’avenir en toute sérénité
             {/* Nous vous accompagnons dans tous les moments de votre vie . */}
           </p>
         </div>

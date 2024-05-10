@@ -128,20 +128,21 @@
 .description{
     color: $secondary;
     font: $text;
+    text-align: justify;
 }
 
 
 
 .heroImage{
     border-radius: 0 30px 0 0;
-    width: 300px;
-    height: 350px;
+    width: 250px;
+    height: 300px;
     @include tablet{
-        width: 350px;
-        height: 400px;
+        width: 300px;
+        height: 375px;
     }
     @include desktop{
-        width: 375px;
+        width: 300px;
         height: 450px;
         min-height: 375px;
         max-height: 500px;

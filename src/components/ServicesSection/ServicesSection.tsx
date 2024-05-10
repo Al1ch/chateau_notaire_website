@@ -14,14 +14,14 @@ const ServicesSection = () => {
           <div className={styles.titleSection}>
             <div className={styles.titleContainer}>
               <h1 className={styles.title}>
-                Explorer La Perfection <br /> Dans Notre Domaine
+                Un Accompagnement Humain
+                <br /> Sur Mesure
               </h1>
               <ScintillantLogo className={styles.logo} />
+              <p className={styles.description}>
+                {`Je suis à votre écoute pour vous conseiller et assurer la sécurité juridique de vos actes authentiques dans les différents domaines du droit.`}
+              </p>
             </div>
-            <p className={styles.description}>
-              {`Nous sommes vos notaires dévoués
-avec une expertise notariale spécialisée, nous vous accompagnons à chaque étape de votre vie et de vos transactions, assurant la sécurité et la légalité dans vos affaires familiales et commerciales.`}
-            </p>
           </div>
           <div className={styles.servicesList}>
             <ServicesCard
