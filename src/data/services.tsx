@@ -67,7 +67,7 @@ export const services = {
     id: "Famille",
     title: "Besoin d'un accompagnement pour un acte Familial ?",
     description:
-      "Le notaire est le professionnel du droit de la famille. Il est compétent pour conseiller, rédiger et authentifier les actes de la vie familiale. Il est le conseil privilégié des familles pour les accompagner dans les moments importants de leur vie : mariage, PACS, donation, succession, adoption, divorce, …",
+      "Le notaire est le professionnel du droit de la famille. Il est compétent pour conseiller, rédiger et authentifier les actes de la vie familiale. Il est le conseil privilégié des familles pour les accompagner dans les moments importants de leur vie : mariage, PACS, donation, succession, adoption, divorce…",
     services: [
       {
         id: 9,

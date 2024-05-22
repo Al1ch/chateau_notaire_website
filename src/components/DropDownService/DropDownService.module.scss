@@ -12,6 +12,7 @@
     border: none;
     gap: 16px;
     max-width: 500px;
+
     @include desktop{
         max-width: 600px;
     }
@@ -66,6 +67,6 @@
     transition: height ease 0.5s;
     font: $text;
     color: $text-color;
-    text-align: left;
+    text-align: justify;
 
 }

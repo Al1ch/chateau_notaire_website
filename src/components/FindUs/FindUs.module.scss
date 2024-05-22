@@ -55,7 +55,7 @@
 
 .descriptionInfo{
     font: $card-description;
-    color: $text-color;
+    color: $secondary;
 }
 
 .infoWrapper{
@@ -86,9 +86,6 @@
     color: $text-color;
 }
 
-.contactName{
-    color:$secondary;
-}
 
 .contactPhone{
     font: $text-rafine;

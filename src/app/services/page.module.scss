@@ -9,6 +9,7 @@
     flex-direction: column;
     gap: 24px;
     background-color: $background-color;
+
     @include desktop{
         padding-top: 64px;
 
@@ -28,6 +29,7 @@
         padding:  0 72px 72px 72px;
 
     }
+
 
 }
 

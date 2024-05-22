@@ -1,4 +1,4 @@
-export const domains = [
+export const prices = [
   {
     id: 1,
     title: "DROIT FAMILIAL",
@@ -21,7 +21,7 @@ export const domains = [
       },
       {
         title: "Testament olographe ",
-        price: "100,00 € T.T.C",
+        price: "160,00 € T.T.C",
         id: 8,
       },
       {
@@ -41,13 +41,28 @@ export const domains = [
       },
       {
         title: "Convention de quasi-usufruit",
-        price: "0,6% des avoirs (min. 600€ T.T.C)",
+        price: "0,6% des avoirs (min. 700€ T.T.C)",
         id: 1,
       },
       {
-        title: "Consentement à adoption",
-        price: "0,6% des avoirs (min. 600€ T.T.C)",
+        title: "Adoption par le conjoint",
+        price: "250,00 € T.T.C",
         id: 9,
+      },
+      {
+        title: "Testament authentique",
+        price: "260,00 € T.T.C",
+        id: 10,
+      },
+      {
+        title: "Paiement des factures",
+        price: "30,00 € T.T.C",
+        id: 11,
+      },
+      {
+        title: "Déblocage comptes bancaires",
+        price: "80,00 T.T.C",
+        id: 12,
       },
     ],
   },
@@ -99,7 +114,7 @@ export const domains = [
     description: "Idéal pour la rechercher de nos service immobilier",
     services: [
       {
-        title: "Rédaction d'une promesse unilatérale de vente ou d’achat",
+        title: "Promesse unilatérale de vente ou d’achat",
         price: "240,00 € T.T.C.",
         id: 1,
       },
@@ -109,13 +124,13 @@ export const domains = [
         id: 2,
       },
       {
-        title: "Consultation écrite détachable",
-        price: "240,00 € T.T.C.",
+        title: "Délibération de société pour vente/achat",
+        price: "96,00 € T.T.C",
         id: 3,
       },
       {
         title: "Procuration sous signature privée ",
-        price: "OFFERT",
+        price: "60,00 € T.T.C",
         id: 4,
       },
     ],

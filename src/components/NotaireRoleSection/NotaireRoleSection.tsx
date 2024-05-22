@@ -11,14 +11,14 @@ const NotaireRoleSection = () => {
         <ScintillantLogo className={styles.logo} />
         <p className={styles.descriptionTitle}>
           Le notaire assure la validité légale des contrats et transactions,
-          garantissant la sécurité juridique des parties impliquées
+          garantissant la sécurité juridique des parties impliquées. Son rôle et
+          ses missions sont essentielles pour l’exercice de son activité.
         </p>
       </div>
       <div className={styles.servicesList}>
         <RoleCard
           title="Sécurité juridique"
-          description="Le notaire est un officier public ministériel nommé par arrêté du Garde des Sceaux.
-          Son rôle et ses missions sont essentielles pour l’exercice de son activité."
+          description="Le notaire est un officier public ministériel nommé par arrêté du Garde des Sceaux."
           listItem={[
             "Eclairer le consentement",
             " Gérer efficacité des actes",

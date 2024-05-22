@@ -1,13 +1,13 @@
 export const questions = [
   {
     id: 1,
-    title: "Qu'est-ce qu'un notaire et quel est son rôle ?",
+    title: "Qu'est-ce qu'un notaire et quel est son rôle juridique ?",
     description:
       "Un notaire est un professionnel du droit habilité à authentifier et à certifier les actes et les contrats. Son rôle principal est d'assurer la validité légale des transactions immobilières, des successions, des testaments, et d'autres documents juridiques importants.",
   },
   {
     id: 2,
-    title: "Quand devrais-je envisager de consulter un notaire ?",
+    title: "Quand dois-je envisager à consulter un notaire ?",
     description:
       "Il est recommandé de consulter un notaire lors de toute transaction immobilière, telle que l'achat ou la vente d'une propriété, la rédaction d'un testament, une planification successorale, la création d'une société, ou tout autre acte juridique important.",
   },
@@ -20,7 +20,7 @@ export const questions = [
   },
   {
     id: 4,
-    title: "Combien coûtent les services d'un notaire?",
+    title: "Quels sont les tarifs appliqués pour les services d'un notaire?",
     description:
       "Les honoraires d'un notaire varient en fonction de la nature de la prestation et de la complexité de l'affaire. Il est préférable de discuter des coûts lors de votre première consultation afin d'obtenir une estimation précise.",
   },

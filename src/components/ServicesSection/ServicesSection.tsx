@@ -27,17 +27,17 @@ const ServicesSection = () => {
             <ServicesCard
               title="Immobilier"
               icon={ImmobillierLogo}
-              description="Notre équipe saura vous accompagner pour vos projets d’acquisition et de vente immobilière, du conseil à la signature en intégrant enjeux fiscaux. "
+              description="Notre équipe vous accompagne pour vos projets d’acquisition et de vente immobilière, du conseil jusqu’à la signature de l’acte définitif"
             />
             <ServicesCard
               title={"Famille"}
-              description="Nous sommes là pour vous guider à travers les moments clés de la vie familiale, offrant un soutien juridique pour assurer le bien-être et la sécurité de votre famille."
+              description="Nous vous conseillons a travers les moments clefs de la vie familiale, du contrat de mariage, aux donations et règlement de succession "
               icon={FammilleSvg}
             />
             <ServicesCard
               title="Entreprise"
               icon={EntrepriseSvg}
-              description="Nous vous accompagnons à chaque étape de votre parcours entrepreneurial, garantissant la croissance et la protection durables de votre entreprise avec prévoyance"
+              description="Nous vous accompagnons à chaque étape de la vie de votre société, de sa naissance, de sa transmission jusqu'à sa dissolution"
             />
           </div>
         </div>

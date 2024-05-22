@@ -40,10 +40,10 @@
     border-bottom: 2px solid $gray;
     padding: 16px 0 ;
     @include tablet{
-        min-height: 600px;
+        min-height: 800px;
     }
     @include desktop{
-        min-height: 700px;
+        min-height: 1000px;
     }
     color: $text-color;
 }

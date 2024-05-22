@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./PricingSection.module.scss";
-import { domains } from "@/data/pricing";
+import { prices } from "@/data/pricing";
 import PricingCard from "@/components/PricingCard/PricingCard";
 
 const PricingSection = () => {
@@ -14,7 +14,7 @@ const PricingSection = () => {
         </p>
       </div>
       <div className={styles.cardList}>
-        {domains.map((domain) => (
+        {prices.map((domain) => (
           <PricingCard
             key={domain.id}
             title={domain.title}

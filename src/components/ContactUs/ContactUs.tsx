@@ -33,7 +33,7 @@ const ContactUs = () => {
         <div className={styles.squareBorder}>
           <h4 className={styles.titleContact}>Consultation gratuite</h4>
           <p className={styles.squareDescription}>
-            vous pouvez obtenir une consultation gratuite et une évaluation de
+            Vous pouvez obtenir une consultation gratuite et une évaluation de
             votre dossier en nous contactant au numéro suivant
           </p>
           <div className={styles.contactSection}>
