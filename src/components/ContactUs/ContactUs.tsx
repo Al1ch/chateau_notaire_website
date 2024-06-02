@@ -16,9 +16,9 @@ const ContactUs = () => {
           <Scintillant />
         </div>
         <p className={styles.description}>
-          Nous sommes toujours disponibles pour de nouvelles affaires, petites
-          ou grandes. Envoyez-nous un courriel et nous vous contacterons
-          rapidement, ou téléphonez-nous entre 8h00 et 19h00 du lundi au samedi
+          Nous sommes toujours disponibles pour vous conseiller. Envoyez-nous un
+          courriel et nous vous contacterons rapidement, ou téléphonez nous du
+          lundi au vendredi de 9h à 19h
         </p>
         <Link
           href="mailto:paulemmanuel.chateau@notaires.fr"

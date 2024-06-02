@@ -42,9 +42,7 @@
     @include tablet{
         min-height: 800px;
     }
-    @include desktop{
-        min-height: 1000px;
-    }
+
     color: $text-color;
 }
 

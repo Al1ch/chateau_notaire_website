@@ -1,7 +1,7 @@
 export const questions = [
   {
     id: 1,
-    title: "Qu'est-ce qu'un notaire et quel est son rôle juridique ?",
+    title: "Qu'est-ce qu'un notaire et quel est son rôle ?",
     description:
       "Un notaire est un professionnel du droit habilité à authentifier et à certifier les actes et les contrats. Son rôle principal est d'assurer la validité légale des transactions immobilières, des successions, des testaments, et d'autres documents juridiques importants.",
   },
