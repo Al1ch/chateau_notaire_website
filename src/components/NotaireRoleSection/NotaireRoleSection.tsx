@@ -10,15 +10,15 @@ const NotaireRoleSection = () => {
         <h1 className={styles.title}>Le Rôle Et Les Missions Du Notaire </h1>
         <ScintillantLogo className={styles.logo} />
         <p className={styles.descriptionTitle}>
-          Le notaire assure la validité légale des contrats et transactions,
-          garantissant la sécurité juridique des parties impliquées. Son rôle et
-          ses missions sont essentielles pour l’exercice de son activité.
+          Le notaire est un officier public ministériel nommé par le Garde des
+          sceaux. Son rôle et ses missions sont essentielles pour l’exercice de
+          son activité.
         </p>
       </div>
       <div className={styles.servicesList}>
         <RoleCard
           title="Sécurité juridique"
-          description="Le notaire est un officier public ministériel nommé par arrêté du Garde des Sceaux."
+          description="Le notaire assure la validité légale des contrats garantissante la sécurité juridique des parties"
           listItem={[
             "Eclairer le consentement",
             " Gérer efficacité des actes",
@@ -26,7 +26,7 @@ const NotaireRoleSection = () => {
           ]}
         />
         <RoleCard
-          title="Devoir de Conseil"
+          title="Devoir de conseil"
           description="Le notaire doit éclairer le consentement des personnes et leurs délivrée une information la plus complète et appropriée"
           listItem={[
             "Eclairer le consentement",
@@ -35,8 +35,8 @@ const NotaireRoleSection = () => {
           ]}
         />
         <RoleCard
-          title="Signature Actes"
-          description="Le notaire est le seul habilité à authentifier les actes Par son sceau, le notaire confère date certaine, force probante et force exécutoire à l’acte"
+          title="Authentification des Actes"
+          description="Par son sceau, le notaire confère date certaine, force probante et force exécutoire à l’acte"
           listItem={[
             "Eclairer le consentement",
             " Gérer efficacité des actes",

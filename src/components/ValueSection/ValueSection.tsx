@@ -16,7 +16,7 @@ const ValueSection = () => {
         <div className={styles.leftSide}>
           <div className={styles.titleSection}>
             <div className={styles.titleContainer}>
-              <h1 className={styles.title}>Les Valeurs Qui Nous anime</h1>
+              <h1 className={styles.title}>Les Valeurs Qui Nous Animent</h1>
               <ScintillantLogo className={styles.logo} />
             </div>
           </div>
@@ -46,8 +46,7 @@ const ValueSection = () => {
           />
           <ValueCard
             title="Confidentialité "
-            description="Nous garantissons la confidentialité absolue de vos informations, assurant ainsi la sécurité et la confiance dans nos services notariaux.
-            "
+            description="Nous garantissons la confidentialité de vos informations  et de nos échanges"
             logo={CadenaSvg}
           />
         </div>

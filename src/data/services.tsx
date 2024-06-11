@@ -121,7 +121,7 @@ export const services = {
         id: 17,
         title: "Changement matrimonial",
         description:
-          "Dans l'intérêt de la famille et après deux ans de mariage, les époux peuvent changer partiellement ou complètement de régime matrimonial. La modification du régime matrimonial est obligatoirement établie par acte notarié.",
+          "Dans l'intérêt de la famille, les époux peuvent changer partiellement ou complètement de régime matrimonial. La modification du régime matrimonial est obligatoirement établie par acte notarié.",
       },
     ],
   },
