@@ -54,16 +54,6 @@ export const prices = [
         price: "260,00 € T.T.C",
         id: 10,
       },
-      {
-        title: "Paiement des factures",
-        price: "30,00 € T.T.C",
-        id: 11,
-      },
-      {
-        title: "Déblocage comptes bancaires",
-        price: "80,00 T.T.C",
-        id: 12,
-      },
     ],
   },
   {

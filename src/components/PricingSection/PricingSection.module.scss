@@ -38,6 +38,14 @@
     text-align: center;
 }
 
+.legalDescription{
+    font: $footer-text;
+    font-size: 14px;
+    color: $secondary;
+    text-align: center;
+
+}
+
 
 .cardList{
     display: flex;

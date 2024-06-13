@@ -25,7 +25,7 @@ const OurStorySection = () => {
           <p className={styles.textDetail}>
             Originaire de Toulouse, il s’est rapidement intéressé au Droit par
             sa rigueur et par l’influence de sa famille, composée de
-            professionnels du droit.
+            professionnels <br></br> du droit.
           </p>
           <br />
 
@@ -38,8 +38,8 @@ const OurStorySection = () => {
           </p>
           <br />
           <p className={styles.textDetail}>
-            L’exercice de son activité l’a amené à se former à la médiation à la
-            Faculté de Droit de Toulouse.
+            L’exercice de son activité l’a amené à se former à la médiation au
+            sein de la faculté de Toulouse
           </p>
           <br />
 
