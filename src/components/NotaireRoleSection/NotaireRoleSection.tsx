@@ -35,7 +35,7 @@ const NotaireRoleSection = () => {
           ]}
         />
         <RoleCard
-          title="Authentification des Actes"
+          title="Authentification"
           description="Par son sceau, le notaire confère date certaine, force probante et force exécutoire à l’acte"
           listItem={[
             "Eclairer le consentement",

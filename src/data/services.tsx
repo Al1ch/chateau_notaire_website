@@ -128,9 +128,9 @@ export const services = {
 
   Mediation: {
     id: "Médiation",
-    title: "Besoin d'un accompagnement pour un acte de Médiation ?",
+    title: "Besoin d'un accompagnement dans la Médiation ?",
     description:
-      "La médiation est un mode alternatif de règlement des conflits qui permet aux parties de trouver une solution amiable à leur différend, avec l’aide d’un tiers neutre et impartial, le médiateur. Le notaire peut intervenir en tant que médiateur familial, médiateur de la consommation ou médiateur de la consommation.",
+      "La médiation est un mode alternatif de règlement des conflits qui permet aux parties de trouver une solution amiable à leur différend, avec l’aide d’un tiers neutre et impartial, le médiateur. Le notaire peut intervenir en tant que médiateur familial, médiateur de la consommation.",
     services: [
       {
         id: 18,

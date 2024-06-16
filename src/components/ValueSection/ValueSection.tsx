@@ -22,7 +22,7 @@ const ValueSection = () => {
           </div>
           <p
             className={styles.description}
-          >{`L’étude est à taille humaine, ce qui nous permet de privilégier la personne et ses attentes`}</p>
+          >{`L’étude est à taille humaine, ce qui nous permet de privilégier la personne et ses attentes.`}</p>
           <div className={styles.imageContainer}>
             <Image
               src={office}
@@ -36,12 +36,12 @@ const ValueSection = () => {
         <div className={styles.valueList}>
           <ValueCard
             title="Réactivité"
-            description="Au cœur de notre pratique notariale, nous honorons chaque individu avec considération et équité"
+            description="Paul-Emmanuel CHÂTEAU et son équipe sera votre interlocuteur privilégié pour votre projet personnel."
             logo={CoeurSvg}
           />
           <ValueCard
             title="Disponibilité"
-            description="L’office mettra tout en œuvre pour vous accompagner et s’adapter à vos situations professionnelles et personnelles."
+            description="L’office mettra tout en œuvre pour vous accompagner et s’adapter à vos situations professionnelles et personnelles"
             logo={EpeeSvg}
           />
           <ValueCard

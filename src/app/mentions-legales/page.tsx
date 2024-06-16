@@ -13,14 +13,14 @@ export default function legalMentions() {
           Entrepreneur Individuel , dont le siège social est situé 5 Rue du
           Général Jean Compans, 31500 Toulouse, immatriculée au Registre du
           commerce et des sociétés et ayant pour numéro unique d’identification
-          824 096 192 – n°SIRET : 82409619200037 . Les Directeurs de la
-          Publication sont Monsieur Gautier de Malafosse et Monsieur Clément
-          VEDEL, associés-gérants. Paul-Emmanuel Chateau informe les internautes
-          que les informations figurant sur le site ne constituent en rien des
-          consultations ou des avis d’ordre juridique qui engagerait la
-          responsabilité professionnelle du cabinet, il ne s’agit que
-          d’informations d’ordre général qui n’ont pas vocation à répondre à des
-          questions particulières. ‍ Contact : paulemmanuel.chateau@notaires.fr
+          824 096 192 – n°SIRET : 82409619200037 . Le Directeurs de la
+          Publication est Paul-Emmanuel Chateau. Paul-Emmanuel Chateau informe
+          les internautes que les informations figurant sur le site ne
+          constituent en rien des consultations ou des avis d’ordre juridique
+          qui engagerait la responsabilité professionnelle du cabinet, il ne
+          s’agit que d’informations d’ordre général qui n’ont pas vocation à
+          répondre à des questions particulières. ‍ Contact :
+          paulemmanuel.chateau@notaires.fr
         </p>
       </div>
       <div className={styles.section}>
