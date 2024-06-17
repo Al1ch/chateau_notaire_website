@@ -49,9 +49,13 @@ const AboutHeroSection = () => {
             <LinkedInLogo className={styles.socialLogo} />
           </Link>
         </div>
-        <Button backgroundColor="secondary" size="lg" radius="rounded">
+        <a
+            href="mailto:paulemmanuel.chateau@notaires.fr"
+            className={styles.link}
+          >        <Button backgroundColor="secondary" size="lg" radius="rounded">
           Prendre rendez-vous
         </Button>
+        </a>
       </div>
     </div>
   );
