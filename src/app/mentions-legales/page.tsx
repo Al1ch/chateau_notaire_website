@@ -88,6 +88,31 @@ export default function legalMentions() {
           l’utilisation de ces liens.
         </p>
       </div>
+
+      <div className={styles.section}>
+        <h2 className={styles.title}>Médiateur du notariat</h2>
+        <p className={styles.description}>
+        En cas de litige non résolu avec un notaire, vous avez la possibilité de saisir le médiateur du
+notariat sur le site internet : http://mediateur-notariat.notaires.fr,
+afin de tenter, avec son aide, de trouver une résolution amiable au conflit.
+(ART L 616-1 et R 616-1 du code de la comsommation)
+<br></br>
+Vous pouvez également écrire au médiateur du notariat pour recevoir un dossier à compléter
+et à renvoyer. 
+<br></br>
+LE MEDIATEUR DU NOTARIAT
+<br></br>
+60, Boulevard de la TOUR-MAUBOURG
+<br></br>
+75007 PARIS<br></br>
+
+Tél : 01 44 90 30 28
+<br></br>
+Fax : 01 44 90 30 30
+<br></br>
+mediateurdunotariat@notaires.fr
+        </p>
+      </div>
     </div>
   );
 }
