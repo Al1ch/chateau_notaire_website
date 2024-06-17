@@ -56,7 +56,7 @@ const Tab = () => {
         <button
           onClick={() => handleClick("Médiation")}
           className={cn(styles.tab, {
-            [styles.active]: activeTab === "Médiation",
+            [styles.active]: activeTab as string === "Médiation",
           })}
         >
           Médiation
