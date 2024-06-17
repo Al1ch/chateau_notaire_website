@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import styles from "./NavBar.module.scss";
+import styles from "./Navbar.module.scss";
 import Link from "next/link";
 import Button from "@/components/Button/Button";
 import Logo from "@/assets/vectors/logo.svg";
