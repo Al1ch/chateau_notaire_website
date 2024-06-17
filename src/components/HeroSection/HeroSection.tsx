@@ -26,14 +26,14 @@ const HeroSection = () => {
           </p>
         </div>
         <span className={styles.buttonTest}>
-          <Link
+          <a
             href="mailto:paulemmanuel.chateau@notaires.fr"
             className={styles.link}
           >
             <Button backgroundColor="secondary" size="lg" radius="rounded">
               Prendre rendez-vous
             </Button>
-          </Link>
+          </a>
         </span>
         <MarianneLogo className={styles.balance} />
       </div>

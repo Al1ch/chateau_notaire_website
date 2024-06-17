@@ -8,7 +8,7 @@
     flex-direction: column;
     gap : 32px;
     text-align: justify;
-
+    padding: 24px;
     @include laptop{
         min-height: 400px;
     }
@@ -34,6 +34,7 @@
 .title{
     font: $hero-title;
     color: $text-color;
+    text-align:left;
 }
 
 

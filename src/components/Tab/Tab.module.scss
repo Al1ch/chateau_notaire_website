@@ -13,7 +13,11 @@
 .tabList{
     display: flex;
     flex-direction: row;
-    gap: 24px;
+    gap: 12px;
+    @include tablet{
+        gap: 24px;
+
+    }
 }
 
 .tab{

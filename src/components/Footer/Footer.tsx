@@ -73,14 +73,14 @@ const Footer = () => {
                 </span>
               </div>
             </div>
-            <Link
+            <a
               href={"mailto:paulemmanuel.chateau@notaires.fr"}
               className={styles.link}
             >
               <Button backgroundColor="transparent" size="lg" radius="rounded">
                 Nous Contacter
               </Button>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
