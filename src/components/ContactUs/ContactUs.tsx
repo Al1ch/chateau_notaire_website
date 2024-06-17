@@ -20,14 +20,14 @@ const ContactUs = () => {
           courriel et nous vous contacterons rapidement, ou téléphonez nous du
           lundi au vendredi de 9h à 19h
         </p>
-        <Link
+        <a
           href="mailto:paulemmanuel.chateau@notaires.fr"
           className={styles.link}
         >
           <Button size="lg" radius="rounded" backgroundColor="secondary">
             Contactez Nous
           </Button>
-        </Link>
+        </a>
       </div>
       <div className={styles.rightContainer}>
         <div className={styles.squareBorder}>

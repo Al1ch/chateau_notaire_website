@@ -71,14 +71,14 @@ const NavBar = () => {
               </Button>
             </Link>
 
-            <Link
+            <a
               href={"mailto:paulemmanuel.chateau@notaires.fr"}
               className={styles.buttonLink}
             >
               <Button size="lg" radius="rounded" backgroundColor="secondary">
                 Nous Contacter
               </Button>
-            </Link>
+            </a>
           </div>
           <button
             className={styles.button}
