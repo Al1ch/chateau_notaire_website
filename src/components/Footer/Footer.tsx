@@ -65,7 +65,7 @@ const Footer = () => {
                 <span className={styles.text}>
                   paulemmanuel.chateau@notaires.fr
                 </span>
-                <span className={styles.text}>05 32 59 79 07</span>
+            <span className={styles.text}>{"05 32 59 79 07"}</span>
                 <span className={styles.text}>
                   5 Rue du Général Jean Compans,
                   <br />
