@@ -1,0 +1,59 @@
+@import 'styles/color.module.scss';
+@import 'styles/text.module.scss';
+@import 'styles/_breakpoints.scss';
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    background-color: $white;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 72px 24px;
+    @include tablet{
+        max-width: 1400px;
+        padding:  72px; 
+        
+    }
+
+}
+
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-self: center;
+    align-items: center;
+}
+
+.title{
+    font: $title-section;
+    color: black;
+    text-align: center;
+
+}
+
+
+
+.questionsList{
+    display: grid;
+    @include tablet{
+        grid-template-columns: 1fr 1fr ;
+    }
+    gap: 24px;
+    margin-top: 32px;
+}
+
+
+
+.description{
+    font: $footer-text;
+    color: black;
+}

@@ -1,0 +1,38 @@
+@import 'styles/color.module.scss';
+@import 'styles/text.module.scss';
+@import 'styles/_breakpoints.scss';
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color:  $card-background-secondary;
+    padding: 32px;
+    border-radius: 8px;
+    min-height: 175px;
+    max-width: 425px;
+}
+
+.headerCard{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    flex-shrink: 1;
+
+}
+
+.title{
+    font: $title-card;
+    color: $secondary;
+}
+
+.description{
+    font: $card-description;
+    color: $text-color;
+    max-width: 400px;
+    line-height: 1.5;
+}
+
+.logo{
+    min-width: 32px;
+}

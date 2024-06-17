@@ -1,0 +1,68 @@
+@import 'styles/color.module.scss';
+@import 'styles/text.module.scss';
+@import 'styles/_breakpoints.scss';
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.wrapper{
+    display: flex;
+    padding: 0 24px;
+    width: 100%;
+    background-color: $background-color-secondary;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    @include desktop{
+        padding: 64px 72px;
+
+    }
+    
+}
+
+.titleContainer{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font : $title-section;
+    color: $text-color;
+}
+
+.description{
+    margin-bottom: 24px;
+    font: $text;
+    color: $text-color;
+    text-align: center;
+    max-width: 600px;
+    line-height: 1.3;
+    @include desktop{
+        margin-top: 0;
+    }
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.listImages{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    @include laptop{
+        flex-direction: row;
+    }
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

@@ -1,0 +1,91 @@
+@import 'styles/color.module.scss';
+@import 'styles/text.module.scss';
+@import 'styles/_breakpoints.scss';
+
+.heroSection{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    min-height: 600px;
+    flex-direction: column;
+    gap: 24px;
+    @include tablet{
+        flex-direction: row;
+        justify-content: center;
+        gap: 128px;
+        max-width: 1400px;
+        padding: 0 92px;
+    }
+    max-width: 1300px;
+}
+
+.profileImageContainer{
+    position: relative;
+    z-index: 1;
+}
+
+.socialLogo{
+    width: 24px;
+    height: 24px;
+
+}
+
+.profileImage{
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    @include tablet{
+        max-width: 400px;
+        height: 400px;
+    }
+
+    @include desktop{
+        width: 400px;
+    }
+}
+
+
+
+.shadowContainer{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    border : 2px solid rgba(128, 128, 128, 0.589);
+    top: 0;
+    transform: translate(-10%, -5%);
+}
+
+
+.profileDescription{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 400px;
+    width: 100%;
+    justify-content: center;
+    padding: 24px;
+    @include desktop{
+    padding:0
+}
+}
+
+.title{
+    font: $title-hero-about;
+    color: $text-color;
+    @include laptop{
+        min-width: 500px;
+    }
+}
+
+.description{
+    font: $text;
+    color: $text-color;
+}
+
+.logoList{
+    display: flex;
+    gap:12px;
+    align-items: center;
+}

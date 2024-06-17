@@ -1,0 +1,124 @@
+@import 'styles/color.module.scss';
+@import 'styles/text.module.scss';
+@import 'styles/_breakpoints.scss';
+
+.footerContent{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1px  solid gray;
+    border-bottom: 1px  solid gray;
+    justify-content: space-between; 
+    max-width: 1400px;
+    padding: 32px 0;
+    gap: 16px;
+    @include smallTablet{
+        justify-content: center;
+        align-items: flex-start;
+    }
+    @include tablet{
+        padding: 24px 0px;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 1400px;
+    }
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+    justify-content: space-between;
+    background-color: $background-color;
+    align-items: center;
+    
+    padding: 24px 32px;
+    @include tablet{
+        padding: 0 72px 24px  72px;
+    }
+
+}
+
+.info{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    @include smallTablet{
+        flex-direction: row;
+        max-height: 100px;
+        align-items: center;
+    }
+
+}
+
+.logo{
+    min-width: 125px;
+    height: 125px;
+}
+
+.text{
+    font : $footer-text;
+    color: $text-color;
+    word-spacing: 4px;
+    line-height: 1.3;
+    max-width: 250px;
+}
+.footerColumnList{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    @include smallTablet{
+        flex-direction: row;
+    }
+
+}
+
+.footerColumn{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 12px;
+}
+
+.title{
+    font : $footer-title;
+    color: $secondary;
+}
+
+.listItem{
+    display: flex;
+    gap:8px;
+    flex-direction: column;
+
+}
+
+.lawContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 16px;
+    max-width: 1400px;
+    @include tablet{
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+}
+
+.link{
+    text-decoration: none;
+    color : $text-color;
+    font: $footer-text;
+    &:hover{
+        color: $secondary;
+    }
+}

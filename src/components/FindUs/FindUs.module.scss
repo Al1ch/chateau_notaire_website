@@ -1,0 +1,99 @@
+@import 'styles/color.module.scss';
+@import 'styles/text.module.scss';
+@import 'styles/_breakpoints.scss';
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    padding: 72px 32px;
+    @include tablet{
+        max-width: 1400px;
+        padding:  72px;
+    }
+    gap: 48px;
+}
+
+.title{
+    font : $title-section;
+    color: $text-color;
+}
+
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+
+    @include tablet{
+        flex-direction: row;
+        gap: 72px;
+        justify-content: center;
+    }
+    gap: 48px;
+    width: 100%;
+    align-items: center;
+
+}
+
+.infoContent{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.adressContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.titleInfo{
+    font: $title-card-services;
+    color: $text-color;
+}
+
+.descriptionInfo{
+    font: $card-description;
+    color: $secondary;
+}
+
+.infoWrapper{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.map{
+    width: 100%;
+    min-height: 350px;
+    max-width: 450px;
+}
+
+.info{
+    font: $text-rafine;
+    color: $text-color;
+}
+
+.listContact{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.contactEmail{
+    font: $text-rafine;
+    color: $text-color;
+}
+
+
+.contactPhone{
+    font: $text-rafine;
+    color: $text-color;
+}
+
+.horairesContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

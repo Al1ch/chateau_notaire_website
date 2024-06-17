@@ -1,0 +1,35 @@
+@import 'styles/color.module.scss';
+@import 'styles/text.module.scss';
+@import 'styles/_breakpoints.scss';
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 300px;
+    position: relative;
+    &::after{
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: "";
+        width: 25px;
+        height: 3px;
+        background-color: $secondary;
+        transform: translateY(50px)
+    }
+
+}
+
+.title{
+    font: $title-card-services;
+    color: $text-color;
+    position: relative;
+
+}
+
+.description{
+    font: $card-description;
+    color: $text-color;
+
+}

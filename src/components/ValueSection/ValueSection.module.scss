@@ -1,0 +1,94 @@
+@import 'styles/color.module.scss';
+@import 'styles/text.module.scss';
+@import 'styles/_breakpoints.scss';
+
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: $background-color-secondary;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    padding: 72px 32px;
+    flex-direction: column;
+    @include tablet{
+        flex-direction: row;
+
+        max-width: 1400px;
+        padding:  72px;
+
+    }
+    gap: 32px;
+    justify-content: space-between;
+}
+
+.titleSection{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title{
+    font: $title-section;
+    color: $text-color;
+}
+
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.description{
+    font: $text;
+    color: $white;
+    letter-spacing: 1px;
+    max-width: 600px;
+    word-spacing: 2px;
+    line-height: 1.5;
+}
+
+
+.sectionContent{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    @include tablet{
+        justify-content: space-between;
+    }
+}
+.valueList{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.juge{
+    width: 500px;
+    height: 500px;
+}
+
+
+.imageContainer{
+    display: flex;
+    width: 100%;
+    max-width: 550px;
+}
+
+.image{
+    width: 100%;
+}

@@ -1,0 +1,47 @@
+@import 'styles/color.module.scss';
+@import 'styles/text.module.scss';
+@import 'styles/_breakpoints.scss';
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap : 32px;
+    text-align: justify;
+
+    @include laptop{
+        min-height: 400px;
+    }
+    @include desktop{
+        min-height: 500px;
+    }
+}
+.titleSection{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.description{
+    font: $text;
+    color: $text-color;
+    text-align: justify;
+
+}
+
+
+
+.title{
+    font: $hero-title;
+    color: $text-color;
+}
+
+
+.serviceList{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+

@@ -1,0 +1,62 @@
+@import 'styles/color.module.scss';
+@import 'styles/text.module.scss';
+@import 'styles/_breakpoints.scss';
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 300px;
+}
+
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.numberStep{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(-65%, 25%);
+    font : $step-number;
+    color: gray;
+    opacity: 0.2;
+}
+
+.title{
+    font: $title-card;
+    color: $text-color;
+    &::after{
+        content: '';
+        display: block;
+        width: 40px;
+        height: 2px;
+        background-color: $secondary;
+        margin-top: 8px;
+    }
+}
+
+.description{
+    font: $card-description;
+    color: $text-color;
+}
+
+.step{
+    display: flex;
+    flex-direction: column;
+}
+
+.stepContent{
+    display: flex;
+    align-items: center;
+    border-top: 2px solid rgba(128, 128, 128, 0.562);
+    padding: 16px 0;
+}
+
+.stepText{
+    font: $card-description;
+    color: $text-color;
+}

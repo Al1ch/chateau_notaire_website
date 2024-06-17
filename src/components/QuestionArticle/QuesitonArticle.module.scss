@@ -1,0 +1,25 @@
+@import 'styles/color.module.scss';
+@import 'styles/text.module.scss';
+@import 'styles/_breakpoints.scss';
+
+.question{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 32px;
+    padding-bottom: 48px;
+    border-bottom: 1.5px solid $secondary;
+    text-align: justify;
+
+}
+
+.questionTitle{
+    font: $title-card-services;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.description{
+    font: $footer-text;
+    color: black;
+}

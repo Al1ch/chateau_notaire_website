@@ -1,0 +1,35 @@
+@import 'styles/color.module.scss';
+@import 'styles/text.module.scss';
+@import 'styles/_breakpoints.scss';
+
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap:94px;
+    padding: 72px 32px;
+    @include tablet{
+        max-width: 1400px;
+        padding:  72px; 
+    }
+}
+
+.stepsContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 48px;
+    align-items: center;
+    gap: 126px;
+    @include tablet{
+        flex-direction: row;
+        gap: 48px;
+    }
+    margin-left: 48px;
+}
+
+.title{
+    font: $title-section;
+    color: $text-color;
+}

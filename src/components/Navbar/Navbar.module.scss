@@ -1,0 +1,159 @@
+@import 'styles/color.module.scss';
+@import 'styles/text.module.scss';
+@import 'styles/_breakpoints.scss';
+
+.test{
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    background-color: $background-color;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 0 16px;
+    z-index: 100;
+    @include desktop{
+        max-width: 1400px;
+    }
+}
+
+.leftContainer{
+    display: none;
+    @include smallTablet{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+    }
+
+}
+
+.listNav{
+    @include smallTablet{
+        display: flex;
+        gap: 24px;
+        align-items: center;
+    }
+}
+
+.link{
+    text-decoration: none;
+    font: $header;
+    color: $text-color;
+    transition: transform 0.2s ease-in-out;
+
+    &:hover{
+        color: $secondary-hover;
+    }
+    &.active{
+        color: $secondary;
+    }
+}
+
+.buttonContainer{
+    display: none;
+    @include tablet{
+        display: flex;
+        gap: 24px;
+    }
+}
+
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.burger{
+    display: block;
+    width: 24px;
+    height: 24px;
+    @include smallTablet{
+        width: 50px;
+        height: 50px;
+        display: none;
+    }
+}
+
+
+.button{
+    background-color: transparent;
+    border: none;
+    @include smallTablet{
+        display: none;
+    }
+}
+
+.contentMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 48px;
+    margin-top: 100px;
+}
+
+.mobileMenu{
+    z-index: 100;
+    inset: 0;
+
+     background-color: $background-color;
+     transform: translateX(100%);
+     display: flex;
+     transition: transform 0.3s ease-in-out;
+    position: fixed;
+    flex-direction: column;
+    &.clicked{
+        transform: translateX(0);
+
+    }
+    @include smallTablet{
+        display: none;
+    }
+}
+
+.headerMobileMenu{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    padding: 0 16px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.buttonList{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+    align-items: center;
+}
+
+.buttonLink{
+    text-decoration: none;
+    font: $button-text;
+    color: $text-color;
+}
+
+.close{
+    width: 42px;
+    height: 42px;
+}
