@@ -26,8 +26,9 @@
     padding: 0 24px 72px 24px;
     @include tablet{
         max-width: 1400px;
+    }
+    @include largeDesktop{
         padding:  0 72px 72px 72px;
-
     }
 
 
