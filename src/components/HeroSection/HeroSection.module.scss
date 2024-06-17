@@ -57,6 +57,7 @@
     z-index: 1;
     opacity: 0.05;
     width: 325px;
+    z-index: -1;
     @include smallTablet{
         width: 430px;
         height: 400px;

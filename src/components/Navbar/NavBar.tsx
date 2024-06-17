@@ -137,7 +137,7 @@ const NavBar = () => {
             </Link>
             <Link
               onClick={() => setIsMenuClicked(!isMenuClicked)}
-              href={"/tafis"}
+              href={"/tarifs"}
               className={cn(styles.link, {
                 [styles.active]: pathName === "/tarifs",
               })}
@@ -146,12 +146,22 @@ const NavBar = () => {
             </Link>
           </div>
           <div className={styles.buttonList}>
+          <Link
+              href={"https://www.immobilier.notaires.fr/fr/frais-de-notaire"}
+              className={styles.buttonLink}
+            >
             <Button size="lg" radius="rounded" backgroundColor="transparent">
               Simulateur de Frais
             </Button>
+</Link>
+            <a
+            href="mailto:paulemmanuel.chateau@notaires.fr"
+            className={styles.link}
+          >
             <Button size="lg" radius="rounded" backgroundColor="secondary">
               Nous Contacter
             </Button>
+            </a>
           </div>
         </div>
       </div>
