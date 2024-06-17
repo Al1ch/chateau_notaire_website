@@ -25,7 +25,7 @@ const ContactUs = () => {
           className={styles.link}
         >
           <Button size="lg" radius="rounded" backgroundColor="secondary">
-            Contactez Nous
+            Contactez-Nous
           </Button>
         </a>
       </div>
