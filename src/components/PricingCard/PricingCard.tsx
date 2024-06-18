@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./PricingCard.module.scss";
 import Button from "@/components/Button/Button";
-import Link from "next/link";
 type Services = {
   title: string;
   price: string;
@@ -10,7 +9,7 @@ type Services = {
 
 type Props = {
   title: string;
-  description: string;
+  description?: string;
   services: Services[];
 };
 

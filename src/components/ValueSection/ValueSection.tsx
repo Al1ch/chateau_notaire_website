@@ -4,7 +4,6 @@ import ScintillantLogo from "@/assets/vectors/scintillant.svg";
 import Image from "next/image";
 import office from "@/assets/images/office.jpg";
 import ValueCard from "@/components/ValueCard/ValueCard";
-import JugeSvg from "@/assets/vectors/juge.svg";
 import EpeeSvg from "@/assets/vectors/epee.svg";
 import CoeurSvg from "@/assets/vectors/coeur.svg";
 import CadenaSvg from "@/assets/vectors/cadenas.svg";
