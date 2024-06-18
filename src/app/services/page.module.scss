@@ -23,9 +23,11 @@
     align-items: center;
     gap: 24px;
     justify-content: center;
-    padding: 0 24px 72px 24px;
+    padding: 24px;
     @include tablet{
         max-width: 1400px;
+        padding:  72px;
+
     }
     @include largeDesktop{
         padding:  0 72px 72px 72px;

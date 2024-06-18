@@ -8,7 +8,6 @@
     flex-direction: column;
     gap : 32px;
     text-align: justify;
-    padding: 24px;
     @include laptop{
         min-height: 400px;
     }
