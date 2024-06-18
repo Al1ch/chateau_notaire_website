@@ -2,7 +2,6 @@ export const prices = [
   {
     id: 1,
     title: "DROIT FAMILIAL",
-    description: "Idéal pour la rechercher de nos service immobilier",
     services: [
       {
         title: "Contrat de mariage",
@@ -59,7 +58,6 @@ export const prices = [
   {
     id: 2,
     title: "DROIT COMMERCIAL",
-    description: "Idéal pour la rechercher de nos service immobilier",
     services: [
       {
         title: "Bail commercial/professionnel",
@@ -101,7 +99,6 @@ export const prices = [
   {
     id: 3,
     title: "DROIT IMMOBILIER",
-    description: "Idéal pour la rechercher de nos service immobilier",
     services: [
       {
         title: "Promesse unilatérale de vente ou d’achat",

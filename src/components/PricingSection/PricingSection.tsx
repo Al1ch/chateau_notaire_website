@@ -29,7 +29,6 @@ const PricingSection = () => {
           <PricingCard
             key={domain.id}
             title={domain.title}
-            description={domain.description}
             services={domain.services}
           />
         ))}

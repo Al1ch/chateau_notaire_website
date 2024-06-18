@@ -18,7 +18,7 @@ const NotaireRoleSection = () => {
       <div className={styles.servicesList}>
         <RoleCard
           title="Sécurité juridique"
-          description="Le notaire assure la validité légale des contrats garantissante la sécurité juridique des parties"
+          description="Le notaire assure la validité légale des contrats garantissant la sécurité juridique des parties"
           listItem={[
             "Eclairer le consentement",
             " Gérer efficacité des actes",
@@ -27,7 +27,7 @@ const NotaireRoleSection = () => {
         />
         <RoleCard
           title="Devoir de conseil"
-          description="Le notaire doit éclairer le consentement des personnes et leurs délivrée une information la plus complète et appropriée"
+          description="Le notaire doit éclairer le consentement des personnes et leur délivrer l’information la plus complète et appropriée"
           listItem={[
             "Eclairer le consentement",
             " Gérer efficacité des actes",

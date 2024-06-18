@@ -31,7 +31,7 @@ const ServicesSection = () => {
             />
             <ServicesCard
               title={"Famille"}
-              description="Nous vous conseillons a travers les moments clefs de la vie familiale, du contrat de mariage, aux donations et règlement de succession "
+              description="Nous vous conseillons à travers les moments-clefs de la vie familiale, du contrat de mariage et règlements de succession"
               icon={FammilleSvg}
             />
             <ServicesCard

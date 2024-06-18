@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./PricingCard.module.scss";
 import Button from "@/components/Button/Button";
-import Link from "next/link";
 type Services = {
   title: string;
   price: string;
@@ -10,7 +9,7 @@ type Services = {
 
 type Props = {
   title: string;
-  description: string;
+  description?: string;
   services: Services[];
 };
 
@@ -19,7 +18,7 @@ const PricingCard = ({ title, description, services }: Props) => {
     <div className={styles.container}>
       <div className={styles.titleContainer}>
         <h3 className={styles.title}>{title} </h3>
-        <p className={styles.description}>{description}</p>
+        {/* <p className={styles.description}>{description}</p> */}
       </div>
       <div className={styles.pricingList}>
         {services.map((service) => (

@@ -62,10 +62,13 @@ const Footer = () => {
             <div className={styles.contactInfo}>
               <h2 className={styles.title}>Contact</h2>
               <div className={styles.listItem}>
-                <span className={styles.text}>
+                <a
+                  href={"mailto:paulemmanuel.chateau@notaires.fr"}
+                  className={styles.link}
+                >
                   paulemmanuel.chateau@notaires.fr
-                </span>
-            <span className={styles.text}>{"05 32 59 79 07"}</span>
+                </a>
+                <span className={styles.text}>{"05 32 59 79 07"}</span>
                 <span className={styles.text}>
                   5 Rue du Général Jean Compans,
                   <br />

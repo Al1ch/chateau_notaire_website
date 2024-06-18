@@ -8,8 +8,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Paul-Emmanuel Chateau - Notaire | Expertise Notariale",
-  description:
-    "Maitrisant l'art de la légalité avec expertise, notre cabinet de notaire offre des services juridiques fiables et personnalisés. Protégez votre patrimoine, gérez vos successions et transactions immobilières en toute confiance avec nos notaires expérimentés. Contactez-nous dès aujourd'hui pour des conseils juridiques solides et des solutions sur mesure",
+  description: "Étude de Maître Paul-Emmanuel CHATEAU, notaire à Toulouse ",
 };
 
 export default function Home() {

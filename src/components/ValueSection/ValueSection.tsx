@@ -4,7 +4,6 @@ import ScintillantLogo from "@/assets/vectors/scintillant.svg";
 import Image from "next/image";
 import office from "@/assets/images/office.jpg";
 import ValueCard from "@/components/ValueCard/ValueCard";
-import JugeSvg from "@/assets/vectors/juge.svg";
 import EpeeSvg from "@/assets/vectors/epee.svg";
 import CoeurSvg from "@/assets/vectors/coeur.svg";
 import CadenaSvg from "@/assets/vectors/cadenas.svg";
@@ -36,7 +35,7 @@ const ValueSection = () => {
         <div className={styles.valueList}>
           <ValueCard
             title="Réactivité"
-            description="Paul-Emmanuel CHÂTEAU et son équipe sera votre interlocuteur privilégié pour votre projet personnel."
+            description="Paul-Emmanuel CHATEAU et son équipe seront vos interlocuteurs privilégiés pour votre projet personnel"
             logo={CoeurSvg}
           />
           <ValueCard
