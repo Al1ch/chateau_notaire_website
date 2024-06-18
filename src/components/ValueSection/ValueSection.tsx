@@ -36,7 +36,7 @@ const ValueSection = () => {
         <div className={styles.valueList}>
           <ValueCard
             title="Réactivité"
-            description="Paul-Emmanuel CHÂTEAU et son équipe sera votre interlocuteur privilégié pour votre projet personnel."
+            description="Paul-Emmanuel CHATEAU et son équipe seront vos interlocuteurs privilégiés pour votre projet personnel"
             logo={CoeurSvg}
           />
           <ValueCard

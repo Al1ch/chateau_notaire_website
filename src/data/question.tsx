@@ -16,7 +16,7 @@ export const questions = [
     title:
       "Quels documents dois-je apporter lors de ma consultation avec un notaire ?",
     description:
-      "Lors de votre rendez-vous avec un notaire, il est utile d'apporter une pièce d'identité valide, tout document pertinent lié à votre",
+      "Lors de votre rendez-vous avec un notaire, il est utile d'apporter une pièce d'identité valide, tout document pertinent lié à votre dossier",
   },
   {
     id: 4,

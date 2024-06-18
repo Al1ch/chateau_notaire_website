@@ -115,7 +115,7 @@ export const services = {
         id: 16,
         title: "Adoption",
         description:
-          "L’adoption permet de créer un lien de parenté entre deux personnes ayant des liens affectifs mais dont le droit ne reconnait aucun lien. Cela se retrouve souvent dans le cas des familles recomposées. Le notaire va recueillir le consentement des personnes concernées ainsi que de vérifier que les conditions sont respectées. Vous pouvez contacter notre office pour obtenir un rendez-vous de renseignements",
+          "L’adoption permet de créer un lien de parenté entre deux personnes ayant des liens affectifs dont le droit ne reconnaît aucun lien.Cela se retrouve souvent dans le cas des familles recomposées. Le notaire va recueillir le consentement des personnes concernées ainsi que de vérifier que les conditions soient respectées. Vous pouvez contacter notre office pour obtenir un rendez-vous de renseignements.",
       },
       {
         id: 17,
