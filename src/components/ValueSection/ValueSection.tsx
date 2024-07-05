@@ -35,17 +35,17 @@ const ValueSection = () => {
         <div className={styles.valueList}>
           <ValueCard
             title="Réactivité"
-            description="Paul-Emmanuel CHATEAU et son équipe seront vos interlocuteurs privilégiés pour votre projet personnel"
+            description="Paul-Emmanuel CHATEAU et son équipe seront vos interlocuteurs privilégiés pour votre projet personnel."
             logo={CoeurSvg}
           />
           <ValueCard
             title="Disponibilité"
-            description="L’office mettra tout en œuvre pour vous accompagner et s’adapter à vos situations professionnelles et personnelles"
+            description="L’office mettra tout en œuvre pour vous accompagner et s’adapter à vos situations professionnelles et personnelles."
             logo={EpeeSvg}
           />
           <ValueCard
             title="Confidentialité "
-            description="Nous garantissons la confidentialité de vos informations  et de nos échanges"
+            description="Nous garantissons la confidentialité de vos informations  et de nos échanges."
             logo={CadenaSvg}
           />
         </div>

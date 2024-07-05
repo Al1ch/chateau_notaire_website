@@ -24,6 +24,11 @@ export const prices = [
         id: 8,
       },
       {
+        title: "Testament authentique",
+        price: "260,00 € T.T.C",
+        id: 10,
+      },
+      {
         title: "Mandat de protection future",
         price: "300,00 € T.T.C",
         id: 7,
@@ -47,11 +52,6 @@ export const prices = [
         title: "Adoption par le conjoint",
         price: "250,00 € T.T.C",
         id: 9,
-      },
-      {
-        title: "Testament authentique",
-        price: "260,00 € T.T.C",
-        id: 10,
       },
     ],
   },

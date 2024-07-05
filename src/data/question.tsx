@@ -7,7 +7,7 @@ export const questions = [
   },
   {
     id: 2,
-    title: "Quand dois-je envisager à consulter un notaire ?",
+    title: "Quand dois-je envisager de consulter un notaire ?",
     description:
       "Il est recommandé de consulter un notaire lors de toute transaction immobilière, telle que l'achat ou la vente d'une propriété, la rédaction d'un testament, une planification successorale, la création d'une société, ou tout autre acte juridique important.",
   },
@@ -16,7 +16,7 @@ export const questions = [
     title:
       "Quels documents dois-je apporter lors de ma consultation avec un notaire ?",
     description:
-      "Lors de votre rendez-vous avec un notaire, il est utile d'apporter une pièce d'identité valide, tout document pertinent lié à votre dossier",
+      "Lors de votre rendez-vous avec un notaire, il est utile d'apporter une pièce d'identité valide, tout document pertinent lié à votre dossier.",
   },
   {
     id: 4,

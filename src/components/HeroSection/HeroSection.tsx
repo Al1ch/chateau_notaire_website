@@ -21,7 +21,7 @@ const HeroSection = () => {
           <p className={styles.description}>
             Je vous accompagne dans toutes les étapes importantes de votre vie,
             de la naissance de votre projet à sa concrétisation et vous aide à
-            préparer l’avenir en toute sérénité
+            préparer l’avenir en toute sérénité.
             {/* Nous vous accompagnons dans tous les moments de votre vie . */}
           </p>
         </div>

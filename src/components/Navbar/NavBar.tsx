@@ -65,6 +65,7 @@ const NavBar = () => {
             <Link
               href={"https://www.immobilier.notaires.fr/fr/frais-de-notaire"}
               className={styles.buttonLink}
+              target="_blank"
             >
               <Button size="lg" backgroundColor="transparent" radius="rounded">
                 Simulateur de Frais
@@ -149,6 +150,7 @@ const NavBar = () => {
             <Link
               href={"https://www.immobilier.notaires.fr/fr/frais-de-notaire"}
               className={styles.buttonLink}
+              target="_blank"
             >
               <Button size="lg" radius="rounded" backgroundColor="transparent">
                 Simulateur de Frais

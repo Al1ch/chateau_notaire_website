@@ -15,7 +15,7 @@ const PricingSection = () => {
           Les actes soumis au tarif règlementé : ce sont les actes pour lesquels
           le notaire perçoit des émoluments (Article L. 444-1, alinéa 3 du Code
           de Commerce, Crée par la Loi n° 2015-990 du 6 août 2015 Annexe 4-9, 4°
-          du Code de Commerce, Crée par Décret n° 2016-230 du 26 février 2016)
+          du Code de Commerce, Crée par Décret n° 2016-230 du 26 février 2016).
         </p>
         <p className={styles.legalDescription}>
           Les actes non soumis au tarif règlementé : ils donnent lieu à la

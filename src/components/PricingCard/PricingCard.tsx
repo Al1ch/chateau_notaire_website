@@ -32,8 +32,8 @@ const PricingCard = ({ title, description, services }: Props) => {
         href={"mailto:paulemmanuel.chateau@notaires.fr"}
         className={styles.link}
       >
-        <Button size="xl" backgroundColor="transparent">
-          En Savoir Plus
+        <Button size="xl" backgroundColor="transparent" radius="rounded">
+          En savoir plus
         </Button>
       </a>
     </div>
