@@ -88,7 +88,7 @@ const OurStorySection = () => {
             />
             <AboutValues
               title="Notre engagement"
-              description="Intégrité, écoute et confiden?alité définissent notre engagement envers nos clients et notre responsabilité en notre qualité de notaire."
+              description="Intégrité, écoute et confidentialité définissent notre engagement envers nos clients et notre responsabilité en notre qualité de notaire."
             />
           </div>
         </div>

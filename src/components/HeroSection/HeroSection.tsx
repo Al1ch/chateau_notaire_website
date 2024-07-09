@@ -42,10 +42,10 @@ const HeroSection = () => {
           src={paulPic}
           className={styles.heroImage}
           alt="hero image"
-          width={400}
+          width={700}
           height={250}
         />
-        <div className={styles.maskShadow}></div>
+        <div className={styles.shadowContainer}></div>
       </div>
     </div>
   );
