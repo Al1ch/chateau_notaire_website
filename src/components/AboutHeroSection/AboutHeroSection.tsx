@@ -32,7 +32,7 @@ const AboutHeroSection = () => {
         <p className={styles.description}>
           Je vous accompagne à chaque étape de votre vie et de vos transactions,
           assurant la sécurité et la légalité dans vos affaires familiales et
-          commerciales
+          commerciales.
         </p>
         <div className={styles.logoList}>
           <Link
@@ -50,11 +50,13 @@ const AboutHeroSection = () => {
           </Link>
         </div>
         <a
-            href="mailto:paulemmanuel.chateau@notaires.fr"
-            className={styles.link}
-          >        <Button backgroundColor="secondary" size="lg" radius="rounded">
-          Prendre rendez-vous
-        </Button>
+          href="mailto:paulemmanuel.chateau@notaires.fr"
+          className={styles.link}
+        >
+          {" "}
+          <Button backgroundColor="secondary" size="lg" radius="rounded">
+            Prendre rendez-vous
+          </Button>
         </a>
       </div>
     </div>

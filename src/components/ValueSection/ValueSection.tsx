@@ -4,8 +4,8 @@ import ScintillantLogo from "@/assets/vectors/scintillant.svg";
 import Image from "next/image";
 import office from "@/assets/images/office.jpg";
 import ValueCard from "@/components/ValueCard/ValueCard";
-import EpeeSvg from "@/assets/vectors/epee.svg";
-import CoeurSvg from "@/assets/vectors/coeur.svg";
+import ReactivitySvg from "@/assets/vectors/reactivity.svg";
+import AvailabilitySvg from "@/assets/vectors/disponibilité.svg";
 import CadenaSvg from "@/assets/vectors/cadenas.svg";
 
 const ValueSection = () => {
@@ -35,17 +35,17 @@ const ValueSection = () => {
         <div className={styles.valueList}>
           <ValueCard
             title="Réactivité"
-            description="Paul-Emmanuel CHATEAU et son équipe seront vos interlocuteurs privilégiés pour votre projet personnel"
-            logo={CoeurSvg}
+            description="Paul-Emmanuel CHATEAU et son équipe seront vos interlocuteurs privilégiés pour votre projet personnel."
+            logo={AvailabilitySvg}
           />
           <ValueCard
             title="Disponibilité"
-            description="L’office mettra tout en œuvre pour vous accompagner et s’adapter à vos situations professionnelles et personnelles"
-            logo={EpeeSvg}
+            description="L’office mettra tout en œuvre pour vous accompagner et s’adapter à vos situations professionnelles et personnelles."
+            logo={ReactivitySvg}
           />
           <ValueCard
             title="Confidentialité "
-            description="Nous garantissons la confidentialité de vos informations  et de nos échanges"
+            description="Nous garantissons la confidentialité de vos informations  et de nos échanges."
             logo={CadenaSvg}
           />
         </div>

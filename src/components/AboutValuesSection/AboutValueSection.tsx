@@ -6,17 +6,16 @@ const AboutValueSection = () => {
   return (
     <div className={styles.container}>
       <AboutValues
-        title="Notre Vision"
-        description="Notre vision est de rendre le monde meilleur en offrant des solutions innovantes et durables pour les entreprises et les particuliers."
+        title="Notre vision"
+        description="Nous souhaitons répondre aux besoins des clients et les protéger juridiquement dans leurs projets personnels et professionnels."
       />
       <AboutValues
-        title="Notre Mission"
-        description="Nous voulons offrir une expertise
-        et une défense juridique intelligibles, transparentes, et construites autour des réalités de nos clients."
+        title="Notre mission"
+        description="Nous assurons la sécurité juridique des contrats et un suivi personnalité pour tout type de dossier."
       />
       <AboutValues
-        title="Notre Devoir"
-        description="Votre satisfaction est notre priorité. Nous nous engageons à vous offrir un service de qualité, personnalisé et adapté à vos besoins."
+        title="Notre engagement"
+        description="Intégrité, écoute et confidentialité définissent notre engagement envers nos clients et notre responsabilité en notre qualité de notaire."
       />
     </div>
   );

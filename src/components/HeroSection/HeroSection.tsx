@@ -21,7 +21,7 @@ const HeroSection = () => {
           <p className={styles.description}>
             Je vous accompagne dans toutes les étapes importantes de votre vie,
             de la naissance de votre projet à sa concrétisation et vous aide à
-            préparer l’avenir en toute sérénité
+            préparer l’avenir en toute sérénité.
             {/* Nous vous accompagnons dans tous les moments de votre vie . */}
           </p>
         </div>
@@ -42,10 +42,10 @@ const HeroSection = () => {
           src={paulPic}
           className={styles.heroImage}
           alt="hero image"
-          width={400}
+          width={700}
           height={250}
         />
-        <div className={styles.maskShadow}></div>
+        <div className={styles.shadowContainer}></div>
       </div>
     </div>
   );

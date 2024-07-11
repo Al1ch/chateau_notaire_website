@@ -3,7 +3,7 @@ export const services = {
     id: "Immmobilier",
     title: "Besoin d'un accompagnement pour un acte Immobilier ?",
     description:
-      "En tant que notaire, nous vous offrons un service immobilier sûr et efficace pour vos transactions. Simplifiez vos démarches avec notre expertise et garantissez la sécurité de vos transactions immobilières",
+      "En tant que notaire, nous vous offrons un service immobilier sûr et efficace pour vos transactions. Simplifiez vos démarches avec notre expertise et garantissez la sécurité de vos transactions immobilières.",
     services: [
       {
         id: 1,
@@ -27,7 +27,7 @@ export const services = {
         id: 4,
         title: "Servitude",
         description:
-          "Une servitude est une charge imposée à un bien immobilier pour l’utilité d’un autre bien immobilier. Une telle charge ne peut être constituée ou modifiée que par acte authentique qui devra être publié au service de la publicité foncière. L’acte établissant la servitude nécessite une rédaction attentive et singulière. Notre office est à votre disposition pour établir une convention adaptée à chaque situation",
+          "Une servitude est une charge imposée à un bien immobilier pour l’utilité d’un autre bien immobilier. Une telle charge ne peut être constituée ou modifiée que par acte authentique qui devra être publié au service de la publicité foncière. L’acte établissant la servitude nécessite une rédaction attentive et singulière. Notre office est à votre disposition pour établir une convention adaptée à chaque situation.",
       },
     ],
   },
@@ -35,7 +35,7 @@ export const services = {
     id: "Commercial",
     title: "Besoin d'un accompagnement pour un acte Commercial ?",
     description:
-      "Le notaire accompagne aussi bien les dirigeants de société et les entrepreneurs, que les particuliers dans leurs relations avec le droit commercial : son expertise en droit des affaires leur permet de mieux appréhender les incidences professionnelles ou personnelles de leurs choix et de leurs responsabilités..",
+      "Le notaire accompagne aussi bien les dirigeants de société et les entrepreneurs, que les particuliers dans leurs relations avec le droit commercial : son expertise en droit des affaires leur permet de mieux appréhender les incidences professionnelles ou personnelles de leurs choix et de leurs responsabilités...",
     services: [
       {
         id: 5,
@@ -59,7 +59,7 @@ export const services = {
         id: 8,
         title: "Fonds de commerce",
         description:
-          "Le fonds de commerce est une notion juridique composée d’éléments corporels (matériels, marchandises, …) et incorporels (clientèle, nom commercial, droit au bail, …). L’acquisition ou la vente d’un tel bien est une opération complexe qui nécessite l’intervention d’un professionnel qualifié",
+          "Le fonds de commerce est une notion juridique composée d’éléments corporels (matériels, marchandises, …) et incorporels (clientèle, nom commercial, droit au bail, …). L’acquisition ou la vente d’un tel bien est une opération complexe qui nécessite l’intervention d’un professionnel qualifié.",
       },
     ],
   },
@@ -91,7 +91,7 @@ export const services = {
         id: 12,
         title: "Succession",
         description:
-          "A la survenance du décès d’un proche, notre office sera présent pour vous aider et vous expliquer les différentes étapes : réaliser un inventaire de la succession, rechercher les héritiers, partager la succession et établir les actes (déclaration de succession, acte de notoriété, attestation immobilière, …).",
+          "A la survenance du décès d’un proche, notre office sera présent pour vous aider et vous expliquer les différentes étapes : réaliser un inventaire de la succession, rechercher les héritiers, partager la succession et établir les actes (déclaration de succession, acte de notoriété, attestation immobilière…)",
       },
       {
         id: 13,

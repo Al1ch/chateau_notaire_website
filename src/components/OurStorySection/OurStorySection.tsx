@@ -5,7 +5,6 @@ import Image from "next/image";
 import tamponImage from "@/assets/images/tampon.webp";
 import balanceImage from "@/assets/images/plume.png";
 import libraryImage from "@/assets/images/library.jpg";
-import AboutValueSection from "../AboutValuesSection/AboutValueSection";
 import AboutValues from "../AboutValues/AboutValues";
 
 const OurStorySection = () => {
@@ -39,7 +38,7 @@ const OurStorySection = () => {
           <br />
           <p className={styles.textDetail}>
             L’exercice de son activité l’a amené à se former à la médiation au
-            sein de la faculté de Toulouse
+            sein de la faculté de Toulouse.
           </p>
           <br />
 
@@ -63,8 +62,9 @@ const OurStorySection = () => {
               height={250}
             />
             <AboutValues
-              title="Notre Vision"
-              description="Notre vision est de rendre le monde meilleur en offrant des solutions innovantes et durables pour les entreprises et les particuliers."
+              title="Notre vision"
+              description="Nous souhaitons répondre aux besoins des clients et les protéger juridiquement dans leurs projets personnels et professionnels.
+"
             />
           </div>
           <div className={styles.card}>
@@ -75,8 +75,8 @@ const OurStorySection = () => {
               height={250}
             />
             <AboutValues
-              title="Notre Mission"
-              description="Intégrité, professionnalisme et dévouement guident notre engagement à fournir des services juridiques de qualité, protégeant les intérêts de nos clients"
+              title="Notre mission"
+              description="Nous assurons la sécurité juridique des contrats et un suivi personnalité pour tout type de dossier."
             />
           </div>
           <div className={styles.card}>
@@ -87,8 +87,8 @@ const OurStorySection = () => {
               height={250}
             />
             <AboutValues
-              title="Notre Engagement"
-              description="Immuabilité, Confiance, Intégrité et Confidentialité, définissent notre engagement envers nos clients et notre responsabilité en tant que notaires"
+              title="Notre engagement"
+              description="Intégrité, écoute et confidentialité définissent notre engagement envers nos clients et notre responsabilité en notre qualité de notaire."
             />
           </div>
         </div>

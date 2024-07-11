@@ -18,14 +18,14 @@ const ContactUs = () => {
         <p className={styles.description}>
           Nous sommes toujours disponibles pour vous conseiller. Envoyez-nous un
           courriel et nous vous contacterons rapidement, ou téléphonez nous du
-          lundi au vendredi de 9h à 19h
+          lundi au vendredi de 9h à 19h.
         </p>
         <a
           href="mailto:paulemmanuel.chateau@notaires.fr"
           className={styles.link}
         >
           <Button size="lg" radius="rounded" backgroundColor="secondary">
-            Contactez-Nous
+            Contactez-nous
           </Button>
         </a>
       </div>
@@ -34,7 +34,7 @@ const ContactUs = () => {
           <h4 className={styles.titleContact}>Consultation gratuite</h4>
           <p className={styles.squareDescription}>
             Vous pouvez obtenir une consultation gratuite et une évaluation de
-            votre dossier en nous contactant au numéro suivant
+            votre dossier en nous contactant au numéro suivant.
           </p>
           <div className={styles.contactSection}>
             <div className={styles.squarePhone}>
