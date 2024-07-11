@@ -36,12 +36,12 @@ const ValueSection = () => {
           <ValueCard
             title="Réactivité"
             description="Paul-Emmanuel CHATEAU et son équipe seront vos interlocuteurs privilégiés pour votre projet personnel."
-            logo={AvailabilitySvg}
+            logo={ReactivitySvg}
           />
           <ValueCard
             title="Disponibilité"
             description="L’office mettra tout en œuvre pour vous accompagner et s’adapter à vos situations professionnelles et personnelles."
-            logo={ReactivitySvg}
+            logo={AvailabilitySvg}
           />
           <ValueCard
             title="Confidentialité "
