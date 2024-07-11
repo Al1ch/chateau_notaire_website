@@ -6,7 +6,10 @@
     display: flex;
     flex-direction: column;
     align-self: flex-start;
-
+    padding: 0 32px ;
+    @include tablet{
+        padding: 0 
+    }
 }
 
 

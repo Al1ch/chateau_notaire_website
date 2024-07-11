@@ -24,7 +24,7 @@ const OurStorySection = () => {
           <p className={styles.textDetail}>
             Originaire de Toulouse, il s’est rapidement intéressé au Droit par
             sa rigueur et par l’influence de sa famille, composée de
-            professionnels <br></br> du droit.
+            professionnels du droit.
           </p>
           <br />
 

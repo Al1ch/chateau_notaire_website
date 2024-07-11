@@ -19,6 +19,10 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
+    padding: 32px;
+    @include tablet{
+        padding: 0;
+    }
 }
 
 .description{
@@ -43,5 +47,10 @@
     gap: 32px;
     width: 100%;
     flex-wrap: wrap;
+
+    padding: 32px;
+    @include laptop{
+        padding: 0;
+    }
 }
 

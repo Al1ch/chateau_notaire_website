@@ -5,7 +5,7 @@ import Image from "next/image";
 import office from "@/assets/images/office.jpg";
 import ValueCard from "@/components/ValueCard/ValueCard";
 import ReactivitySvg from "@/assets/vectors/reactivity.svg";
-import AvailabilitySvg from "@/assets/vectors/disponibilité.svg";
+import AvailabilitySvg from "@/assets/vectors/disponibility.svg";
 import CadenaSvg from "@/assets/vectors/cadenas.svg";
 
 const ValueSection = () => {
