@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./ValueCard.module.scss";
 import { SvgComponent } from "../../../types/model";
-import CoeurLogo from "@/assets/vectors/coeur.svg";
 
 type Props = {
   title: string;
