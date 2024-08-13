@@ -11,7 +11,7 @@ const AboutValueSection = () => {
       />
       <AboutValues
         title="Notre mission"
-        description="Nous assurons la sécurité juridique des contrats et un suivi personnalisé pour tout type de dossier."
+        description="Nous assurons la sécurité juridique des contrats et un suivi personnalisés pour tout type de dossier."
       />
       <AboutValues
         title="Notre engagement"
