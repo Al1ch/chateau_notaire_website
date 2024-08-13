@@ -76,7 +76,7 @@ const OurStorySection = () => {
             />
             <AboutValues
               title="Notre mission"
-              description="Nous assurons la sécurité juridique des contrats et un suivi personnalité pour tout type de dossier."
+              description="Nous assurons la sécurité juridique des contrats et un suivi personnalisé pour tout type de dossier."
             />
           </div>
           <div className={styles.card}>
