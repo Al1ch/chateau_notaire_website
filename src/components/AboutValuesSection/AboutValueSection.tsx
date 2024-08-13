@@ -6,7 +6,7 @@ const AboutValueSection = () => {
   return (
     <div className={styles.container}>
       <AboutValues
-        title="Notre vision"
+        title="Notre visiont"
         description="Nous souhaitons répondre aux besoins des clients et les protéger juridiquement dans leurs projets personnels et professionnels."
       />
       <AboutValues
