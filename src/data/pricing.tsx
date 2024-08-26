@@ -102,7 +102,7 @@ export const prices = [
     services: [
       {
         title: "Promesse unilatérale de vente ou d’achat",
-        price: "240,00 € T.T.C.",
+        price: "300,00 € T.T.C.",
         id: 1,
       },
       {
